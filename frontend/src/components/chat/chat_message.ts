@@ -84,6 +84,7 @@ export class ChatMessageComponent extends MobxLitElement {
             >
           </div>
           <div class="chat-bubble">${chatMessage.message}</div>
+          ${this.renderDebuggingExplanation(chatMessage)}
         </div>
       </div>
     `;
@@ -117,9 +118,11 @@ export class ChatMessageComponent extends MobxLitElement {
   }
 
   renderDebuggingExplanation(chatMessage: ChatMessage) {
-    if (!this.authService.isDebugMode) return nothing;
+    if (!this.authService.isDebugMode || !chatMessage.explanation) {
+      return nothing;
+    }
 
-    return html` <div class="debug">${chatMessage.explanation}</div> `;
+    return html`<div class="debug">${chatMessage.explanation}</div>`;
   }
 }
 

@@ -6,6 +6,7 @@ import {
   MediatorPromptConfig,
   AgentPersonaType,
   createAgentMediatorPersonaConfig,
+  createParticipantProfileBase,
   ChatPromptConfig,
   ChatMediatorStructuredOutputConfig,
   StructuredOutputDataType,
@@ -264,7 +265,7 @@ const TEXT_INSTRUCTIONS_3 = [
 ];
 
 const TEXT_INSTRUCTIONS_4 = [
-  'Today, our study will commit to donating **at least $100 per round**, split among the three charities. With 3 rounds total, at least **$300 will be donated in total**. Your group’s choices will help to inform where that money goes.',
+  'Today, our study will commit to donating **at least $100 per round**, split among the three charities. With 3 rounds total, at least **$300 will be donated in total**. Your group’s choices will help to inform where that money goes, in addition to those of other groups.',
   'As a reminder, your own payment for participating in this study is separate from the donation amount and is not affected by your decisions here.',
   '',
   'Here are the charities that will appear, in randomly assigned groups of 3, in each round:',
@@ -570,7 +571,7 @@ function createRoundOutcomeSurveyStage(
     }),
 
     createScaleSurveyQuestion({
-      questionTitle: 'I felt strongly about my initial allocation.',
+      questionTitle: 'I felt strongly about my initial allocation (e.g. clear preferences or strong opinions).',
       ...LIKERT_SCALE_PROPS,
     }),
     createScaleSurveyQuestion({
@@ -579,17 +580,17 @@ function createRoundOutcomeSurveyStage(
     }),
     createScaleSurveyQuestion({
       questionTitle:
-        "Overall, I am satisfied with the quality of this round's discussion.",
+        "I am satisfied with the outcome of the discussion.",
       ...LIKERT_SCALE_PROPS,
     }),
     createScaleSurveyQuestion({
       questionTitle:
-        'I feel that my perspective was heard and understood during the discussion.',
+        'I felt heard and understood during the discussion.',
       ...LIKERT_SCALE_PROPS,
     }),
     createScaleSurveyQuestion({
       questionTitle:
-        'The group worked together effectively to reach a decision.',
+        'The group worked together effectively.',
       ...LIKERT_SCALE_PROPS,
     }),
     createTextSurveyQuestion({
@@ -769,17 +770,10 @@ function createInitialMediatorSurveyStage(): StageConfig {
         ...LIKERT_SCALE_PROPS,
       }),
 
-      // TAM: BI
-      createScaleSurveyQuestion({
-        questionTitle:
-          'If given the option, I would be willing to use an AI facilitator in group discussions.',
-        ...LIKERT_SCALE_PROPS,
-      }),
-
       // Open-ended questions
       createTextSurveyQuestion({
         questionTitle:
-          'If applicable, what kinds of tasks have you used AI assistants for?',
+          'If applicable, what kinds of tasks have you used AI assistants for? (If not, write NA.)',
       }),
       createTextSurveyQuestion({
         questionTitle:
@@ -1074,19 +1068,31 @@ function createHabermasMediatorPromptConfig(): MediatorPromptConfig {
   const generationConfig = createModelGenerationConfig();
 
   const habermasInstruction = `
-  You are a facilitator supporting a group discussion.
-  Your main job is to **help participants track the state of the conversation** and **support consensus-building**, not to dominate the conversation.
+  You are a facilitator supporting a group discussion. Your role is to support understanding and consensus, not to lead or dominate the conversation.
 
-  ✅ When to interject (only if clearly useful):
-  - When participants reach a partial agreement or key turning point → summarize briefly.
-  - When the discussion is drifting off-topic → restate the main question or clarify what’s at stake.
-  - When multiple points are raised and clarity is needed → list the key options or positions succinctly.
+  These online human participants, which are using randomly-assigned anonymous animal avatars, are deciding how to allocate donations to different charities. Your goal is to help them reach agreement by summarizing key points and clarifying areas of agreement or disagreement.
+
+  ✅ When to speak:
+  Interject sparingly—speak only when silence would reduce clarity or fairness.
+  Examples of good reasons to interject:
+
+  * When multiple points are raised and clarity is needed → list the key options or positions succinctly.
+
+  * The group has reached a turning point or partial agreement → summarize neutrally. Example: “It sounds like two main ideas have emerged so far: A and B.” or “You seem close to agreement on X, but Y is still being debated.”
+
+  * The discussion is confused or fragmented → restate key positions or next steps.
+
+  * One person is monopolizing the conversation → gently balance turns or summarize their point concisely. Condense long remarks: If someone speaks at length, summarize briefly (“In short, Alex suggests X, emphasizing Y.”).
+
+  * The group is drifting off-topic → remind them of the core question or goal.
+
+  * If participants are making steady progress or clarifying among themselves, stay silent.
 
   📝 How to speak:
-  - Use **1–3 short sentences max**.
-  - Be neutral and structured.
-  - Do **not** interject too often. Err on the side of silence if unsure.
-  - Example: “It sounds like two main ideas have emerged so far: A and B.” or “You seem close to agreement on X, but Y is still being debated.”
+  * Be concise: 1–3 short sentences max.
+  * Be neutral: do not introduce new ideas or preferences.
+  * Summarize fairly: include all major viewpoints without evaluation.
+  * Model listening: reflect shared understanding (“So far, I’m hearing…”).
   `;
 
   return createChatPromptConfig(HABERMAS_STAGE_ID, StageKind.CHAT, {
@@ -1122,44 +1128,46 @@ function createDynamicMediatorPromptConfig(): MediatorPromptConfig {
 
   const dynamicInstruction = `You are a meeting facilitator. Your goal is to improve the **quality of deliberation**, not to dominate it.
 
-STEP 1: Diagnose the conversation.  
-- Analyze the most recent messages to identify a single 'observedFailureMode'.  
+    These online human participants, which are using randomly-assigned anonymous animal avatars, are deciding how to allocate donations to different charities. Your goal is to help them reach agreement, utilizing the following facilitation guide.
+
+### STEP 1: Diagnose the conversation.  
+- Analyze the most recent messages to identify the most likely 'observedFailureMode'.  
 - If no clear failure mode is present, set 'observedFailureMode' to 'NoFailureModeDetected'.
 
-STEP 2: Select a strategy.  
+### STEP 2: Select a strategy.  
 - Use the STRATEGY LOOKUP TABLE below to choose the matching 'proposedSolution'.  
 - If 'NoFailureModeDetected', 'proposedSolution' must be 'NoSolutionNeeded'.
 
 --- STRATEGY LOOKUP TABLE ---
-• NoFailureModeDetected → NoSolutionNeeded  
-• Rapid, uncritical consensus (groupthink) → Promote deeper reflection or alternatives  
-• Lack of reasoning or justification → Prompt for reasoning  
-• No deliberation of pros/cons → Encourage pros/cons discussion  
-• Dismissing dissenting views → Amplify minority viewpoints / highlight uncertainty  
-• Low engagement or apathy → Re-engage quieter members / re-center goal  
-• Abnormal communication (e.g., loops) → Summarize briefly or gently refocus  
-• Failure to explore diverse views → Prompt for brainstorming new ideas
+| observedFailureMode | proposedSolution | Example response |
+|----------------------|------------------|------------------|
+| **NoFailureModeDetected** | NoSolutionNeeded | *(Stay silent)* |
+| **Reaching Rapid, Uncritical Consensus (Groupthink)** | Promote Deeper Reflection or Consideration of Alternatives | “It sounds like you’re close to agreement—before finalizing, are there any other perspectives or tradeoffs to consider?” |
+| **Failure to Provide Justification or Reasoning** | Prompt for Justification or Reasoning | “Can someone explain what makes this option preferable?” or “What reasons support that choice?” |
+| **Absence of Deliberation or Discussion of Pros/Cons** | Encourage Deliberation of Pros and Cons | “Let’s weigh the strengths and weaknesses of each idea before deciding.” |
+| **Ignoring or Dismissing Dissenting Opinions** | Amplify Minority Viewpoints or Acknowledge Uncertainty | “One view hasn’t been fully discussed—can we revisit that perspective?” or “It might help to note any uncertainties before we decide.” |
+| **Demonstrating Low Engagement or Apathy** | Re-engage Low-Participation Members or Re-center on Goal | “We haven’t heard from everyone yet—what do others think?” or “Let’s return to our goal: deciding how to divide the funds fairly.” |
+| **Using Abnormal Communication (e.g., Repetitive loops)** | Summarize to Break a Loop or Gently Re-focus Conversation | “To summarize: A prefers X, B prefers Y. Does that capture it? If so, how can we move forward?” |
+| **Failing to Explore Diverse Viewpoints** | Prompt for Brainstorming of New Ideas or Alternatives | “Can we think of other ways to approach this allocation that haven’t been mentioned yet?” |
 
-STEP 3: Respond only when needed.  
-✅ When to intervene:
-- When a clear failure mode is detected.  
-- When the conversation is looping, stalling, or converging too fast.
 
-🚫 When NOT to intervene:
-- If participants are productively deliberating.  
-- If there’s no clear failure mode.
-
-📝 How to speak:
-- Keep your 'response' to **1–3 short sentences**.  
-- Be neutral, clear, and strategic.  
-- Example responses:
-  • “Are there any other perspectives we haven’t considered yet?”  
-  • “Can someone share their reasoning behind that point?”  
-  • “It sounds like we’re converging quickly—should we explore alternatives first?”
-
-STEP 4: If 'proposedSolution' is 'NoSolutionNeeded':
+### STEP 3: If 'proposedSolution' is 'NoSolutionNeeded', return:
 - Set 'response' to an empty string.  
-- Set 'shouldRespond' to false.`;
+- Set 'shouldRespond' to false.
+You're done.
+
+### STEP 4: If 'proposedSolution' is not 'NoSolutionNeeded', generate a response:
+- Generate a response to address the proposed solution.
+- Keep the **response** within 1–3 short sentences.  
+- Maintain neutrality and encourage reasoning or inclusion.  
+- Speak *procedurally* (about how to think or discuss), not *substantively* (about what to choose).  
+
+### STEP 5: Decide whether to intervene:
+- Consider if your proposed response effectively addresses the failure mode. Remember to intervene only when necessary. If you decide to respond, set 'shouldRespond' to true and update your response; otherwise, set 'shouldRespond' to false.
+
+✅ **Intervene only if** a clear failure mode is detected, or if the discussion is looping, stalling, or converging too fast.  
+🚫 **Do NOT intervene** if participants are reasoning well, asking questions, or making visible progress.
+`;
 
   return createChatPromptConfig(DYNAMIC_STAGE_ID, StageKind.CHAT, {
     prompt: [
@@ -1180,10 +1188,14 @@ STEP 4: If 'proposedSolution' is 'NoSolutionNeeded':
 const HABERMAS_MEDIATOR_TEMPLATE: AgentMediatorTemplate = {
   persona: createAgentMediatorPersonaConfig({
     id: HABERMAS_MEDIATOR_ID,
-    name: 'Habermas Mediator',
+    name: 'Habermas Facilitator',
     description:
       'An AI facilitator focused on promoting consensus and summarization.',
     defaultModelSettings: DEFAULT_AGENT_MODEL_SETTINGS,
+    defaultProfile: createParticipantProfileBase({
+      name: 'Facilitator',
+      avatar: '🤖',
+    }),
   }),
   promptMap: {
     [HABERMAS_STAGE_ID]: createHabermasMediatorPromptConfig(),
@@ -1193,10 +1205,14 @@ const HABERMAS_MEDIATOR_TEMPLATE: AgentMediatorTemplate = {
 const DYNAMIC_MEDIATOR_TEMPLATE: AgentMediatorTemplate = {
   persona: createAgentMediatorPersonaConfig({
     id: DYNAMIC_MEDIATOR_ID,
-    name: 'Dynamic Mediator (LAS-Informed)',
+    name: 'Dynamic Facilitator (LAS-Informed)',
     description:
       'An AI facilitator focused on counteracting specific negative group dynamics.',
     defaultModelSettings: DEFAULT_AGENT_MODEL_SETTINGS,
+      defaultProfile: createParticipantProfileBase({
+      name: 'Facilitator',
+      avatar: '🤖',
+    }),
   }),
   promptMap: {
     [DYNAMIC_STAGE_ID]: createDynamicMediatorPromptConfig(),

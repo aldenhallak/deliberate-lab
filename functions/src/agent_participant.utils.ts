@@ -79,6 +79,8 @@ export async function completeStageAsAgentParticipant(
     stage,
   );
 
+  console.log(`[agent_participant] stageActions for ${participant.privateId} in stage ${stage.id} (${stage.kind}):`, JSON.stringify(stageActions));
+
   if (stageActions.callApi) {
     const response = await getParsedAgentParticipantPromptResponse(
       experimenterData,
@@ -114,11 +116,17 @@ export async function completeStageAsAgentParticipant(
   }
 
   if (stageActions.moveToNextStage) {
-    await updateParticipantNextStage(
-      experimentId,
-      participant,
-      experiment.stageIds,
-    );
+    if (stage.kind === StageKind.CHAT || stage.kind === StageKind.PRIVATE_CHAT) {
+      console.log(
+        `[agent_participant] Ignoring moveToNextStage for chat stage ${stage.id}`,
+      );
+    } else {
+      await updateParticipantNextStage(
+        experimentId,
+        participant,
+        experiment.stageIds,
+      );
+    }
   }
 
   // Write ParticipantAnswer doc if profile has been updated

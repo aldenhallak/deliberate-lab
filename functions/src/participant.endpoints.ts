@@ -222,6 +222,7 @@ export const updateParticipantWaiting = onCall(async (request) => {
       participant.currentCohortId,
       participant.currentStageId,
       participant.privateId,
+      transaction,
     );
 
     transaction.set(document, participant);
@@ -341,6 +342,7 @@ export const updateParticipantToNextStage = onCall(async (request) => {
       data.experimentId,
       participant,
       experiment.stageIds,
+      transaction,
     );
 
     // Check if the next stage is a transfer stage
@@ -409,6 +411,7 @@ export const acceptParticipantExperimentStart = onCall(async (request) => {
       participant.currentCohortId,
       participant.currentStageId,
       participant.privateId,
+      transaction,
     );
 
     transaction.set(document, participant);

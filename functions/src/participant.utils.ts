@@ -16,11 +16,14 @@ import {
   createChipStageParticipantAnswer,
   createPayoutStageParticipantAnswer,
   ChipStagePublicData,
+  StagePublicData,
 } from '@deliberation-lab/utils';
 import {completeStageAsAgentParticipant} from './agent_participant.utils';
 import {
   getFirestoreActiveParticipants,
   getFirestoreStage,
+  getFirestoreExperiment,
+  getFirestoreParticipantRef,
 } from './utils/firestore';
 import {generateId} from '@deliberation-lab/utils';
 import {createCohortInternal} from './cohort.utils';
@@ -33,7 +36,9 @@ export async function updateParticipantNextStage(
   experimentId: string,
   participant: ParticipantProfileExtended,
   stageIds: string[],
+  transaction?: FirebaseFirestore.Transaction,
 ) {
+
   const response = {
     currentStageId: null as string | null,
     endExperiment: false,
@@ -44,12 +49,14 @@ export async function updateParticipantNextStage(
 
   // Check if current stage is a chat stage and send system message if so
   const currentStage = await getFirestoreStage(experimentId, currentStageId);
+  console.log(`[updateParticipantNextStage] Participant ${participant.privateId} moving from ${currentStageId}. Current stage kind: ${currentStage?.kind}`);
   if (currentStage?.kind === StageKind.CHAT) {
     await sendSystemChatMessage(
       experimentId,
       participant.currentCohortId,
       currentStageId,
       `${participant.name ?? 'A participant'} has left the chat.`,
+      transaction,
     );
   }
 
@@ -79,23 +86,22 @@ export async function updateParticipantNextStage(
       participant.currentCohortId,
       participant.currentStageId,
       participant.privateId,
+      transaction,
     );
   }
 
   return response;
 }
 
-/** If given stage in a cohort can be unlocked (all active participants
- *  are ready to start), set the stage as unlocked in CohortConfig.
- */
 // TODO: Move to cohort.utils file?
 export async function updateCohortStageUnlocked(
   experimentId: string,
   cohortId: string,
   stageId: string,
-  currentParticipantId: string,
+  participantId: string,
+  transaction?: FirebaseFirestore.Transaction,
 ) {
-  await app.firestore().runTransaction(async (transaction) => {
+  const updateLogic = async (tx: FirebaseFirestore.Transaction) => {
     // Get active participants for given cohort
     const activeParticipants = await getFirestoreActiveParticipants(
       experimentId,
@@ -153,7 +159,8 @@ export async function updateCohortStageUnlocked(
         const isReadyToStart =
           participant.timestamps.startExperiment &&
           participant.timestamps.readyStages[stageId];
-        const isCurrent = participant.privateId === currentParticipantId;
+        participant.timestamps.readyStages[stageId];
+        const isCurrent = participant.privateId === participantId;
         if ((!isTransfer && isReadyToStart) || isCurrent) {
           numReady += 1;
         }
@@ -184,20 +191,29 @@ export async function updateCohortStageUnlocked(
     }
 
     cohortConfig.stageUnlockMap[stageId] = true;
-    transaction.set(cohortDoc, cohortConfig);
+    tx.set(cohortDoc, cohortConfig);
 
     // Now that the given stage is unlocked, active any agent
     // participants that are ready to start (and have not yet completed)
     // the current stage
-    const experiment = (
-      await app.firestore().collection('experiments').doc(experimentId).get()
-    ).data() as Experiment;
+    const experiment = await getFirestoreExperiment(experimentId);
+    if (!experiment) {
+      console.error(`Experiment ${experimentId} not found`);
+      return;
+    }
     for (const participant of participants) {
       if (participant.agentConfig && participant.currentStageId === stageId) {
-        completeStageAsAgentParticipant(experiment, participant);
-      } // end agent participant if
-    } // end participant loop
-  });
+        // TODO: Pass transaction to completeStageAsAgentParticipant
+        await completeStageAsAgentParticipant(experiment, participant);
+      }
+    }
+  };
+
+  if (transaction) {
+    await updateLogic(transaction);
+  } else {
+    await app.firestore().runTransaction(updateLogic);
+  }
 }
 
 /** Automatically transfer participants based on survey answers. */

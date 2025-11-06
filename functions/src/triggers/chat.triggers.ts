@@ -2,6 +2,7 @@ import {onDocumentCreated} from 'firebase-functions/v2/firestore';
 import {
   ChatMessage,
   StageKind,
+  UserType,
   createParticipantProfileBase,
 } from '@deliberation-lab/utils';
 import {
@@ -24,6 +25,13 @@ import {app} from '../app';
 export const onPublicChatMessageCreated = onDocumentCreated(
   'experiments/{experimentId}/cohorts/{cohortId}/publicStageData/{stageId}/chats/{chatId}',
   async (event) => {
+    const message = event.data?.data() as ChatMessage | undefined;
+    console.log(`[chat trigger] Triggered by message: ${message?.id}, type: ${message?.type}, message: "${message?.message}"`);
+    if (message?.type === UserType.SYSTEM) {
+      console.log('[chat trigger] Ignoring system message');
+      return;
+    }
+
     const stage = await getFirestoreStage(
       event.params.experimentId,
       event.params.stageId,
@@ -44,7 +52,7 @@ export const onPublicChatMessageCreated = onDocumentCreated(
         startTimeElapsed(
           event.params.experimentId,
           event.params.cohortId,
-          publicStageData,
+          publicStageData as any, // Cast to any to avoid type error, it is checked in startTimeElapsed
         );
         break;
       case StageKind.SALESPERSON:
@@ -134,6 +142,8 @@ export const onPrivateChatMessageCreated = onDocumentCreated(
       event.params.experimentId,
       event.params.participantId,
     );
+
+    if (!participant) return;
 
     const mediators = await getFirestoreActiveMediators(
       event.params.experimentId,

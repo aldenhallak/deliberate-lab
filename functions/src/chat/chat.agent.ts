@@ -13,8 +13,8 @@ import {
   createChatMessage,
   createParticipantProfileBase,
 } from '@deliberation-lab/utils';
-import {Timestamp} from 'firebase-admin/firestore';
-import {processModelResponse} from '../agent.utils';
+import { Timestamp } from 'firebase-admin/firestore';
+import { processModelResponse } from '../agent.utils';
 import {
   getPromptFromConfig,
   getStructuredPromptConfig,
@@ -25,7 +25,7 @@ import {
   ConversationMessage,
   MessageRole,
 } from './message_converter.utils';
-import {updateParticipantReadyToEndChat} from '../stages/group_chat.utils';
+import { updateParticipantReadyToEndChat } from '../stages/group_chat.utils';
 import {
   getExperimenterDataFromExperiment,
   getFirestorePublicStageChatMessages,
@@ -37,7 +37,7 @@ import {
   getGroupChatTriggerLogRef,
   getPrivateChatTriggerLogRef,
 } from '../utils/firestore';
-import {app} from '../app';
+import { app } from '../app';
 
 // ****************************************************************************
 // Functions for preparing, querying, and organizing agent chat responses.
@@ -79,17 +79,17 @@ export async function createAgentChatMessageFromPrompt(
     const triggerLogId = `initial-${user.publicId}`;
     const triggerLogRef = isPrivateChat
       ? getPrivateChatTriggerLogRef(
-          experimentId,
-          participantIds[0], // Use the first participant ID as the storage location
-          stageId,
-          triggerLogId,
-        )
+        experimentId,
+        participantIds[0], // Use the first participant ID as the storage location
+        stageId,
+        triggerLogId,
+      )
       : getGroupChatTriggerLogRef(
-          experimentId,
-          cohortId,
-          stageId,
-          triggerLogId,
-        );
+        experimentId,
+        cohortId,
+        stageId,
+        triggerLogId,
+      );
 
     const hasAlreadySent = (await triggerLogRef.get()).exists;
     if (hasAlreadySent) {
@@ -97,7 +97,7 @@ export async function createAgentChatMessageFromPrompt(
     }
 
     // Mark that we're sending the initial message
-    await triggerLogRef.set({timestamp: Timestamp.now()});
+    await triggerLogRef.set({ timestamp: Timestamp.now() });
   }
 
   // Get the chat message (either initial or response)
@@ -174,37 +174,37 @@ export async function getAgentChatMessage(
   // Agent who will be sending the message
   user: ParticipantProfileExtended | MediatorProfileExtended,
   promptConfig: ChatPromptConfig,
-): Promise<{message: ChatMessage | null; success: boolean}> {
+): Promise<{ message: ChatMessage | null; success: boolean }> {
   const stageId = stage.id;
 
   // Fetch experiment creator's API key.
   const experimenterData =
     await getExperimenterDataFromExperiment(experimentId);
-  if (!experimenterData) return {message: null, success: false};
+  if (!experimenterData) return { message: null, success: false };
 
   // Get chat messages from private/public data based on stage kind
   const chatMessages =
     stage.kind === StageKind.PRIVATE_CHAT
       ? await getFirestorePrivateChatMessages(
-          experimentId,
-          participantIds[0] || '', // Use first participant ID for private chat storage
-          stageId,
-        )
+        experimentId,
+        participantIds[0] || '', // Use first participant ID for private chat storage
+        stageId,
+      )
       : await getFirestorePublicStageChatMessages(
-          experimentId,
-          cohortId,
-          stageId,
-        );
+        experimentId,
+        cohortId,
+        stageId,
+      );
 
   // Confirm that agent can send chat messages based on prompt config
   const chatSettings = promptConfig.chatSettings;
   if (!canSendAgentChatMessage(user.publicId, chatSettings, chatMessages)) {
-    return {message: null, success: true};
+    return { message: null, success: true };
   }
 
   // Ensure user has agent config
   if (!user.agentConfig) {
-    return {message: null, success: false};
+    return { message: null, success: false };
   }
 
   // Use provided participant IDs for prompt context
@@ -272,7 +272,7 @@ export async function getAgentChatMessage(
 
   // Process response
   if (response.status !== ModelResponseStatus.OK) {
-    return {message: null, success: false};
+    return { message: null, success: false };
   }
 
   const structured = promptConfig.structuredOutputConfig;
@@ -286,14 +286,14 @@ export async function getAgentChatMessage(
   if (!structured?.enabled) {
     // When structured output is disabled, use the text field directly
     if (!response.text) {
-      return {message: null, success: false};
+      return { message: null, success: false };
     }
     message = response.text;
     explanation = response.reasoning || undefined; // Use reasoning field if available
   } else {
     // Handle structured output case
     if (!response.parsedResponse) {
-      return {message: null, success: false};
+      return { message: null, success: false };
     }
 
     // Get shouldRespond with fail-safe: default to true if field is missing or not defined
@@ -312,16 +312,21 @@ export async function getAgentChatMessage(
     readyToEndChat = structured.readyToEndField
       ? response.parsedResponse[structured.readyToEndField]
       : false; // default to not ready to end if field is missing
+
+    console.log(`[chat.agent] Parsed response for ${user.privateId}:`, JSON.stringify(response.parsedResponse));
   }
 
   // Only if agent participant is ready to end chat
   if (readyToEndChat && user.type === UserType.PARTICIPANT) {
+    console.log(`[chat.agent] Agent ${user.privateId} ready to end chat`);
     // Call ready to end chat update to stage public data
-    updateParticipantReadyToEndChat(experimentId, stageId, user.privateId);
+    await updateParticipantReadyToEndChat(experimentId, stageId, user.privateId);
+  } else {
+    console.log(`[chat.agent] Agent ${user.privateId} NOT ready to end chat (readyToEndChat: ${readyToEndChat}, userType: ${user.type})`);
   }
 
   if (!shouldRespond) {
-    return {message: null, success: true};
+    return { message: null, success: true };
   }
 
   // If stage includes discussions, figure out what discussion ID should be
@@ -350,7 +355,7 @@ export async function getAgentChatMessage(
     agentId: user.agentConfig.agentId,
     timestamp: Timestamp.now(),
   });
-  return {message: chatMessage, success: true};
+  return { message: chatMessage, success: true };
 }
 
 /** Sends agent chat message after typing delay and duplicate check. */

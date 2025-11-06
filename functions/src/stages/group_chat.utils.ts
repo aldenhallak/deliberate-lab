@@ -11,10 +11,10 @@ import {
   createDefaultPromptFromText,
 } from '@deliberation-lab/utils';
 
-import {Timestamp} from 'firebase-admin/firestore';
+import { Timestamp } from 'firebase-admin/firestore';
 
-import {app} from '../app';
-import {updateParticipantNextStage} from '../participant.utils';
+import { app } from '../app';
+import { updateParticipantNextStage } from '../participant.utils';
 import {
   getFirestoreActiveParticipants,
   getFirestoreExperiment,
@@ -167,7 +167,7 @@ export async function initiateChatDiscussion(
     // Build chat message to send
     const explanation =
       response.parsed[
-        response.promptConfig.structuredOutputConfig?.explanationField
+      response.promptConfig.structuredOutputConfig?.explanationField
       ] ?? '';
     const chatMessage = createParticipantChatMessage({
       profile: response.profile,
@@ -264,19 +264,19 @@ export async function updateParticipantReadyToEndChat(
       experimentId,
       participant.privateId,
       stage.id,
-    )) ?? createChatStageParticipantAnswer({id: stage.id});
+    )) ?? createChatStageParticipantAnswer({ id: stage.id });
 
   // If threaded discussion (and not last thread), move to next thread
   if (
     stage.discussions.length > 0 &&
     publicStageData.currentDiscussionId &&
     publicStageData.currentDiscussionId !==
-      stage.discussions[stage.discussions.length - 1]
+    stage.discussions[stage.discussions.length - 1]
   ) {
     // Set ready to end timestamp if not already set
     if (
       !participantAnswer.discussionTimestampMap[
-        publicStageData.currentDiscussionId
+      publicStageData.currentDiscussionId
       ]
     ) {
       participantAnswer.discussionTimestampMap[
@@ -289,19 +289,29 @@ export async function updateParticipantReadyToEndChat(
     }
   } else {
     // Otherwise, move to next stage
+    // Otherwise, move to next stage
     const experiment = await getFirestoreExperiment(experimentId);
-    await updateParticipantNextStage(
-      experimentId,
-      participant,
-      experiment.stageIds,
-    );
-
-    const participantDoc = getFirestoreParticipantRef(
-      experimentId,
-      participant.privateId,
-    );
     await app.firestore().runTransaction(async (transaction) => {
-      await transaction.set(participantDoc, participant);
+      const participantDoc = getFirestoreParticipantRef(
+        experimentId,
+        participantId,
+      );
+      const latestParticipant = (
+        await transaction.get(participantDoc)
+      ).data() as ParticipantProfileExtended;
+
+      if (latestParticipant.currentStageId !== stageId) {
+        return;
+      }
+
+      await updateParticipantNextStage(
+        experimentId,
+        latestParticipant,
+        experiment.stageIds,
+        transaction,
+      );
+
+      transaction.set(participantDoc, latestParticipant);
     });
   }
 }

@@ -39,6 +39,7 @@ export async function sendSystemChatMessage(
   cohortId: string,
   stageId: string,
   message: string,
+  transaction?: FirebaseFirestore.Transaction,
 ) {
   const chatMessage = createSystemChatMessage({
     message,
@@ -56,5 +57,9 @@ export async function sendSystemChatMessage(
     .collection('chats')
     .doc(chatMessage.id);
 
-  await systemDocument.set(chatMessage);
+  if (transaction) {
+    transaction.set(systemDocument, chatMessage);
+  } else {
+    await systemDocument.set(chatMessage);
+  }
 }

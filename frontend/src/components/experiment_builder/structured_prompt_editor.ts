@@ -120,6 +120,7 @@ export class EditorComponent extends MobxLitElement {
         color="neutral"
         variant="default"
         size=${isRoot ? 'medium' : 'small'}
+        ?disabled=${!this.experimentEditor.canEditStages}
       >
         <div class="menu-wrapper">
           <div class="menu-item" role="button" @click=${addText}>
@@ -199,6 +200,7 @@ export class EditorComponent extends MobxLitElement {
               variant="default"
               size="small"
               @click=${() => this.movePromptItem(items, index, -1)}
+              ?disabled=${!this.experimentEditor.canEditStages}
             >
             </pr-icon-button>
             <pr-icon-button
@@ -207,6 +209,7 @@ export class EditorComponent extends MobxLitElement {
               variant="default"
               size="small"
               @click=${() => this.movePromptItem(items, index, 1)}
+              ?disabled=${!this.experimentEditor.canEditStages}
             >
             </pr-icon-button>
             <pr-icon-button
@@ -215,6 +218,7 @@ export class EditorComponent extends MobxLitElement {
               variant="default"
               size="small"
               @click=${() => this.deletePromptItem(items, index)}
+              ?disabled=${!this.experimentEditor.canEditStages}
             >
             </pr-icon-button>
           </div>
@@ -233,6 +237,7 @@ export class EditorComponent extends MobxLitElement {
         placeholder="Add freeform text here"
         .value=${item.text}
         @input=${onInput}
+        ?disabled=${!this.experimentEditor.canEditStages}
       >
       </pr-textarea>
     `;
@@ -280,6 +285,7 @@ export class EditorComponent extends MobxLitElement {
                 this.updatePromptItem(item, {
                   stageId: (e.target as HTMLSelectElement).value,
                 })}
+              ?disabled=${!this.experimentEditor.canEditStages}
             >
               ${availableStages.map(
                 (stage, stageIndex) => html`
@@ -304,6 +310,7 @@ export class EditorComponent extends MobxLitElement {
                 this.updatePromptItem(item, {
                   includePrimaryText: !item.includePrimaryText,
                 })}
+              ?disabled=${!this.experimentEditor.canEditStages}
             />
             <div>Include stage description</div>
           </label>
@@ -315,6 +322,7 @@ export class EditorComponent extends MobxLitElement {
                 this.updatePromptItem(item, {
                   includeInfoText: !item.includeInfoText,
                 })}
+              ?disabled=${!this.experimentEditor.canEditStages}
             />
             <div>Include stage info popup</div>
           </label>
@@ -326,6 +334,7 @@ export class EditorComponent extends MobxLitElement {
                 this.updatePromptItem(item, {
                   includeStageDisplay: !item.includeStageDisplay,
                 })}
+              ?disabled=${!this.experimentEditor.canEditStages}
             />
             <div>
               Include stage content (e.g., chat history, survey questions)
@@ -339,6 +348,7 @@ export class EditorComponent extends MobxLitElement {
                 this.updatePromptItem(item, {
                   includeParticipantAnswers: !item.includeParticipantAnswers,
                 })}
+              ?disabled=${!this.experimentEditor.canEditStages}
             />
             <div>Include participant stage answers</div>
           </label>
@@ -361,6 +371,7 @@ export class EditorComponent extends MobxLitElement {
                 title: (e.target as HTMLInputElement).value,
               })}
             @click=${(e: Event) => e.stopPropagation()}
+            ?disabled=${!this.experimentEditor.canEditStages}
           />
           ${renderShuffleIndicator(group.shuffleConfig)}
         </summary>
@@ -394,6 +405,7 @@ export class EditorComponent extends MobxLitElement {
                   shuffle: !shuffleConfig.shuffle,
                 },
               })}
+            ?disabled=${!this.experimentEditor.canEditStages}
           />
           <div>Shuffle items in this group</div>
         </label>
@@ -411,6 +423,7 @@ export class EditorComponent extends MobxLitElement {
                         '') as SeedStrategy,
                     },
                   })}
+                ?disabled=${!this.experimentEditor.canEditStages}
               >
                 <option
                   value=${SeedStrategy.EXPERIMENT}
@@ -451,6 +464,7 @@ export class EditorComponent extends MobxLitElement {
                             customSeed: (e.target as HTMLInputElement).value,
                           },
                         })}
+                      ?disabled=${!this.experimentEditor.canEditStages}
                     />
                   `
                 : ''}

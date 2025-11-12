@@ -215,7 +215,8 @@ export class PayoutEditor extends MobxLitElement {
               ? 'tonal'
               : 'default'}
             variant="tonal"
-            ?disabled=${!this.experimentEditor.canEditStages}
+            ?disabled=${!this.experimentEditor.canEditStages ||
+            !this.experimentEditor.isCreator}
             @click=${() => {
               handleCurrency(PayoutCurrency.USD);
             }}
@@ -532,6 +533,7 @@ export class PayoutEditor extends MobxLitElement {
             name=${basePayoutId}
             min="0"
             .value=${item.baseCurrencyAmount ?? 0}
+            ?disabled=${!this.experimentEditor.canEditStages}
             @input=${updateBasePayout}
           />
         </div>

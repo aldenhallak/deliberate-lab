@@ -105,7 +105,12 @@ export class EditorComponent extends MobxLitElement {
 
   private renderAddButton() {
     return html`
-      <pr-button color="error" variant="tonal" @click=${this.addPrompt}>
+      <pr-button
+        color="error"
+        variant="tonal"
+        @click=${this.addPrompt}
+        ?disabled=${!this.experimentEditor.canEditStages}
+      >
         Add prompt
       </pr-button>
     `;
@@ -196,7 +201,12 @@ export class EditorComponent extends MobxLitElement {
         <div class="divider"></div>
         ${this.renderAgentCustomRequestBodyFields(this.agent, promptConfig)}
         <div class="divider"></div>
-        <pr-button color="error" variant="outlined" @click=${this.deletePrompt}>
+        <pr-button
+          color="error"
+          variant="outlined"
+          @click=${this.deletePrompt}
+          ?disabled=${!this.experimentEditor.canEditStages}
+        >
           Delete prompt
         </pr-button>
       </agent-chat-prompt-dialog>
@@ -211,6 +221,7 @@ export class EditorComponent extends MobxLitElement {
         @click=${() => {
           this.showDialog = true;
         }}
+        ?disabled=${!this.experimentEditor.canEditStages}
       >
         <div class="button-wrapper">
           <pr-icon icon="settings" variant="default" color="neutral"> </pr-icon>
@@ -362,7 +373,7 @@ export class EditorComponent extends MobxLitElement {
             variant="outlined"
             placeholder="e.g., Hello! I'm here to help you with..."
             .value=${chatSettings.initialMessage}
-            ?disabled=${!this.experimentEditor.isCreator}
+            ?disabled=${!this.experimentEditor.canEditStages}
             @input=${updateInitialMessage}
           >
           </pr-textarea>
@@ -374,7 +385,7 @@ export class EditorComponent extends MobxLitElement {
           </div>
           <div class="number-input">
             <input
-              .disabled=${!this.experimentEditor.isCreator}
+              .disabled=${!this.experimentEditor.canEditStages}
               type="number"
               min="1"
               .value=${chatSettings.wordsPerMinute ?? ''}
@@ -393,7 +404,7 @@ export class EditorComponent extends MobxLitElement {
           </div>
           <div class="number-input">
             <input
-              .disabled=${!this.experimentEditor.isCreator}
+              .disabled=${!this.experimentEditor.canEditStages}
               type="number"
               min="0"
               .value=${chatSettings.minMessagesBeforeResponding}
@@ -405,7 +416,7 @@ export class EditorComponent extends MobxLitElement {
           <md-checkbox
             touch-target="wrapper"
             ?checked=${chatSettings.canSelfTriggerCalls}
-            ?disabled=${!this.experimentEditor.isCreator}
+            ?disabled=${!this.experimentEditor.canEditStages}
             @change=${updateCanSelfTriggerCalls}
           >
           </md-checkbox>
@@ -423,7 +434,7 @@ export class EditorComponent extends MobxLitElement {
           </div>
           <div class="number-input">
             <input
-              .disabled=${!this.experimentEditor.isCreator}
+              .disabled=${!this.experimentEditor.canEditStages}
               type="number"
               min="1"
               .value=${chatSettings.maxResponses ?? ''}
@@ -440,7 +451,7 @@ export class EditorComponent extends MobxLitElement {
           </div>
           <div class="number-input">
             <input
-              .disabled=${!this.experimentEditor.isCreator}
+              .disabled=${!this.experimentEditor.canEditStages}
               type="number"
               min="0"
               max="5"
@@ -494,7 +505,7 @@ export class EditorComponent extends MobxLitElement {
           <md-checkbox
             touch-target="wrapper"
             ?checked=${modelGenerationConfig.includeReasoning}
-            ?disabled=${!this.experimentEditor.isCreator}
+            ?disabled=${!this.experimentEditor.canEditStages}
             @click=${updateIncludeReasoning}
           >
           </md-checkbox>
@@ -506,7 +517,7 @@ export class EditorComponent extends MobxLitElement {
           <div class="description">Reasoning budget for Gemini 2.5</div>
           <div class="number-input">
             <input
-              .disabled=${!this.experimentEditor.isCreator}
+              .disabled=${!this.experimentEditor.canEditStages}
               type="number"
               .value=${modelGenerationConfig.reasoningBudget}
               @input=${updateReasoningBudget}
@@ -594,7 +605,7 @@ export class EditorComponent extends MobxLitElement {
           </div>
           <div class="number-input">
             <input
-              .disabled=${!this.experimentEditor.isCreator}
+              .disabled=${!this.experimentEditor.canEditStages}
               type="number"
               min="0.0"
               max="1.0"
@@ -613,7 +624,7 @@ export class EditorComponent extends MobxLitElement {
           </div>
           <div class="number-input">
             <input
-              .disabled=${!this.experimentEditor.isCreator}
+              .disabled=${!this.experimentEditor.canEditStages}
               type="number"
               min="0.0"
               max="1.0"
@@ -631,7 +642,7 @@ export class EditorComponent extends MobxLitElement {
           </div>
           <div class="number-input">
             <input
-              .disabled=${!this.experimentEditor.isCreator}
+              .disabled=${!this.experimentEditor.canEditStages}
               type="number"
               min="0.0"
               max="2.0"
@@ -649,7 +660,7 @@ export class EditorComponent extends MobxLitElement {
           </div>
           <div class="number-input">
             <input
-              .disabled=${!this.experimentEditor.isCreator}
+              .disabled=${!this.experimentEditor.canEditStages}
               type="number"
               min="0.0"
               max="2.0"
@@ -663,7 +674,7 @@ export class EditorComponent extends MobxLitElement {
           <md-checkbox
             touch-target="wrapper"
             ?checked=${generationConfig.disableSafetyFilters ?? false}
-            ?disabled=${!this.experimentEditor.isCreator}
+            ?disabled=${!this.experimentEditor.canEditStages}
             @change=${updateDisableSafetyFilters}
           >
           </md-checkbox>
@@ -712,7 +723,11 @@ export class EditorComponent extends MobxLitElement {
             fieldIndex,
           ),
         )}
-        <pr-button @click=${addField}>Add field</pr-button>
+        <pr-button
+          @click=${addField}
+          ?disabled=${!this.experimentEditor.canEditStages}
+          >Add field</pr-button
+        >
       </div>
     `;
   }
@@ -766,6 +781,7 @@ export class EditorComponent extends MobxLitElement {
          variant="outlined"
          .value=${field.name}
          @input=${updateName}
+         ?disabled=${!this.experimentEditor.canEditStages}
         >
         </pr-textarea>
         <pr-textarea
@@ -773,6 +789,7 @@ export class EditorComponent extends MobxLitElement {
          variant="outlined"
          .value=${field.value}
          @input=${updateValue}
+         ?disabled=${!this.experimentEditor.canEditStages}
         >
         </pr-textarea>
         <pr-icon-button
@@ -780,7 +797,7 @@ export class EditorComponent extends MobxLitElement {
           color="neutral"
           padding="small"
           variant="default"
-          ?disabled=${!this.experimentEditor.isCreator}
+          ?disabled=${!this.experimentEditor.canEditStages}
           @click=${deleteField}
         >
       </div>
@@ -955,7 +972,7 @@ export class EditorComponent extends MobxLitElement {
           placeholder="JSON field to extract debugging explanation from"
           variant="outlined"
           .value=${config.explanationField}
-          ?disabled=${!this.experimentEditor.isCreator}
+          ?disabled=${!this.experimentEditor.canEditStages}
           @input=${updateExplanationField}
         >
         </pr-textarea>
@@ -966,7 +983,7 @@ export class EditorComponent extends MobxLitElement {
           placeholder="JSON field to extract boolean decision to respond from"
           variant="outlined"
           .value=${config.shouldRespondField}
-          ?disabled=${!this.experimentEditor.isCreator}
+          ?disabled=${!this.experimentEditor.canEditStages}
           @input=${updateShouldRespondField}
         >
         </pr-textarea>
@@ -977,7 +994,7 @@ export class EditorComponent extends MobxLitElement {
           placeholder="JSON field to extract chat message from"
           variant="outlined"
           .value=${config.messageField}
-          ?disabled=${!this.experimentEditor.isCreator}
+          ?disabled=${!this.experimentEditor.canEditStages}
           @input=${updateMessageField}
         >
         </pr-textarea>

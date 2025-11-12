@@ -58,7 +58,9 @@ export class VariableEditor extends MobxLitElement {
         ${variableConfigs.map((variableConfig, index) =>
           this.renderVariableConfig(variableConfig, index),
         )}
-        <pr-button @click=${addVariableConfig}
+        <pr-button
+          @click=${addVariableConfig}
+          ?disabled=${!this.experimentEditor.canEditStages}
           >Add new variable config</pr-button
         >
       </div>
@@ -117,7 +119,10 @@ export class VariableEditor extends MobxLitElement {
           </div>
           <div class="divider"></div>
           <div class="title">Type</div>
-          <select .value=${variableConfig.variableType}>
+          <select
+            .value=${variableConfig.variableType}
+            ?disabled=${!this.experimentEditor.canEditStages}
+          >
             <option
               value="${VariableType.STRING}"
               ?selected=${VariableType.STRING === variableConfig.variableType}
@@ -136,7 +141,11 @@ export class VariableEditor extends MobxLitElement {
           <div class="description">
             This is what level the variable should be assigned at
           </div>
-          <select .value=${variableConfig.seedStrategy} @change=${updateSeed}>
+          <select
+            .value=${variableConfig.seedStrategy}
+            @change=${updateSeed}
+            ?disabled=${!this.experimentEditor.canEditStages}
+          >
             <option
               value="${SeedStrategy.COHORT}"
               ?selected=${SeedStrategy.COHORT === variableConfig.seedStrategy}
@@ -161,7 +170,13 @@ export class VariableEditor extends MobxLitElement {
               variableIndex,
             ),
           )}
-          <pr-button @click=${addVariable} color="secondary" variant="tonal">
+          <pr-button
+            @click=${addVariable}
+            color="secondary"
+            variant="tonal"
+            ?disabled=${!this.experimentEditor.canEditStages ||
+            !this.experimentEditor.isCreator}
+          >
             + Add variable
           </pr-button>
           <div class="divider"></div>
@@ -174,7 +189,12 @@ export class VariableEditor extends MobxLitElement {
               valueIndex,
             ),
           )}
-          <pr-button @click=${addValue} color="secondary" variant="tonal">
+          <pr-button
+            @click=${addValue}
+            color="secondary"
+            variant="tonal"
+            ?disabled=${!this.experimentEditor.canEditStages}
+          >
             + Add value
           </pr-button>
         </div>

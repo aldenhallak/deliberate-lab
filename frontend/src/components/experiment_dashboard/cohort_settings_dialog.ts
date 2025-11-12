@@ -188,6 +188,7 @@ export class CohortSettingsDialog extends MobxLitElement {
             name="minParticipants"
             min="0"
             .value=${minParticipants ?? 0}
+            ?disabled=${minParticipants === null}
             @input=${updateNum}
           />
         </div>

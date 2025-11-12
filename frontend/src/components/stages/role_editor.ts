@@ -45,7 +45,14 @@ export class RoleEditorComponent extends MobxLitElement {
       this.experimentEditor.updateStage({...this.stage, roles});
     };
 
-    return html` <pr-button @click=${addButton}> Add new role </pr-button> `;
+    return html`
+      <pr-button
+        @click=${addButton}
+        ?disabled=${!this.experimentEditor.canEditStages}
+      >
+        Add new role
+      </pr-button>
+    `;
   }
 
   private renderRoleItem(role: RoleItem, index: number) {

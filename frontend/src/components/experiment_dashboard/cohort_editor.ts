@@ -102,6 +102,7 @@ export class Component extends MobxLitElement {
             color="secondary"
             variant="tonal"
             icon="add"
+            ?disabled=${!this.experimentManager.isCreator}
             @click=${this.addCohort}
           >
           </pr-icon-button>
@@ -149,7 +150,11 @@ export class Component extends MobxLitElement {
             ? html`<div>Use the dropdown above to select a cohort.</div>`
             : html`
                 <div>To begin running your experiment, create a cohort:</div>
-                <pr-button variant="tonal" @click=${this.addCohort}>
+                <pr-button
+                  variant="tonal"
+                  ?disabled=${!this.experimentManager.isCreator}
+                  @click=${this.addCohort}
+                >
                   Create new cohort
                 </pr-button>
               `}
@@ -239,6 +244,7 @@ export class Component extends MobxLitElement {
             icon=${mediator.currentStatus === MediatorStatus.PAUSED
               ? 'play_circle'
               : 'pause'}
+            ?disabled=${!this.experimentManager.isCreator}
             @click=${toggleStatus}
           >
           </pr-icon-button>
@@ -334,7 +340,8 @@ export class Component extends MobxLitElement {
     }
     return (
       this.experimentManager.isFullCohort(this.cohort) ||
-      this.experimentService.experiment.cohortLockMap[this.cohort.id]
+      this.experimentService.experiment.cohortLockMap[this.cohort.id] ||
+      !this.experimentManager.isCreator
     );
   }
 
@@ -408,7 +415,8 @@ export class Component extends MobxLitElement {
     const isDisabled =
       isLocked ||
       availableMediators.length === 0 ||
-      this.experimentManager.isWritingMediator;
+      this.experimentManager.isWritingMediator ||
+      !this.experimentManager.isCreator;
 
     return html`
       <pr-tooltip text=${tooltipText} position="BOTTOM_END">
@@ -459,6 +467,7 @@ export class Component extends MobxLitElement {
           icon=${isLocked ? 'lock' : 'lock_open'}
           color=${isLocked ? 'tertiary' : 'secondary'}
           variant="default"
+          ?disabled=${!this.experimentManager.isCreator}
           @click=${onClick}
         >
         </pr-icon-button>
@@ -504,6 +513,7 @@ export class Component extends MobxLitElement {
           @click=${() => {
             this.experimentManager.setCohortEditing(this.cohort);
           }}
+          ?disabled=${!this.experimentManager.isCreator}
         >
         </pr-icon-button>
       </pr-tooltip>

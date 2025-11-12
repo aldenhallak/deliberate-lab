@@ -207,6 +207,7 @@ export class AgentPersonaEditorComponent extends MobxLitElement {
         color="${isActive ? 'primary' : 'neutral'}"
         variant=${isActive ? 'tonal' : 'default'}
         @click=${updateAgentAPI}
+        ?disabled=${!this.experimentEditor.canEditStages}
       >
         ${apiName}
       </pr-button>
@@ -272,7 +273,13 @@ export class AgentPersonaEditorComponent extends MobxLitElement {
     return html`
       <div class="form-field">
         <label for="avatar">Avatar</label>
-        <emoji-picker @emoji-click=${this.handleAvatarChange}></emoji-picker>
+        <div
+          style="${!this.experimentEditor.canEditStages
+            ? 'pointer-events: none; opacity: 0.5;'
+            : ''}"
+        >
+          <emoji-picker @emoji-click=${this.handleAvatarChange}></emoji-picker>
+        </div>
       </div>
     `;
   }

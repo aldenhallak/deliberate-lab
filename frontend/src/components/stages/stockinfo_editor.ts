@@ -59,6 +59,7 @@ export class StockInfoEditor extends MobxLitElement {
           <label class="checkbox-label">
             <md-checkbox
               ?checked=${this.stage.showBestYearCard}
+              ?disabled=${!this.experimentEditor.canEditStages}
               @change=${this.updateShowBestYearCard}
             ></md-checkbox>
             Show best year performance card
@@ -69,6 +70,7 @@ export class StockInfoEditor extends MobxLitElement {
           <label class="checkbox-label">
             <md-checkbox
               ?checked=${this.stage.showWorstYearCard}
+              ?disabled=${!this.experimentEditor.canEditStages}
               @change=${this.updateShowWorstYearCard}
             ></md-checkbox>
             Show worst year performance card
@@ -79,6 +81,7 @@ export class StockInfoEditor extends MobxLitElement {
           <label class="checkbox-label">
             <md-checkbox
               ?checked=${this.stage.requireViewAllStocks}
+              ?disabled=${!this.experimentEditor.canEditStages}
               @change=${this.updateRequireViewAllStocks}
             ></md-checkbox>
             Require viewing all stocks before proceeding
@@ -89,6 +92,7 @@ export class StockInfoEditor extends MobxLitElement {
           <label class="checkbox-label">
             <md-checkbox
               ?checked=${this.stage.useQuarterlyMarkers}
+              ?disabled=${!this.experimentEditor.canEditStages}
               @change=${this.updateUseQuarterlyMarkers}
             ></md-checkbox>
             Use quarterly markers (Q1, Q2, Q3, Q4) instead of monthly markers
@@ -99,6 +103,7 @@ export class StockInfoEditor extends MobxLitElement {
           <label class="checkbox-label">
             <md-checkbox
               ?checked=${this.stage.showInvestmentGrowth}
+              ?disabled=${!this.experimentEditor.canEditStages}
               @change=${this.updateShowInvestmentGrowth}
             ></md-checkbox>
             Show $1,000 investment growth instead of stock price
@@ -115,7 +120,10 @@ export class StockInfoEditor extends MobxLitElement {
       <div class="stocks-section">
         <div class="header">
           <div class="title">Stocks (${this.stage.stocks.length})</div>
-          <md-filled-button @click=${this.addStock}>
+          <md-filled-button
+            @click=${this.addStock}
+            ?disabled=${!this.experimentEditor.canEditStages}
+          >
             <md-icon slot="icon">add</md-icon>
             Add Stock
           </md-filled-button>
@@ -135,7 +143,10 @@ export class StockInfoEditor extends MobxLitElement {
       <div class="stock-editor">
         <div class="stock-header">
           <div class="stock-title-label">Stock ${index + 1}</div>
-          <md-icon-button @click=${() => this.removeStock(index)}>
+          <md-icon-button
+            @click=${() => this.removeStock(index)}
+            ?disabled=${!this.experimentEditor.canEditStages}
+          >
             <md-icon>delete</md-icon>
           </md-icon-button>
         </div>
@@ -221,7 +232,10 @@ export class StockInfoEditor extends MobxLitElement {
       <div class="custom-cards-section">
         <div class="cards-header">
           <div class="cards-title">Custom Info Cards</div>
-          <md-outlined-button @click=${() => this.addCustomCard(stockIndex)}>
+          <md-outlined-button
+            @click=${() => this.addCustomCard(stockIndex)}
+            ?disabled=${!this.experimentEditor.canEditStages}
+          >
             <md-icon slot="icon">add</md-icon>
             Add Card
           </md-outlined-button>
@@ -247,6 +261,7 @@ export class StockInfoEditor extends MobxLitElement {
           <label class="checkbox-label">
             <md-checkbox
               ?checked=${card.enabled}
+              ?disabled=${!this.experimentEditor.canEditStages}
               @change=${(e: Event) =>
                 this.updateCustomCardEnabled(stockIndex, cardIndex, e)}
             ></md-checkbox>
@@ -254,6 +269,7 @@ export class StockInfoEditor extends MobxLitElement {
           </label>
           <md-icon-button
             @click=${() => this.removeCustomCard(stockIndex, cardIndex)}
+            ?disabled=${!this.experimentEditor.canEditStages}
           >
             <md-icon>delete</md-icon>
           </md-icon-button>

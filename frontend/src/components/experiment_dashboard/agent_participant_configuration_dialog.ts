@@ -69,7 +69,7 @@ export class AgentParticipantDialog extends MobxLitElement {
       ${this.renderAgentPersona()} ${this.renderPromptContext()}
       <div class="buttons-wrapper">
         <pr-button
-          ?disabled=${this.agentId === ''}
+          ?disabled=${this.agentId === '' || !this.experimentManager.isCreator}
           ?loading=${this.isLoading}
           @click=${() => {
             this.isLoading = true;

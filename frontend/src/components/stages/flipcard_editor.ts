@@ -57,6 +57,7 @@ export class FlipCardEditor extends MobxLitElement {
           <label class="checkbox-label">
             <md-checkbox
               ?checked=${this.stage.enableSelection}
+              ?disabled=${!this.experimentEditor.canEditStages}
               @change=${this.updateEnableSelection}
             ></md-checkbox>
             Enable card selection
@@ -81,6 +82,7 @@ export class FlipCardEditor extends MobxLitElement {
           <label class="checkbox-label">
             <md-checkbox
               ?checked=${this.stage.shuffleCards}
+              ?disabled=${!this.experimentEditor.canEditStages}
               @change=${this.updateShuffleCards}
             ></md-checkbox>
             Shuffle card order for each participant
@@ -93,6 +95,7 @@ export class FlipCardEditor extends MobxLitElement {
                 <label class="checkbox-label">
                   <md-checkbox
                     ?checked=${this.stage.allowMultipleSelections}
+                    ?disabled=${!this.experimentEditor.canEditStages}
                     @change=${this.updateAllowMultipleSelections}
                   ></md-checkbox>
                   Allow multiple selections
@@ -103,6 +106,7 @@ export class FlipCardEditor extends MobxLitElement {
                 <label class="checkbox-label">
                   <md-checkbox
                     ?checked=${this.stage.requireConfirmation}
+                    ?disabled=${!this.experimentEditor.canEditStages}
                     @change=${this.updateRequireConfirmation}
                   ></md-checkbox>
                   Require confirmation to complete stage
@@ -121,7 +125,11 @@ export class FlipCardEditor extends MobxLitElement {
       <div class="cards-section">
         <div class="header">
           <div class="title">Cards (${this.stage.cards.length})</div>
-          <md-filled-button @click=${this.addCard}>
+          <md-filled-button
+            @click=${this.addCard}
+            ?disabled=${!this.experimentEditor.canEditStages ||
+            !this.experimentEditor.isCreator}
+          >
             <md-icon slot="icon">add</md-icon>
             Add Card
           </md-filled-button>
@@ -141,7 +149,10 @@ export class FlipCardEditor extends MobxLitElement {
       <div class="card-editor">
         <div class="card-header">
           <div class="card-title-label">Card ${index + 1}</div>
-          <md-icon-button @click=${() => this.removeCard(index)}>
+          <md-icon-button
+            @click=${() => this.removeCard(index)}
+            ?disabled=${!this.experimentEditor.canEditStages}
+          >
             <md-icon>delete</md-icon>
           </md-icon-button>
         </div>

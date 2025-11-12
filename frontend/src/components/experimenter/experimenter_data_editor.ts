@@ -150,6 +150,7 @@ export class ExperimenterDataEditor extends MobxLitElement {
           placeholder="Add Gemini API key"
           .value=${this.authService.experimenterData?.apiKeys.geminiApiKey ??
           ''}
+          ?disabled=${!this.experimentManager.isCreator}
           @input=${updateKey}
         ></md-filled-text-field>
         ${this.renderCheckApiKey(ApiKeyType.GEMINI_API_KEY)}
@@ -212,6 +213,7 @@ export class ExperimenterDataEditor extends MobxLitElement {
           label="API key"
           placeholder="Add Open AI API key"
           .value=${data?.apiKeys.openAIApiKey?.apiKey ?? ''}
+          ?disabled=${!this.experimentManager.isCreator}
           @input=${(e: InputEvent) => updateOpenAISettings(e, 'apiKey')}
         ></md-filled-text-field>
 
@@ -220,6 +222,7 @@ export class ExperimenterDataEditor extends MobxLitElement {
           placeholder="http://example:14434/v1"
           variant="outlined"
           .value=${data?.apiKeys.openAIApiKey?.baseUrl ?? ''}
+          ?disabled=${!this.experimentManager.isCreator}
           @input=${(e: InputEvent) => updateOpenAISettings(e, 'baseUrl')}
         ></md-filled-text-field>
         ${this.renderCheckApiKey(ApiKeyType.OPENAI_API_KEY)}
@@ -265,6 +268,7 @@ export class ExperimenterDataEditor extends MobxLitElement {
           label="Server URL (please ensure URL is valid!)"
           placeholder="http://example:80/api/chat"
           .value=${data?.apiKeys.ollamaApiKey?.url ?? ''}
+          ?disabled=${!this.experimentManager.isCreator}
           @input=${(e: InputEvent) => updateServerSettings(e, 'url')}
         ></md-filled-text-field>
         ${this.renderCheckApiKey(ApiKeyType.OLLAMA_CUSTOM_URL)}

@@ -123,6 +123,32 @@ describe('Mustache Template Resolution', () => {
       );
       expect(resolution).toEqual('just a string');
     });
+
+    it('should resolve variable with missing definition and boolean value', () => {
+      const template = '{{#missing}}is true{{/missing}}{{^missing}}is false{{/missing}}';
+      const missingValueMap = {
+        missing: 'true',
+      };
+      const resolution = resolveTemplateVariables(
+        template,
+        {}, // empty variable map
+        missingValueMap,
+      );
+      expect(resolution).toEqual('is true');
+    });
+
+    it('should resolve variable with missing definition and number value', () => {
+      const template = '{{missing}}';
+      const missingValueMap = {
+        missing: '123',
+      };
+      const resolution = resolveTemplateVariables(
+        template,
+        {}, // empty variable map
+        missingValueMap,
+      );
+      expect(resolution).toEqual('123');
+    });
   });
 
   describe('extractVariableReferences', () => {

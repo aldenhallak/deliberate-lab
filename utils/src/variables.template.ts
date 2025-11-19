@@ -1,6 +1,6 @@
 import Mustache from 'mustache';
-import type {TSchema} from '@sinclair/typebox';
-import {VariableItem} from './variables';
+import type { TSchema } from '@sinclair/typebox';
+import { VariableItem } from './variables';
 
 /**
  * Resolve Mustache template variables in a given string.
@@ -40,20 +40,29 @@ export function resolveTemplateVariables(
           break;
       }
     } else {
-      // If variable definition is missing, try to parse as JSON
-      // if it looks like an object/array, otherwise use as string
-      try {
-        const value = valueMap[variableName];
-        if (
-          (value.startsWith('{') && value.endsWith('}')) ||
-          (value.startsWith('[') && value.endsWith(']'))
-        ) {
+      // If variable definition is missing, try to infer type from value
+      const value = valueMap[variableName];
+      if (value === undefined || value === null) {
+        typedValueMap[variableName] = '';
+      } else if (typeof value !== 'string') {
+        typedValueMap[variableName] = value;
+      } else if (value === 'true') {
+        typedValueMap[variableName] = true;
+      } else if (value === 'false') {
+        typedValueMap[variableName] = false;
+      } else if (value !== '' && !isNaN(Number(value))) {
+        typedValueMap[variableName] = Number(value);
+      } else if (
+        (value.startsWith('{') && value.endsWith('}')) ||
+        (value.startsWith('[') && value.endsWith(']'))
+      ) {
+        try {
           typedValueMap[variableName] = JSON.parse(value);
-        } else {
+        } catch (e) {
           typedValueMap[variableName] = value;
         }
-      } catch (e) {
-        typedValueMap[variableName] = valueMap[variableName];
+      } else {
+        typedValueMap[variableName] = value;
       }
     }
   });
@@ -79,7 +88,7 @@ export function resolveTemplateVariables(
 export function validateTemplateVariables(
   template: string,
   variableMap: Record<string, VariableItem> = {},
-): {valid: boolean; missingVariables: string[]; syntaxError?: string} {
+): { valid: boolean; missingVariables: string[]; syntaxError?: string } {
   try {
     // First, check if template is valid Mustache syntax
     Mustache.parse(template);

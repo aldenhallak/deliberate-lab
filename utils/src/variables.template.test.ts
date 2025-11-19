@@ -97,6 +97,32 @@ describe('Mustache Template Resolution', () => {
       );
       expect(resolution).toEqual('- Mark\n- Helly\n- Irving\n');
     });
+
+    it('should resolve variable with missing definition but JSON value', () => {
+      const template = '{{missing.field}}';
+      const missingValueMap = {
+        missing: '{"field": "value"}',
+      };
+      const resolution = resolveTemplateVariables(
+        template,
+        {}, // empty variable map
+        missingValueMap,
+      );
+      expect(resolution).toEqual('value');
+    });
+
+    it('should resolve variable with missing definition and non-JSON value', () => {
+      const template = '{{missing}}';
+      const missingValueMap = {
+        missing: 'just a string',
+      };
+      const resolution = resolveTemplateVariables(
+        template,
+        {}, // empty variable map
+        missingValueMap,
+      );
+      expect(resolution).toEqual('just a string');
+    });
   });
 
   describe('extractVariableReferences', () => {

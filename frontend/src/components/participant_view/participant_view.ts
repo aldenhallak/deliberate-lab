@@ -74,6 +74,10 @@ export class ParticipantView extends MobxLitElement {
         return html` <div class="content">${this.renderLanding()}</div> `;
       }
 
+      if (this.experimentService.isLoading) {
+        return html`<div class="content">Loading experiment...</div>`;
+      }
+
       return html`
         <participant-header
           .stage=${stage}

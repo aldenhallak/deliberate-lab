@@ -19,24 +19,42 @@ export function resolveTemplateVariables(
     const variable = variableMap[variableName];
     const schemaType = variable?.schema?.type;
 
-    switch (schemaType) {
-      case 'string':
-        typedValueMap[variableName] = valueMap[variableName] ?? '';
-        break;
-      case 'boolean':
-        typedValueMap[variableName] = valueMap[variableName] === 'true';
-        break;
-      case 'number':
-      case 'integer':
-        typedValueMap[variableName] = Number(valueMap[variableName]);
-        break;
-      case 'object':
-      case 'array':
-        // Parse JSON for complex types
-        typedValueMap[variableName] = JSON.parse(valueMap[variableName]);
-        break;
-      default:
-        break;
+    if (variable) {
+      switch (schemaType) {
+        case 'string':
+          typedValueMap[variableName] = valueMap[variableName] ?? '';
+          break;
+        case 'boolean':
+          typedValueMap[variableName] = valueMap[variableName] === 'true';
+          break;
+        case 'number':
+        case 'integer':
+          typedValueMap[variableName] = Number(valueMap[variableName]);
+          break;
+        case 'object':
+        case 'array':
+          // Parse JSON for complex types
+          typedValueMap[variableName] = JSON.parse(valueMap[variableName]);
+          break;
+        default:
+          break;
+      }
+    } else {
+      // If variable definition is missing, try to parse as JSON
+      // if it looks like an object/array, otherwise use as string
+      try {
+        const value = valueMap[variableName];
+        if (
+          (value.startsWith('{') && value.endsWith('}')) ||
+          (value.startsWith('[') && value.endsWith(']'))
+        ) {
+          typedValueMap[variableName] = JSON.parse(value);
+        } else {
+          typedValueMap[variableName] = value;
+        }
+      } catch (e) {
+        typedValueMap[variableName] = valueMap[variableName];
+      }
     }
   });
 

@@ -125,7 +125,8 @@ describe('Mustache Template Resolution', () => {
     });
 
     it('should resolve variable with missing definition and boolean value', () => {
-      const template = '{{#missing}}is true{{/missing}}{{^missing}}is false{{/missing}}';
+      const template =
+        '{{#missing}}is true{{/missing}}{{^missing}}is false{{/missing}}';
       const missingValueMap = {
         missing: 'true',
       };

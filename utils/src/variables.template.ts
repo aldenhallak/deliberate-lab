@@ -1,6 +1,6 @@
 import Mustache from 'mustache';
-import type { TSchema } from '@sinclair/typebox';
-import { VariableItem } from './variables';
+import type {TSchema} from '@sinclair/typebox';
+import {VariableItem} from './variables';
 
 /**
  * Resolve Mustache template variables in a given string.
@@ -88,7 +88,7 @@ export function resolveTemplateVariables(
 export function validateTemplateVariables(
   template: string,
   variableMap: Record<string, VariableItem> = {},
-): { valid: boolean; missingVariables: string[]; syntaxError?: string } {
+): {valid: boolean; missingVariables: string[]; syntaxError?: string} {
   try {
     // First, check if template is valid Mustache syntax
     Mustache.parse(template);

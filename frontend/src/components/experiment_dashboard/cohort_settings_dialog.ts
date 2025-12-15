@@ -74,6 +74,7 @@ export class CohortSettingsDialog extends MobxLitElement {
               );
               this.experimentManager.setCohortEditing(undefined);
             }}
+            ?disabled=${!this.experimentManager.isCreator}
           >
             Save
           </pr-button>

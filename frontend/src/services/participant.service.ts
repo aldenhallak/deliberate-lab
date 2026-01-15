@@ -4,6 +4,7 @@ import {
   ChatMessage,
   ChatStageParticipantAnswer,
   ChipOffer,
+  ConversationReplayStageParticipantAnswer,
   CreateChatMessageData,
   FlipCardStageParticipantAnswer,
   RankingItem,
@@ -814,6 +815,31 @@ export class ParticipantService extends Service {
     }
 
     return response;
+  }
+
+  /** Update participant conversation replay stage answer. */
+  async updateConversationReplayStageParticipantAnswer(
+    stageId: string,
+    answer: ConversationReplayStageParticipantAnswer,
+  ) {
+    if (!this.experimentId || !this.profile) return {};
+
+    // Update local answer map
+    this.answerMap[stageId] = answer;
+
+    // Save to Firestore
+    const answerDoc = doc(
+      this.sp.firebaseService.firestore,
+      'experiments',
+      this.experimentId,
+      'participants',
+      this.profile.privateId,
+      'stageData',
+      stageId,
+    );
+
+    await setDoc(answerDoc, answer);
+    return {};
   }
 
   async updateSurveyStageParticipantAnswerMap(

@@ -67,6 +67,10 @@ import {
 } from './survey_stage';
 import {TOSStageConfig} from './tos_stage';
 import {TransferStageConfig} from './transfer_stage';
+import {
+  ConversationReplayStageConfig,
+  ConversationReplayStageParticipantAnswer,
+} from './conversation_replay_stage';
 
 /** Base stage types and functions. */
 
@@ -96,6 +100,7 @@ export enum StageKind {
   SURVEY = 'survey',
   SURVEY_PER_PARTICIPANT = 'surveyPerParticipant',
   TRANSFER = 'transfer',
+  CONVERSATION_REPLAY = 'conversationReplay', // replay pre-recorded conversations
 }
 
 /**
@@ -128,6 +133,7 @@ export type StageConfig =
   | ChatStageConfig
   | ChipStageConfig
   | ComprehensionStageConfig
+  | ConversationReplayStageConfig
   | FlipCardStageConfig
   | RankingStageConfig
   | InfoStageConfig
@@ -163,6 +169,7 @@ export type StageParticipantAnswer =
   | ChatStageParticipantAnswer
   | ChipStageParticipantAnswer
   | ComprehensionStageParticipantAnswer
+  | ConversationReplayStageParticipantAnswer
   | FlipCardStageParticipantAnswer
   | PayoutStageParticipantAnswer
   | RankingStageParticipantAnswer

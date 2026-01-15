@@ -6,6 +6,7 @@ import '../stages/group_chat_participant_view';
 import '../stages/private_chat_participant_view';
 import '../stages/chip_participant_view';
 import '../stages/comprehension_participant_view';
+import '../stages/conversation_replay_participant_view';
 import '../stages/flipcard_participant_view';
 import '../stages/ranking_participant_view';
 import '../stages/info_view';
@@ -268,6 +269,11 @@ export class ParticipantView extends MobxLitElement {
         return html`
           <comprehension-participant-view .stage=${stage}>
           </comprehension-participant-view>
+        `;
+      case StageKind.CONVERSATION_REPLAY:
+        return html`
+          <conversation-replay-participant-view .stage=${stage}>
+          </conversation-replay-participant-view>
         `;
       case StageKind.FLIPCARD:
         return html`<flipcard-participant-view

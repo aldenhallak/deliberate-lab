@@ -19,6 +19,8 @@ import {
   StageKind,
   createAssetAllocationStage,
   createChatStage,
+  createComprehensionStage,
+  createConversationReplayStage,
   createRankingStage,
   createInfoStage,
   createFlipCardStage,
@@ -33,7 +35,6 @@ import {
   createSurveyStage,
   createTOSStage,
   createTransferStage,
-  createComprehensionStage,
 } from '@deliberation-lab/utils';
 import {
   LAS_METADATA,
@@ -252,7 +253,7 @@ export class StageBuilderDialog extends MobxLitElement {
           Experimental stages: ⚠️ use with caution
         </div>
         <div class="card-gallery-wrapper">
-          ${this.renderFlipCardCard()} ${this.renderStockInfoCard()}
+          ${this.renderConversationReplayCard()} ${this.renderFlipCardCard()} ${this.renderStockInfoCard()}
           ${this.renderAssetAllocationCard()}
           ${this.renderMultiAssetAllocationCard()}
         </div>
@@ -439,6 +440,21 @@ export class StageBuilderDialog extends MobxLitElement {
         <div>
           Present cards that participants can flip to reveal additional
           information and make selections.
+        </div>
+      </div>
+    `;
+  }
+
+  private renderConversationReplayCard() {
+    const addStage = () => {
+      this.addStage(createConversationReplayStage());
+    };
+
+    return html`
+      <div class="card" @click=${addStage}>
+        <div class="title">💬 Conversation Replay</div>
+        <div>
+          Show participants a pre-recorded conversation step-by-step for review and feedback.
         </div>
       </div>
     `;

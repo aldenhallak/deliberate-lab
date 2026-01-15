@@ -530,17 +530,19 @@ export class ExperimentEditor extends Service {
     // Update date modified
     this.experiment.metadata.dateModified = Timestamp.now();
 
+    const experimentTemplate: ExperimentTemplate = {
+      id: '',
+      experiment: this.experiment,
+      stageConfigs: this.stages,
+      agentMediators: this.agentMediators,
+      agentParticipants: this.agentParticipants,
+    };
+
     const response = await writeExperimentCallable(
       this.sp.firebaseService.functions,
       {
         collectionName: 'experiments',
-        experimentTemplate: {
-          id: '',
-          experiment: this.experiment,
-          stageConfigs: this.stages,
-          agentMediators: this.agentMediators,
-          agentParticipants: this.agentParticipants,
-        },
+        experimentTemplate: experimentTemplate as any,  // Type assertion needed due to callable type constraints
       },
     );
 
@@ -557,17 +559,19 @@ export class ExperimentEditor extends Service {
     // Update date modified
     this.experiment.metadata.dateModified = Timestamp.now();
 
+    const experimentTemplate: ExperimentTemplate = {
+      id: '',
+      experiment: this.experiment,
+      stageConfigs: this.stages,
+      agentMediators: this.agentMediators,
+      agentParticipants: this.agentParticipants,
+    };
+
     const response = await updateExperimentCallable(
       this.sp.firebaseService.functions,
       {
         collectionName: 'experiments',
-        experimentTemplate: {
-          id: '',
-          experiment: this.experiment,
-          stageConfigs: this.stages,
-          agentMediators: this.agentMediators,
-          agentParticipants: this.agentParticipants,
-        },
+        experimentTemplate: experimentTemplate as any,  // Type assertion needed due to callable type constraints
       },
     );
 

@@ -81,6 +81,8 @@ export * from './stages/chip_stage.utils';
 export * from './stages/chip_stage.validation';
 export * from './stages/comprehension_stage';
 export * from './stages/comprehension_stage.validation';
+export * from './stages/conversation_replay_stage';
+export * from './stages/conversation_replay_stage.validation';
 export * from './stages/flipcard_stage';
 export * from './stages/flipcard_stage.utils';
 export * from './stages/flipcard_stage.validation';

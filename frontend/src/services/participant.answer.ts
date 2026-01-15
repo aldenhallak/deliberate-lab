@@ -14,6 +14,7 @@ import {
 import {
   AssetAllocation,
   AssetAllocationStageParticipantAnswer,
+  ConversationReplayStageParticipantAnswer,
   ParticipantProfileBase,
   RankingStageParticipantAnswer,
   StageKind,
@@ -23,6 +24,7 @@ import {
   SurveyAnswer,
   createAssetAllocationStageParticipantAnswer,
   createComprehensionStageParticipantAnswer,
+  createConversationReplayStageParticipantAnswer,
   createRankingStageParticipantAnswer,
   createStockInfoStageParticipantAnswer,
   createSurveyPerParticipantStageParticipantAnswer,
@@ -293,6 +295,25 @@ export class ParticipantAnswerService extends Service {
       answer.currentStockIndex = updates.currentStockIndex;
     }
     this.answerMap[stageId] = answer;
+  }
+
+  getConversationReplayAnswer(
+    stageId: string,
+  ): ConversationReplayStageParticipantAnswer | null {
+    const answer = this.answerMap[stageId];
+    if (!answer || answer.kind !== StageKind.CONVERSATION_REPLAY) return null;
+    return answer as ConversationReplayStageParticipantAnswer;
+  }
+
+  async updateConversationReplayAnswer(
+    stageId: string,
+    answer: ConversationReplayStageParticipantAnswer,
+  ) {
+    this.answerMap[stageId] = answer;
+    await this.sp.participantService.updateConversationReplayStageParticipantAnswer(
+      stageId,
+      answer,
+    );
   }
 
   updateAssetAllocation(

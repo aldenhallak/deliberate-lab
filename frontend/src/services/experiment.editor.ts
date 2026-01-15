@@ -542,7 +542,8 @@ export class ExperimentEditor extends Service {
       this.sp.firebaseService.functions,
       {
         collectionName: 'experiments',
-        experimentTemplate: experimentTemplate as any,  // Type assertion needed due to callable type constraints
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        experimentTemplate: experimentTemplate as any,
       },
     );
 
@@ -571,7 +572,8 @@ export class ExperimentEditor extends Service {
       this.sp.firebaseService.functions,
       {
         collectionName: 'experiments',
-        experimentTemplate: experimentTemplate as any,  // Type assertion needed due to callable type constraints
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        experimentTemplate: experimentTemplate as any,
       },
     );
 

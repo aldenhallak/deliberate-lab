@@ -17,6 +17,7 @@ export * from './dl_api/dl_api.endpoints';
 export * from './stages/asset_allocation.endpoints';
 export * from './stages/chat.endpoints';
 export * from './stages/chip.endpoints';
+export * from './stages/conversation_replay.endpoints';
 export * from './stages/flipcard.endpoints';
 
 export * from './stages/ranking.endpoints';

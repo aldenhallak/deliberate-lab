@@ -88,6 +88,10 @@ import {
   INTEGRATION_METADATA,
   getAgentParticipantIntegrationTemplate,
 } from '../../shared/templates/agent_participant_integration_template';
+import {
+  CONVERSATION_REPLAY_EXAMPLE_METADATA,
+  getConversationReplayExampleTemplate,
+} from '../../shared/templates/conversation_replay_example';
 
 import {styles} from './stage_builder_dialog.scss';
 
@@ -174,6 +178,7 @@ export class StageBuilderDialog extends MobxLitElement {
         configuration!
       </div>
       <div class="card-gallery-wrapper">
+        ${this.renderConversationReplayTemplateCard()}
         ${this.renderFlipCardTemplateCard()}
         ${this.renderFruitTestTemplateCard()}
         ${this.renderConditionalSurveyTemplateCard()}
@@ -253,8 +258,8 @@ export class StageBuilderDialog extends MobxLitElement {
           Experimental stages: ⚠️ use with caution
         </div>
         <div class="card-gallery-wrapper">
-          ${this.renderConversationReplayCard()} ${this.renderFlipCardCard()} ${this.renderStockInfoCard()}
-          ${this.renderAssetAllocationCard()}
+          ${this.renderConversationReplayCard()} ${this.renderFlipCardCard()}
+          ${this.renderStockInfoCard()} ${this.renderAssetAllocationCard()}
           ${this.renderMultiAssetAllocationCard()}
         </div>
       </div>
@@ -310,6 +315,25 @@ export class StageBuilderDialog extends MobxLitElement {
       <div class="card" @click=${addTemplate}>
         <div class="title">${INTEGRATION_METADATA.name}</div>
         <div>${INTEGRATION_METADATA.description}</div>
+      </div>
+    `;
+  }
+
+  private renderConversationReplayTemplateCard() {
+    const loadTemplate = () => {
+      // Convert stages to experiment template format
+      const stages = getConversationReplayExampleTemplate();
+      this.experimentEditor.updateMetadata(
+        CONVERSATION_REPLAY_EXAMPLE_METADATA,
+      );
+      this.experimentEditor.setStages(stages);
+      this.experimentEditor.toggleStageBuilderDialog();
+    };
+
+    return html`
+      <div class="card" @click=${loadTemplate}>
+        <div class="title">${CONVERSATION_REPLAY_EXAMPLE_METADATA.name}</div>
+        <div>${CONVERSATION_REPLAY_EXAMPLE_METADATA.description}</div>
       </div>
     `;
   }
@@ -454,7 +478,8 @@ export class StageBuilderDialog extends MobxLitElement {
       <div class="card" @click=${addStage}>
         <div class="title">💬 Conversation Replay</div>
         <div>
-          Show participants a pre-recorded conversation step-by-step for review and feedback.
+          Show participants a pre-recorded conversation step-by-step for review
+          and feedback.
         </div>
       </div>
     `;

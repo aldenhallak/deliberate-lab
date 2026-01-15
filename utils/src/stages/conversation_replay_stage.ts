@@ -7,6 +7,7 @@ import {
   createStageProgressConfig,
   createStageTextConfig,
 } from './stage';
+import {Type} from '@sinclair/typebox';
 
 /** Conversation replay stage types and functions. */
 
@@ -34,13 +35,25 @@ export interface ConversationReplayStageConfig extends BaseStageConfig {
  * This is saved as a stage doc (with stage ID as doc ID) under
  * experiments/{experimentId}/participants/{participantPrivateId}/stageData
  */
-export interface ConversationReplayStageParticipantAnswer
-  extends BaseStageParticipantAnswer {
+export interface ConversationReplayStageParticipantAnswer extends BaseStageParticipantAnswer {
   kind: StageKind.CONVERSATION_REPLAY;
   currentMessageIndex: number; // Index of current message being viewed
   isComplete: boolean; // Whether participant has viewed all messages
   replayCount: number; // Number of times participant has replayed
 }
+
+// ************************************************************************* //
+// TYPEBOX SCHEMAS                                                           //
+// ************************************************************************* //
+
+/** Typebox schema for ConversationReplayStageParticipantAnswer */
+export const ConversationReplayStageParticipantAnswerTypebox = Type.Object({
+  id: Type.String(),
+  kind: Type.Literal(StageKind.CONVERSATION_REPLAY),
+  currentMessageIndex: Type.Number(),
+  isComplete: Type.Boolean(),
+  replayCount: Type.Number(),
+});
 
 // ************************************************************************* //
 // FUNCTIONS                                                                 //

@@ -1,19 +1,19 @@
-import { MobxLitElement } from '@adobe/lit-mobx';
-import { CSSResultGroup, html, nothing } from 'lit';
-import { customElement, property, state } from 'lit/decorators.js';
+import {MobxLitElement} from '@adobe/lit-mobx';
+import {CSSResultGroup, html, nothing} from 'lit';
+import {customElement, property, state} from 'lit/decorators.js';
 
-import { core } from '../../core/core';
-import { ParticipantAnswerService } from '../../services/participant.answer';
-import { ParticipantService } from '../../services/participant.service';
+import {core} from '../../core/core';
+import {ParticipantAnswerService} from '../../services/participant.answer';
+import {ParticipantService} from '../../services/participant.service';
 
 import {
   ConversationReplayStageConfig,
   ConversationReplayStageParticipantAnswer,
   createConversationReplayStageParticipantAnswer,
 } from '@deliberation-lab/utils';
-import { ChatMessage } from '@deliberation-lab/utils';
+import {ChatMessage} from '@deliberation-lab/utils';
 
-import { styles } from './conversation_replay_participant_view.scss';
+import {styles} from './conversation_replay_participant_view.scss';
 
 /** Conversation replay participant view */
 @customElement('conversation-replay-participant-view')
@@ -42,7 +42,9 @@ export class ConversationReplayParticipantView extends MobxLitElement {
   private async loadAnswer() {
     if (!this.stage) return;
 
-    const answer = this.answerService.getConversationReplayAnswer(this.stage.id);
+    const answer = this.answerService.getConversationReplayAnswer(
+      this.stage.id,
+    );
 
     if (answer) {
       this.currentIndex = answer.currentMessageIndex;
@@ -54,7 +56,7 @@ export class ConversationReplayParticipantView extends MobxLitElement {
     } else {
       // Create initial answer
       await this.saveAnswer(
-        createConversationReplayStageParticipantAnswer({ id: this.stage.id })
+        createConversationReplayStageParticipantAnswer({id: this.stage.id}),
       );
     }
 
@@ -64,12 +66,10 @@ export class ConversationReplayParticipantView extends MobxLitElement {
     }
   }
 
-  private async saveAnswer(
-    answer: ConversationReplayStageParticipantAnswer
-  ) {
+  private async saveAnswer(answer: ConversationReplayStageParticipantAnswer) {
     await this.answerService.updateConversationReplayAnswer(
       this.stage!.id,
-      answer
+      answer,
     );
   }
 
@@ -108,14 +108,20 @@ export class ConversationReplayParticipantView extends MobxLitElement {
 
     this.currentIndex++;
 
-    const answer = this.answerService.getConversationReplayAnswer(
-      this.stage.id
-    ) ?? createConversationReplayStageParticipantAnswer({ id: this.stage.id });
+    const answer =
+      this.answerService.getConversationReplayAnswer(this.stage.id) ??
+      createConversationReplayStageParticipantAnswer({id: this.stage.id});
 
     answer.currentMessageIndex = this.currentIndex;
     answer.isComplete = this.isComplete();
 
     await this.saveAnswer(answer);
+
+    // CRITICAL: Wait for the component to re-render with the new message
+    await this.updateComplete;
+
+    // Now scroll to show the new message
+    this.scrollToBottom();
 
     // Schedule next message if auto-playing
     if (this.isAutoPlaying && !this.isComplete()) {
@@ -129,15 +135,39 @@ export class ConversationReplayParticipantView extends MobxLitElement {
     }
   }
 
+  private scrollToBottom() {
+    // Double requestAnimationFrame to ensure everything is painted
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => {
+        const container = this.shadowRoot?.querySelector(
+          '.messages-container',
+        ) as HTMLElement;
+        if (container) {
+          console.log(
+            'Scrolling! Container height:',
+            container.scrollHeight,
+            'Current scroll:',
+            container.scrollTop,
+          );
+          // Set scroll position directly to the max
+          container.scrollTop = container.scrollHeight;
+          console.log('After scroll:', container.scrollTop);
+        } else {
+          console.error('Container not found!');
+        }
+      });
+    });
+  }
+
   private async handleReplay() {
     if (!this.stage || !this.stage.allowReplay) return;
 
     this.stopAutoPlay();
     this.currentIndex = 0;
 
-    const answer = this.answerService.getConversationReplayAnswer(
-      this.stage.id
-    ) ?? createConversationReplayStageParticipantAnswer({ id: this.stage.id });
+    const answer =
+      this.answerService.getConversationReplayAnswer(this.stage.id) ??
+      createConversationReplayStageParticipantAnswer({id: this.stage.id});
 
     answer.currentMessageIndex = 0;
     answer.isComplete = false;
@@ -163,7 +193,7 @@ export class ConversationReplayParticipantView extends MobxLitElement {
 
   private renderMessage(message: ChatMessage, _index: number) {
     const profile = this.stage?.hideSenderInfo
-      ? { name: 'Participant', avatar: '👤', pronouns: null }
+      ? {name: 'Participant', avatar: '👤', pronouns: null}
       : message.profile;
 
     const showTimestamp = !this.stage?.hideTimestamps;
@@ -175,10 +205,10 @@ export class ConversationReplayParticipantView extends MobxLitElement {
             <span class="avatar">${profile.avatar}</span>
             <span class="name">${profile.name}</span>
             ${showTimestamp
-        ? html`<span class="timestamp">
+              ? html`<span class="timestamp">
                   ${message.timestamp.toDate?.().toLocaleTimeString() ?? ''}
                 </span>`
-        : nothing}
+              : nothing}
           </div>
           <div class="message-content">${message.message}</div>
         </div>
@@ -192,47 +222,52 @@ export class ConversationReplayParticipantView extends MobxLitElement {
     const canAdvance = !this.isComplete();
     const canReplay = this.stage.allowReplay && this.isComplete();
     const showAutoPlayToggle = this.stage.autoPlayDelayMs > 0;
+    const isComplete = this.isComplete();
 
     return html`
       <div class="controls">
         <div class="progress">
-          Viewing message ${Math.min(this.currentIndex, this.stage.messages.length)} 
-          of ${this.stage.messages.length}
+          ${isComplete
+            ? 'Conversation complete!'
+            : `Viewing message ${Math.min(this.currentIndex, this.stage.messages.length)} 
+          of ${this.stage.messages.length}`}
         </div>
-        
+
         <div class="buttons">
-          ${showAutoPlayToggle && !this.isComplete()
-        ? html`
-                <button 
-                  class="auto-play-button"
-                  @click=${this.toggleAutoPlay}
-                >
+          ${showAutoPlayToggle && !isComplete
+            ? html`
+                <button class="auto-play-button" @click=${this.toggleAutoPlay}>
                   ${this.isAutoPlaying ? '⏸ Pause' : '▶ Auto-play'}
                 </button>
               `
-        : nothing}
-          
+            : nothing}
           ${canAdvance && !this.isAutoPlaying
-        ? html`
-                <button 
+            ? html`
+                <button
                   class="next-button primary-button"
                   @click=${this.handleNext}
                 >
                   Next Message
                 </button>
               `
-        : nothing}
-          
-          ${canReplay
-        ? html`
-                <button 
-                  class="replay-button"
-                  @click=${this.handleReplay}
+            : nothing}
+          ${isComplete
+            ? html`
+                <button
+                  class="continue-button primary-button"
+                  @click=${() => this.participantService.progressToNextStage()}
                 >
+                  Continue →
+                </button>
+              `
+            : nothing}
+          ${canReplay
+            ? html`
+                <button class="replay-button" @click=${this.handleReplay}>
                   ↻ Replay Conversation
                 </button>
               `
-        : nothing}
+            : nothing}
         </div>
       </div>
     `;
@@ -249,12 +284,12 @@ export class ConversationReplayParticipantView extends MobxLitElement {
       <div class="conversation-replay-container">
         <div class="messages-container">
           ${visibleMessages.length === 0
-        ? html`<div class="no-messages">
+            ? html`<div class="no-messages">
                 Click "Next Message" to begin viewing the conversation.
               </div>`
-        : visibleMessages.map((msg, idx) => this.renderMessage(msg, idx))}
+            : visibleMessages.map((msg, idx) => this.renderMessage(msg, idx))}
         </div>
-        
+
         ${this.renderControls()}
       </div>
     `;

@@ -1,4 +1,8 @@
-import {ConversationReplayStageConfig} from './conversation_replay_stage';
+import {Type, Static} from '@sinclair/typebox';
+import {
+  ConversationReplayStageConfig,
+  ConversationReplayStageParticipantAnswerTypebox,
+} from './conversation_replay_stage';
 
 /** Conversation replay stage validation types and functions. */
 
@@ -39,3 +43,19 @@ export function validateConversationReplayStage(
 
   return null;
 }
+
+// ************************************************************************* //
+// ENDPOINT DATA VALIDATION SCHEMAS                                          //
+// ************************************************************************* //
+
+/** Data for updateConversationReplayStageParticipantAnswer endpoint */
+export const UpdateConversationReplayStageParticipantAnswerData = Type.Object({
+  experimentId: Type.String(),
+  participantPrivateId: Type.String(),
+  conversationReplayStageParticipantAnswer:
+    ConversationReplayStageParticipantAnswerTypebox,
+});
+
+export type UpdateConversationReplayStageParticipantAnswerData = Static<
+  typeof UpdateConversationReplayStageParticipantAnswerData
+>;

@@ -30,6 +30,7 @@ import {
   updateCohort,
   deleteCohort,
 } from './cohorts.dl_api';
+import {createParticipant, listParticipants} from './participants.dl_api';
 
 // Create Express app
 const app = express();
@@ -37,13 +38,15 @@ const app = express();
 // Middleware
 app.use(express.json()); // Parse JSON bodies
 
-// Rate limiting
+// Rate limiting (disabled in emulator for batch operations)
+const isEmulator = process.env.FUNCTIONS_EMULATOR === 'true';
 const limiter = rateLimit({
   windowMs: 15 * 60 * 1000, // 15 minutes
-  max: 100, // limit each IP/API key to 100 requests per windowMs
+  max: isEmulator ? 0 : 500, // 0 = disabled in emulator, 500 in production
   message: 'Too many requests from this API key, please try again later.',
   standardHeaders: true, // Return rate limit info in `RateLimit-*` headers
   legacyHeaders: false, // Disable `X-RateLimit-*` headers
+  skip: () => isEmulator, // Skip rate limiting entirely in emulator
   // Use API key as identifier for rate limiting
   keyGenerator: (req) => {
     // Use shared utility to extract API key
@@ -80,6 +83,16 @@ app.post('/v1/experiments/:experimentId/cohorts', createCohort);
 app.get('/v1/experiments/:experimentId/cohorts/:cohortId', getCohort);
 app.put('/v1/experiments/:experimentId/cohorts/:cohortId', updateCohort);
 app.delete('/v1/experiments/:experimentId/cohorts/:cohortId', deleteCohort);
+
+// API Routes - Participants (nested under cohorts)
+app.get(
+  '/v1/experiments/:experimentId/cohorts/:cohortId/participants',
+  listParticipants,
+);
+app.post(
+  '/v1/experiments/:experimentId/cohorts/:cohortId/participants',
+  createParticipant,
+);
 
 // Health check endpoint (also requires authentication)
 app.get('/v1/health', (_req, res) => {

@@ -163,7 +163,7 @@ export async function createAgentChatMessageFromPrompt(
       );
       return false;
     }
-    sendAgentPrivateChatMessage(
+    await sendAgentPrivateChatMessage(
       experimentId,
       privateChatParticipantId,
       stageId,
@@ -172,7 +172,7 @@ export async function createAgentChatMessageFromPrompt(
       promptConfig.chatSettings,
     );
   } else {
-    sendAgentGroupChatMessage(
+    await sendAgentGroupChatMessage(
       experimentId,
       cohortId,
       stageId,
@@ -470,23 +470,28 @@ export async function sendAgentGroupChatMessage(
   }
 
   // Don't send a message if the conversation already has a response
-  // to the trigger message by the same type of agent (participant, mediator)
+  // to the trigger message from this agent. Use atomic create to prevent race.
   // For initial messages (empty triggerChatId), skip this check as it's handled earlier
   if (triggerChatId !== '') {
     const triggerResponseDoc = getGroupChatTriggerLogRef(
       experimentId,
       cohortId,
       stageId,
-      `${triggerChatId}-${chatMessage.type}`,
+      `${triggerChatId}-${chatMessage.senderId}`,
     );
-    const hasTriggerResponse = (await triggerResponseDoc.get()).exists;
-    if (hasTriggerResponse) {
-      console.log('Someone already responded');
-      return true; // expected outcome (TODO: return status enum)
-    }
 
-    // Otherwise, log response ID as trigger message
-    triggerResponseDoc.set({});
+    // Use create() instead of set() - fails if doc already exists (atomic dedup)
+    try {
+      await triggerResponseDoc.create({timestamp: Date.now()});
+    } catch (error: unknown) {
+      // If doc already exists, another invocation won, so we should skip
+      if ((error as {code?: number}).code === 6) {
+        // ALREADY_EXISTS
+        console.log('Another invocation already claimed this trigger');
+        return true;
+      }
+      throw error; // Re-throw unexpected errors
+    }
   }
 
   // Send chat message
@@ -502,7 +507,7 @@ export async function sendAgentGroupChatMessage(
     .doc(chatMessage.id);
 
   chatMessage.timestamp = Timestamp.now();
-  agentDocument.set(chatMessage);
+  await agentDocument.set(chatMessage);
 
   return true;
 }
@@ -542,23 +547,28 @@ export async function sendAgentPrivateChatMessage(
   }
 
   // Don't send a message if the conversation already has a response
-  // to the trigger message by the same type of agent (participant, mediator)
+  // to the trigger message from this agent. Use atomic create to prevent race.
   // For initial messages (empty triggerChatId), skip this check as it's handled earlier
   if (triggerChatId !== '') {
     const triggerResponseDoc = getPrivateChatTriggerLogRef(
       experimentId,
       participantId,
       stageId,
-      `${triggerChatId}-${chatMessage.type}`,
+      `${triggerChatId}-${chatMessage.senderId}`,
     );
-    const hasTriggerResponse = (await triggerResponseDoc.get()).exists;
-    if (hasTriggerResponse) {
-      console.log('Someone already responded');
-      return true; // expected outcome (TODO: return status enum)
-    }
 
-    // Otherwise, log response ID as trigger message
-    triggerResponseDoc.set({});
+    // Use create() instead of set() - fails if doc already exists (atomic dedup)
+    try {
+      await triggerResponseDoc.create({timestamp: Date.now()});
+    } catch (error: unknown) {
+      // If doc already exists, another invocation won, so we should skip
+      if ((error as {code?: number}).code === 6) {
+        // ALREADY_EXISTS
+        console.log('Another invocation already claimed this trigger');
+        return true;
+      }
+      throw error; // Re-throw unexpected errors
+    }
   }
 
   // Send chat message
@@ -574,7 +584,7 @@ export async function sendAgentPrivateChatMessage(
     .doc(chatMessage.id);
 
   chatMessage.timestamp = Timestamp.now();
-  agentDocument.set(chatMessage);
+  await agentDocument.set(chatMessage);
 
   return true;
 }

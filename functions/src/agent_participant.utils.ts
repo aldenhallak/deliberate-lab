@@ -81,7 +81,7 @@ export async function completeStageAsAgentParticipant(
         experiment.stageIds,
       );
     }
-    participantDoc.set(participant);
+    await participantDoc.set(participant);
     return;
   } else if (status !== ParticipantStatus.IN_PROGRESS) {
     // Only update if participant is active, etc.
@@ -128,7 +128,7 @@ export async function completeStageAsAgentParticipant(
           .doc(participant.privateId)
           .collection('stageData')
           .doc(stage.id);
-        answerDoc.set(answer);
+        await answerDoc.set(answer);
       }
     }
   }
@@ -143,7 +143,7 @@ export async function completeStageAsAgentParticipant(
 
   // Write ParticipantAnswer doc if profile has been updated
   if (stageActions.moveToNextStage || updatedStatus) {
-    participantDoc.set(participant);
+    await participantDoc.set(participant);
   }
 }
 

@@ -21,6 +21,7 @@ import '../stages/survey_view';
 import '../stages/survey_per_participant_view';
 import '../stages/tos_view';
 import '../stages/transfer_view';
+import '../stages/transcript_rating_view';
 import './participant_header';
 import './participant_help_panel';
 import './participant_nav';
@@ -315,6 +316,10 @@ export class ParticipantView extends MobxLitElement {
         return html`<survey-per-participant-view .stage=${stage}></survey-view>`;
       case StageKind.TRANSFER:
         return html`<transfer-view .stage=${stage}></transfer-view>`;
+      case StageKind.TRANSCRIPT_RATING:
+        return html`<transcript-rating-view
+          .stage=${stage}
+        ></transcript-rating-view>`;
       default:
         return html`<div class="content">Stage not found</div>`;
     }

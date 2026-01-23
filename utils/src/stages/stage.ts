@@ -67,6 +67,10 @@ import {
 } from './survey_stage';
 import {TOSStageConfig} from './tos_stage';
 import {TransferStageConfig} from './transfer_stage';
+import {
+  TranscriptRatingStageConfig,
+  TranscriptRatingStageParticipantAnswer,
+} from './transcript_rating_stage';
 
 /** Base stage types and functions. */
 
@@ -96,6 +100,7 @@ export enum StageKind {
   SURVEY = 'survey',
   SURVEY_PER_PARTICIPANT = 'surveyPerParticipant',
   TRANSFER = 'transfer',
+  TRANSCRIPT_RATING = 'transcriptRating',
 }
 
 /**
@@ -143,7 +148,8 @@ export type StageConfig =
   | SurveyStageConfig
   | SurveyPerParticipantStageConfig
   | TOSStageConfig
-  | TransferStageConfig;
+  | TransferStageConfig
+  | TranscriptRatingStageConfig;
 
 /**
  * Base stage answer created from participant input.
@@ -168,7 +174,8 @@ export type StageParticipantAnswer =
   | RankingStageParticipantAnswer
   | StockInfoStageParticipantAnswer
   | SurveyStageParticipantAnswer
-  | SurveyPerParticipantStageParticipantAnswer;
+  | SurveyPerParticipantStageParticipantAnswer
+  | TranscriptRatingStageParticipantAnswer;
 
 /**
  * Base stage public data created from cloud triggers

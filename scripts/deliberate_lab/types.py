@@ -134,10 +134,32 @@ class ConditionOperator(Enum):
     or_ = "or"
 
 
+class Importance(Enum):
+    high = "high"
+    medium = "medium"
+    low = "low"
+
+
+class RubricCriterion(BaseModel):
+    model_config = ConfigDict(
+        extra="forbid",
+    )
+    id: constr(min_length=1)
+    property: str
+    type: str
+    importance: Importance
+    description: str
+    minValue: float
+    maxValue: float
+    lowLabel: str
+    highLabel: str
+
+
 class CohortParticipantConfig(BaseModel):
     minParticipantsPerCohort: confloat(ge=0.0) | None = None
     maxParticipantsPerCohort: confloat(ge=1.0) | None = None
     includeAllParticipantsInCohortCount: bool
+    botProtection: bool
 
 
 class Type(BaseModel):
@@ -420,6 +442,22 @@ class ComparisonCondition(BaseModel):
     value: str | float | bool
 
 
+class TranscriptRatingStageConfig(BaseModel):
+    model_config = ConfigDict(
+        extra="forbid",
+    )
+    id: constr(min_length=1)
+    kind: Literal["transcriptRating"]
+    name: constr(min_length=1)
+    descriptions: Any
+    progress: Any
+    transcript: str
+    transcriptMessages: List[Any]
+    useStructuredTranscript: bool
+    criteria: List[RubricCriterion]
+    requireAllRatings: bool
+
+
 class AssetAllocationStageConfig(BaseModel):
     model_config = ConfigDict(
         extra="forbid",
@@ -607,6 +645,7 @@ class ExperimentTemplate(BaseModel):
         | SurveyPerParticipantStageConfig
         | SurveyStageConfig
         | TosStageConfig
+        | TranscriptRatingStageConfig
         | TransferStageConfig
     ]
     agentMediators: List[AgentMediatorTemplate]
@@ -642,6 +681,7 @@ class DeliberateLabAPISchemas(BaseModel):
         | SurveyPerParticipantStageConfig
         | SurveyStageConfig
         | TosStageConfig
+        | TranscriptRatingStageConfig
         | TransferStageConfig
     )
     experimentCreation: ExperimentCreation = Field(..., title="ExperimentCreation")

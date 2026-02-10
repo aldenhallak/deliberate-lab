@@ -1,0 +1,2770 @@
+[
+  {
+    "facilitatorBehavior": "short_responses",
+    "groupSize": 2,
+    "experimentId": "49a4eaab-9832-470f-adb4-61b01c7e106a",
+    "cohortId": "mkokm9my-7xpx82",
+    "status": "success",
+    "conversations": [
+      {
+        "experimentId": "49a4eaab-9832-470f-adb4-61b01c7e106a",
+        "cohortId": "mkokm9my-7xpx82",
+        "stageId": "06d7f074-ddd0-4575-80fa-ed0a65d54914",
+        "messages": [
+          {
+            "id": "61302ecc-b7b2-404a-8779-e71e6875a205",
+            "text": "Hey everyone! Alright, what are we thinking for dinner? Let's try and find something actually interesting tonight, no boring chains please!",
+            "timestamp": 1769033082,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "6bea94f8-9cc7-4f14-ac63-968b5510016c",
+            "text": "Interesting is fine, but let's not break the bank. Can't we just get pizza or something?",
+            "timestamp": 1769033084,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "ef9e891e-a735-4b0f-913c-9fafb7117183",
+            "text": "Ugh, pizza? Come on, Mike, we just talked about trying something actually interesting! Let's get creative.",
+            "timestamp": 1769033097,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "64f0c0d9-9b73-49d2-8ba9-4dbd032d1357",
+            "text": "Alright, so no pizza. What else do we have in mind? Gemini, any creative ideas?",
+            "timestamp": 1769033113,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "6e3f311c-9145-48a7-97dd-accba6a7191d",
+            "text": "Alright, but whatever Gemini suggests, it better not be too pricey. We're on a budget tonight.",
+            "timestamp": 1769033118,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "43bbc496-8516-40b3-a26e-768d3f4bccfb",
+            "text": "Okay, Mike, I hear you on the budget. But Gemini, please, something inspiring that doesn't break the bank?",
+            "timestamp": 1769033125,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "007f507c-8b89-4d37-b699-d4fb056bc78b",
+            "text": "To find something inspiring that's still budget-friendly, maybe we can think about different cuisines? What kind of flavors are you both feeling tonight?",
+            "timestamp": 1769033139,
+            "profile": {
+              "name": "Gemini",
+              "avatar": "🐻",
+              "pronouns": ""
+            },
+            "messageType": "participant",
+            "agentId": "gemini_short"
+          },
+          {
+            "id": "71e7b43e-d70b-4daa-802f-e66d4391cc7d",
+            "text": "Sure, I'm down for different flavors, as long as it's something actually affordable this time. Maybe Mexican or Vietnamese, if we can find something cheap?",
+            "timestamp": 1769033145,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "368f7527-d9e6-4fc7-9464-25ffc5bd8f95",
+            "text": "Okay, that's a start. Vietnamese sounds more promising than just any Mexican place, if we can find something good and still affordable. What kind of Vietnamese are we thinking, Gemini?",
+            "timestamp": 1769033151,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "a9effcb5-b000-4b80-9d7b-9a354cb127ae",
+            "text": "Good question! Are we thinking pho, banh mi, or something else?",
+            "timestamp": 1769033159,
+            "profile": {
+              "name": "Gemini",
+              "avatar": "🐻",
+              "pronouns": ""
+            },
+            "messageType": "participant",
+            "agentId": "gemini_short"
+          },
+          {
+            "id": "017d8d23-9ac1-49f6-8e10-5d30d8f31e96",
+            "text": "Honestly, either is fine, but banh mi can sometimes be cheaper. The key is finding a place that isn't overpriced.",
+            "timestamp": 1769033164,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "32d77c3d-d23a-4b11-a2c1-837ef0773541",
+            "text": "Banh mi could work, but it really needs to be from a good, authentic spot, not just basic. Gemini, do you know any places that fit that description and are still affordable?",
+            "timestamp": 1769033173,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "3321914a-2946-4af7-a9c9-723c33530aa0",
+            "text": "Yeah, and the affordable part is really important. Let's make sure it's not some fancy, overpriced banh mi.",
+            "timestamp": 1769033180,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "40025a0e-f9eb-4e14-b288-7275d4a3b0da",
+            "text": "Exactly! We need to find the sweet spot, Gemini. What are your best bets for an authentic, affordable banh mi spot?",
+            "timestamp": 1769033188,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "47500dfa-712e-4ef0-b631-98a9b055ba1c",
+            "text": "As an AI, I don't have direct knowledge of specific restaurant locations or their current menus and prices. You'd know best about places near you that fit that description.",
+            "timestamp": 1769033195,
+            "profile": {
+              "name": "Gemini",
+              "avatar": "🐻",
+              "pronouns": ""
+            },
+            "messageType": "participant",
+            "agentId": "gemini_short"
+          },
+          {
+            "id": "a62acb72-eef6-4610-9833-6c398ca75438",
+            "text": "Okay, that's fair, Gemini. Alright, so we're looking for an authentic and affordable banh mi then. I can do a quick search on my phone, or do either of you know any good local spots off the top of your head?",
+            "timestamp": 1769033207,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "3a68e6b2-eef6-4e32-bfb9-943a2ab4ff39",
+            "text": "I don't know any offhand, but yeah, make sure whatever you find is genuinely cheap for banh mi, Sarah. We don't want anything too fancy.",
+            "timestamp": 1769033215,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "d6dbeb2a-fddc-45b3-a254-f1e9e7d6b82b",
+            "text": "Okay, got it. \"Genuinely cheap and authentic.\" I'm on it, give me a sec to look up some places now.",
+            "timestamp": 1769033227,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "facilitatorBehavior": "short_responses",
+    "groupSize": 3,
+    "experimentId": "e38f96ce-cd18-40aa-ba91-43bb18e053f6",
+    "cohortId": "mkokm9px-y8d3wt",
+    "status": "success",
+    "conversations": [
+      {
+        "experimentId": "e38f96ce-cd18-40aa-ba91-43bb18e053f6",
+        "cohortId": "mkokm9px-y8d3wt",
+        "stageId": "5c5f5380-cf86-42cd-aadb-c59a6995cca6",
+        "messages": [
+          {
+            "id": "8a434a07-83c8-4e2c-bcee-471f0f69c7b1",
+            "text": "Alright team, what are we thinking for dinner? I'm hoping for something a little more exciting than the usual, you know?",
+            "timestamp": 1769033086,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "7a57e778-6b57-428b-911d-1593028ef1fb",
+            "text": "Honestly, can't we just get pizza?",
+            "timestamp": 1769033088,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "4a9e6cea-5f97-4f9e-8d58-f36d10d7a356",
+            "text": "I'm up for something exciting, but only if they have genuinely good vegetarian options. I'm tired of just sad side salads or plain cheese pizza.",
+            "timestamp": 1769033090,
+            "profile": {
+              "name": "Emma",
+              "avatar": "🐶",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_emma"
+          },
+          {
+            "id": "dbded882-6d52-40e1-baaf-10c68c6c7ed4",
+            "text": "Ugh, Mike, not another pizza place! Come on, let's try something actually interesting. Emma, what kind of exciting are you thinking?",
+            "timestamp": 1769033109,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "32de2435-3314-407f-baf1-92d1f767a469",
+            "text": "Alright, but we need to keep it affordable. I'm not paying a fortune for 'exciting'.",
+            "timestamp": 1769033115,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "1ab79b64-1e27-4e57-a1ba-5d1163395be5",
+            "text": "Affordable is fine, Mike, but that doesn't mean we have to settle for boring! We can definitely find something unique and delicious that won't break the bank.",
+            "timestamp": 1769033122,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "c7b3f5c1-f6d8-4d0a-8841-d08ea746db58",
+            "text": "Honestly, I'm open to most things as long as their vegetarian options are genuinely substantial and delicious, not just an afterthought.",
+            "timestamp": 1769033128,
+            "profile": {
+              "name": "Emma",
+              "avatar": "🐶",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_emma"
+          },
+          {
+            "id": "eabc5e35-d73a-4ed6-94ba-eafd5cef22bf",
+            "text": "Okay, fine, exciting is good, but seriously, 'won't break the bank' better mean like, less than $15 a person.",
+            "timestamp": 1769033141,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "3a18fb06-0cb9-4ce2-8bc0-903c8e77f226",
+            "text": "Exactly! So what places are we thinking that have awesome vegetarian dishes, not just salads?",
+            "timestamp": 1769033148,
+            "profile": {
+              "name": "Emma",
+              "avatar": "🐶",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_emma"
+          },
+          {
+            "id": "104a57a5-632f-48da-9214-c57cf5034d0d",
+            "text": "What kind of cuisine are we thinking for those good vegetarian options then?",
+            "timestamp": 1769033154,
+            "profile": {
+              "name": "Gemini",
+              "avatar": "🐻",
+              "pronouns": ""
+            },
+            "messageType": "participant",
+            "agentId": "gemini_short"
+          },
+          {
+            "id": "ec99d2a9-a8e1-4c0c-b7ec-7f1a5946823a",
+            "text": "Honestly, something like Indian, Thai, or even a good Mediterranean place usually has pretty great veg options, not just a token dish.",
+            "timestamp": 1769033161,
+            "profile": {
+              "name": "Emma",
+              "avatar": "🐶",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_emma"
+          },
+          {
+            "id": "abe8bfc8-b2c8-4ac7-90c2-ecffa046d286",
+            "text": "Okay, but are those types of places usually affordable? Or are we talking fancy Indian food?",
+            "timestamp": 1769033168,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "f6853029-e9c9-49a1-8914-7848cc7de55d",
+            "text": "Right, because I'm not looking to spend more than $15 max on this. Are Indian or Thai places typically good for that?",
+            "timestamp": 1769033175,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "1be244a2-8441-4081-9f5f-e2598e2e01a3",
+            "text": "Definitely, Mike! Plenty of fantastic Indian and Thai spots are totally affordable, and they're usually far more exciting than pizza. We just need to find a good, authentic place.",
+            "timestamp": 1769033184,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "c7876416-4adb-4f7f-8d13-3f1c3a109e5b",
+            "text": "Okay, that's good to hear, but can we really find places where main dishes are under $15? We need to be sure.",
+            "timestamp": 1769033191,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "29799f0b-dff6-4791-a8af-681eb47c9a18",
+            "text": "Alright, so if we can find decent Indian or Thai for under $15 per main, then maybe. But seriously, we need to focus on places that actually fit that budget.",
+            "timestamp": 1769033201,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "760aa2d7-ed11-4c42-b666-47a979de2572",
+            "text": "So, does anyone have specific Indian or Thai restaurants in mind that truly have mains under $15? We need solid options.",
+            "timestamp": 1769033210,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "e38b1ae6-e478-4f14-a80a-8fabbdd68c79",
+            "text": "Alright, so if we're serious about this, what are the names of these places you're thinking of that are genuinely under $15 a main?",
+            "timestamp": 1769033219,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "7b6c1141-b9c8-49b2-9a47-0cebdda93194",
+            "text": "Alright, so if nobody has specific names that fit the budget, are we really sure we can find something, or should we rethink the cuisine?",
+            "timestamp": 1769033230,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "51ba3f51-ae2d-4e1b-9f66-77e48755a07a",
+            "text": "Yeah, checking specific menus is a good idea for the price, but let's also make sure they have a good variety of actual vegetarian mains, not just a couple of sad appetizers.",
+            "timestamp": 1769033243,
+            "profile": {
+              "name": "Emma",
+              "avatar": "🐶",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_emma"
+          },
+          {
+            "id": "4d7bbb14-998d-464b-a7fe-216e9531942d",
+            "text": "Right, so any actual restaurant names we know will meet both the price and vegetarian requirements?",
+            "timestamp": 1769033253,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "a1fd40a4-2231-4707-8a92-0f638a22c2f3",
+            "text": "Exactly. So, actual names please, that hit both under $15 and good veg options.",
+            "timestamp": 1769033260,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "a14c145e-3b27-47e4-b91d-b2ac9d8cabba",
+            "text": "Right, and when we get those names, we really need to check if their vegetarian menus are actually diverse and not just a couple of side dishes. I've been burned before.",
+            "timestamp": 1769033270,
+            "profile": {
+              "name": "Emma",
+              "avatar": "🐶",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_emma"
+          },
+          {
+            "id": "6e38ff23-4aff-4e16-bf8e-b1d15360155e",
+            "text": "Come on, Mike, don't be so negative! I'm sure we can find an authentic Indian or Thai place with great veg options under $15. We just need to search for a minute.",
+            "timestamp": 1769033278,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "6b34fe91-fbd6-4c73-9e7d-829149f60042",
+            "text": "Okay, so who's actually going to search, and what exact places are we finding that are under $15?",
+            "timestamp": 1769033284,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "55512802-c270-489e-a880-e2d7662ae4ab",
+            "text": "Yeah, and when we find those names, we really need to check their menus for genuine vegetarian mains, not just a couple of sad appetizers.",
+            "timestamp": 1769033295,
+            "profile": {
+              "name": "Emma",
+              "avatar": "🐶",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_emma"
+          },
+          {
+            "id": "f4159803-b44d-47a3-82ed-e2805dce89e7",
+            "text": "So, since nobody's named a place yet, who's going to actually look these up right now to confirm the prices?",
+            "timestamp": 1769033298,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "7a3ce5c0-aa9d-4fcc-9922-f88eae87345f",
+            "text": "Alright, so who's actually going to check menus right now to see if these places are really under $15 per main?",
+            "timestamp": 1769033303,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "8ef44ebb-0f5c-432c-b253-a97b5b38a679",
+            "text": "Yeah, and once we do find some names, we really need to look at their actual vegetarian menus and see what kind of mains they offer, not just assume they have good options.",
+            "timestamp": 1769033312,
+            "profile": {
+              "name": "Emma",
+              "avatar": "🐶",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_emma"
+          },
+          {
+            "id": "3b34683d-202e-4bd0-bb87-54e190b4dd66",
+            "text": "So, since we're still just talking hypotheticals, is anyone actually going to find a specific Indian or Thai place under $15 per main, or are we stuck?",
+            "timestamp": 1769033322,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "3cd0c691-a856-4c62-886c-3bd6a1eb8b9d",
+            "text": "Okay, fine, Mike, I'll start looking up some Indian or Thai spots nearby to see what fits the budget and has good veg options. Let's find something actually decent!",
+            "timestamp": 1769033322,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "e1e5d44a-3e30-4e8e-b32c-9fefd1b7ea64",
+            "text": "Okay, thanks Sarah. Just make sure those mains are genuinely under $15, please.",
+            "timestamp": 1769033333,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "f5b9f38d-5a13-4b81-a912-428e3e980adb",
+            "text": "Alright, I'm on it! I'll scope out some authentic Indian or Thai places with actual interesting veg options, not just boring stuff, and keep that $15 limit in mind.",
+            "timestamp": 1769033337,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "6b7f19a6-30e3-44a2-bc96-57f33491cc17",
+            "text": "Great, Sarah! And please, really look for genuine vegetarian *mains* when you check those menus, not just appetizers.",
+            "timestamp": 1769033344,
+            "profile": {
+              "name": "Emma",
+              "avatar": "🐶",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_emma"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "facilitatorBehavior": "short_responses",
+    "groupSize": 4,
+    "experimentId": "01ef7513-fb1d-4d9a-9aaa-0a0c2fd95254",
+    "cohortId": "mkoktpoe-eezo4a",
+    "status": "success",
+    "conversations": [
+      {
+        "experimentId": "01ef7513-fb1d-4d9a-9aaa-0a0c2fd95254",
+        "cohortId": "mkoktpoe-eezo4a",
+        "stageId": "165d9418-2fe2-48c5-93e7-bb62094414dd",
+        "messages": [
+          {
+            "id": "1b9b2619-94ff-469c-aa51-ff9011b1f9d5",
+            "text": "Hey everyone! What are we thinking? I'm really hoping for something fun and not, like, another basic chain tonight.",
+            "timestamp": 1769033428,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "d02055e7-65be-477a-97ae-c8da090fd003",
+            "text": "Something fun? What about prices though? Can't we just get pizza?",
+            "timestamp": 1769033430,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "ee391c46-0b91-4ed6-b4a9-fa1134093526",
+            "text": "Okay, but whatever we pick, it needs to have actual good vegetarian options, not just a sad side salad.",
+            "timestamp": 1769033448,
+            "profile": {
+              "name": "Emma",
+              "avatar": "🐶",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_emma"
+          },
+          {
+            "id": "b7a32976-1afe-4d57-a6bc-0892de7e297c",
+            "text": "Pizza? Again? We always do that. Come on, when's the last time we tried something new?",
+            "timestamp": 1769033450,
+            "profile": {
+              "name": "Alex",
+              "avatar": "🐱",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_alex"
+          },
+          {
+            "id": "6e2484a0-15f6-4772-9381-5b8a721caeb1",
+            "text": "Okay, fine, no pizza, but can we at least talk about price first for whatever 'new' place we're thinking of?",
+            "timestamp": 1769033485,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "220adb10-203b-4795-87d8-6a84b7638371",
+            "text": "Price is fair, but 'new' doesn't have to mean pricey. Let's think about places that aren't the usual, but are still affordable.",
+            "timestamp": 1769033498,
+            "profile": {
+              "name": "Alex",
+              "avatar": "🐱",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_alex"
+          },
+          {
+            "id": "de745d59-1fd2-46f1-96c4-ca6056b2630d",
+            "text": "Okay, price is relevant, but let's make sure it's for something actually good and not just, like, another boring diner. What about something with some cool fusion?",
+            "timestamp": 1769033498,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "b4163464-5421-4d6b-af96-16e495b760a3",
+            "text": "Fusion sounds great! Something with a real unique twist, not just another meh take. What kind of fusion are we thinking?",
+            "timestamp": 1769033510,
+            "profile": {
+              "name": "Alex",
+              "avatar": "🐱",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_alex"
+          },
+          {
+            "id": "ec769e25-6665-44c1-9ca3-c5e0e6fe80ce",
+            "text": "Fusion can get pricey fast, though. Like, how affordable are we talking for this 'new' fusion place?",
+            "timestamp": 1769033523,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "1fbd3b66-6bab-4079-b4a6-ba724b60e6e5",
+            "text": "Yeah, like, are we talking $15 an entree, or more like $30? Fusion places can be super expensive.",
+            "timestamp": 1769033531,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "261cc299-f10f-442d-affd-c226b7f19bdb",
+            "text": "Exactly! If we're doing fusion, it needs to be the $15 end, not the $30 end. Can we find fusion that's actually affordable?",
+            "timestamp": 1769033542,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "e66dcd8f-266f-41fe-ad3c-6c717832edc3",
+            "text": "So, any ideas for fusion places that actually hit that $15 price point? We need to find something that won't break the bank.",
+            "timestamp": 1769033555,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "97c08b59-0be1-4959-9d51-5f5b4ae2b9fb",
+            "text": "Right, a $15 fusion place is a challenge, but it has to be *good* fusion, not just cheap and disappointing. Does anyone know a spot that actually pulls that off?",
+            "timestamp": 1769033563,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "7de3a207-4499-4d22-ab36-a20d88a9d8f3",
+            "text": "Yeah, exactly! So, does anyone actually have a name for a place that fits all that? A *truly* good, affordable fusion spot?",
+            "timestamp": 1769033576,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "271b47de-ae51-4652-9ffb-8f54d6fc9d6f",
+            "text": "Exactly! Does anyone actually know a name, or are we just throwing out ideas? We need a real spot!",
+            "timestamp": 1769033588,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "5f97a672-8967-420b-88e3-21aacbea1b8e",
+            "text": "Yeah, exactly! So, any specific *affordable* fusion places anyone actually knows for real?",
+            "timestamp": 1769033599,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "36c98073-9c44-46e9-820a-7f323ca8cc0a",
+            "text": "Yeah, exactly! So, any specific *affordable* fusion places anyone actually knows for real?",
+            "timestamp": 1769033612,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "27e75e67-f9e7-4796-9201-2445cb288284",
+            "text": "Seriously, no one actually knows a single place that fits? Maybe Gemini has some suggestions if we're all out of ideas?",
+            "timestamp": 1769033627,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "b0144434-eab4-47e6-920e-3cdf54866b39",
+            "text": "Seriously, if no one has a name, let's actually ask Gemini for some suggestions for a *good*, affordable, unique fusion place.",
+            "timestamp": 1769033637,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "28f591ac-5db2-49f8-8ba9-e491d7814f53",
+            "text": "Yeah, good idea. Gemini, can you find us some *really* affordable fusion places, like, under $15 an entree?",
+            "timestamp": 1769033648,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "08b3285c-9f4f-4e58-b93e-19d2c35c96a7",
+            "text": "I can't actually search for restaurants or give specific names. My role is to help facilitate the conversation based on what you share.",
+            "timestamp": 1769033658,
+            "profile": {
+              "name": "Gemini",
+              "avatar": "🐻",
+              "pronouns": ""
+            },
+            "messageType": "participant",
+            "agentId": "gemini_short"
+          },
+          {
+            "id": "ae808a87-43a8-4a20-8837-5f1d973237ac",
+            "text": "Okay, so Gemini can't help with names. So, does anyone actually have a *real* idea for an affordable under $15 fusion place, or should we rethink 'fusion' if it's too pricey?",
+            "timestamp": 1769033668,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "0f064fd8-5cc6-4742-9c75-da1cb72729e5",
+            "text": "Okay, but if not fusion, we still need something actually *good* and unique, not just going back to some bland, boring option. What else is out there that's not basic?",
+            "timestamp": 1769033683,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "20029ecb-b53f-4dc3-90ac-07f7511b7fab",
+            "text": "Alright, but whatever direction we go, we still need places with *real* vegetarian meals, not just sad salads or empty promises.",
+            "timestamp": 1769033695,
+            "profile": {
+              "name": "Emma",
+              "avatar": "🐶",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_emma"
+          },
+          {
+            "id": "61abd2ec-b235-4010-ab97-ab0a93588594",
+            "text": "Okay, so if fusion's out, what about something like really good tacos, or maybe a cool ramen spot? Those can be affordable and still feel special, and usually have great veggie options.",
+            "timestamp": 1769033705,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "3af999a7-6750-40e3-abe8-b9794f93fb0a",
+            "text": "Tacos or ramen could work, but do we know specific places that actually have great vegetarian options for those? I've been burned before.",
+            "timestamp": 1769033713,
+            "profile": {
+              "name": "Emma",
+              "avatar": "🐶",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_emma"
+          },
+          {
+            "id": "4a767155-9a79-433e-94ec-60d2644b7d27",
+            "text": "Tacos or ramen sound promising, but what's the actual price point for those places? Are we still talking under $15 an entree?",
+            "timestamp": 1769033723,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "50af5966-5b77-4abc-b55b-55232addb71a",
+            "text": "Exactly, that's the key! But good ramen or taco spots usually have great veggie options and can definitely be under $15. We just need to find a *cool* one, not some generic chain.",
+            "timestamp": 1769033733,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "136fb113-b460-45f5-86c3-109f4c4ddffd",
+            "text": "Okay, so any specific *real* ramen or taco spots that fit: under $15, great vegetarian options, AND are actually cool and not a chain?",
+            "timestamp": 1769033744,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "ef5ea794-0991-4bbf-868a-754664b12158",
+            "text": "Yeah, exactly! So, what are these actual places? We need names that are truly under that $15 mark.",
+            "timestamp": 1769033754,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "0ed4e4ef-43ee-4b6c-8145-f807d61474d6",
+            "text": "Yeah, exactly! So what are these actual places names we're thinking of that hit that sub-$15 mark?",
+            "timestamp": 1769033766,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "0351e96e-9352-47b6-88fc-b85745676429",
+            "text": "Yes, exactly! But not just any place. Does anyone actually know a *good*, *unique* ramen or taco spot that fits all that, and isn't a boring chain?",
+            "timestamp": 1769033785,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "46f1092f-bd5c-4f54-a23a-efb39bd8b587",
+            "text": "Yeah, exactly! We need a place with some real character, not just a standard rundown taco joint. Something truly inventive.",
+            "timestamp": 1769033791,
+            "profile": {
+              "name": "Alex",
+              "avatar": "🐱",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_alex"
+          },
+          {
+            "id": "db8b5a33-1133-4217-8f5c-540cb7a7c236",
+            "text": "Seriously, does *anyone* here actually know a specific place that fits all that, or are we just going to keep talking about theoretical amazing spots?",
+            "timestamp": 1769033798,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "f46b8861-e55b-4243-8d4d-e038a87f5e65",
+            "text": "Yeah, exactly! But not just any taco or ramen place. We need somewhere that's actually doing something *new* and exciting with it.",
+            "timestamp": 1769033806,
+            "profile": {
+              "name": "Alex",
+              "avatar": "🐱",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_alex"
+          },
+          {
+            "id": "b199fddf-48b3-42ca-a62b-ff285cfd6c29",
+            "text": "Okay, so if no one actually *knows* a specific place like that, maybe we need to broaden our ideas a little, but still keep it interesting and not basic.",
+            "timestamp": 1769033812,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "849c99fb-16cd-4331-af8b-de900de69665",
+            "text": "I still need to know specific places actually have *good* vegetarian options, not just empty promises. Taco or ramen places can definitely vary.",
+            "timestamp": 1769033821,
+            "profile": {
+              "name": "Emma",
+              "avatar": "🐶",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_emma"
+          },
+          {
+            "id": "8f90cb2e-ecb9-4264-afd7-b0dc3e16656c",
+            "text": "Exactly, any specific place needs to detail their vegetarian menu. I'm not going to agree to somewhere that just 'might' have options.",
+            "timestamp": 1769033827,
+            "profile": {
+              "name": "Emma",
+              "avatar": "🐶",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_emma"
+          },
+          {
+            "id": "a82e5c91-bd52-4315-8f20-1c8599d31aac",
+            "text": "Whenever we do find a specific place, we need to quickly check their menu for actual vegetarian dishes, not just sides.",
+            "timestamp": 1769033834,
+            "profile": {
+              "name": "Emma",
+              "avatar": "🐶",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_emma"
+          },
+          {
+            "id": "cd4357fb-c040-4f58-b158-ff181b4c5864",
+            "text": "Exactly, if no one has a specific place, let's just brainstorm categories. What about small, independent Mediterranean spots, or maybe a really good food truck park? Those can be super unique and affordable!",
+            "timestamp": 1769033840,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "edba4b55-a360-4b88-9a38-87e70914bbd7",
+            "text": "Okay, Mediterranean or food trucks sound interesting, but what kind of prices are we talking? Are we still trying to keep it under $15 an entree?",
+            "timestamp": 1769033847,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "6801ca60-ea37-4581-8e02-fda2cba55ed8",
+            "text": "Yes, absolutely! Good, independent Mediterranean or food trucks can definitely be under $15, and they're usually super unique and delicious. We're talking fresh, flavorful stuff, not boring.",
+            "timestamp": 1769033852,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "85de54bc-500e-439e-8c90-e4b2eeae73ee",
+            "text": "Yeah, Mediterranean or a food truck park sounds amazing! That's the kind of unique vibe we need.",
+            "timestamp": 1769033854,
+            "profile": {
+              "name": "Alex",
+              "avatar": "🐱",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_alex"
+          },
+          {
+            "id": "1cc38436-deb1-442e-9cad-6dcaeeac06d1",
+            "text": "Okay, but with Mediterranean or food trucks, we *still* need to verify they have substantial vegetarian dishes, not just hummus or plain fries. I'm not settling for just okay.",
+            "timestamp": 1769033858,
+            "profile": {
+              "name": "Emma",
+              "avatar": "🐶",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_emma"
+          },
+          {
+            "id": "002eacfc-15b7-45ee-9ddc-a6b4c019b6a0",
+            "text": "Yes, but again, with Mediterranean or food trucks, we absolutely need to confirm they have good, substantial vegetarian dishes, not just sides. I'm not compromising on food.",
+            "timestamp": 1769033860,
+            "profile": {
+              "name": "Emma",
+              "avatar": "🐶",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_emma"
+          },
+          {
+            "id": "6514d43d-59a0-49c2-b3a0-0f7f64907ee4",
+            "text": "Exactly! We just need to find a *specific*, independent Mediterranean spot or a cool food truck park that's genuinely good, affordable, and has great veggie options. Who knows a place?",
+            "timestamp": 1769033865,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "c0e0a7d4-6934-4752-8725-aadbd95a29f1",
+            "text": "Seriously, does anyone actually have a *name* of a real place that's an independent Mediterranean spot or a cool food truck that hits all these points?",
+            "timestamp": 1769033871,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "6edaaf47-cc4b-4953-b1d7-822c093e07b7",
+            "text": "Totally, a good food truck or a truly unique Mediterranean place would be perfect. We need something with real flavor and genuine character.",
+            "timestamp": 1769033881,
+            "profile": {
+              "name": "Alex",
+              "avatar": "🐱",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_alex"
+          },
+          {
+            "id": "224ee965-806f-4f7f-b876-e249b9ac632f",
+            "text": "Okay, so who actually knows a specific Mediterranean place or food truck that's genuinely under $15 per entree?",
+            "timestamp": 1769033888,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "326e391f-4b9d-416e-b897-7ff0b82657c8",
+            "text": "Ugh, since nobody knows a specific place, can we just pick either Mediterranean or a food truck and then everyone quickly search for a cool, independent spot right now that fits all our criteria, especially good veggie options?",
+            "timestamp": 1769033903,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "43675b69-3940-4750-9a6b-d3f8a2b50362",
+            "text": "Yeah, that's a good idea. Let's all search, but remember, still aim for under $15 entrees!",
+            "timestamp": 1769033910,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "2737ce08-ae5e-4d7b-85b6-5cd9df316131",
+            "text": "Alright, let's look for something genuinely cool and independent! No boring stuff.",
+            "timestamp": 1769033915,
+            "profile": {
+              "name": "Alex",
+              "avatar": "🐱",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_alex"
+          },
+          {
+            "id": "376faa2b-e2bf-4492-96ea-2c5db61bf847",
+            "text": "Perfect! Yes, let's all really hunt for something super unique and independent, not just some generic spot. Make sure it's got great veggie options too!",
+            "timestamp": 1769033918,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "dd12a3c7-da56-4352-aaf5-e3c74dc5a2f2",
+            "text": "Yeah, when you're searching, really make sure to check their menus for actual good vegetarian dishes, not just sides. I'm not going to settle.",
+            "timestamp": 1769033923,
+            "profile": {
+              "name": "Emma",
+              "avatar": "🐶",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_emma"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "facilitatorBehavior": "short_responses",
+    "groupSize": 5,
+    "experimentId": "ae2bb3b7-effe-4dd4-b622-02f84e57152d",
+    "cohortId": "mkoktppx-fesrxm",
+    "status": "success",
+    "conversations": [
+      {
+        "experimentId": "ae2bb3b7-effe-4dd4-b622-02f84e57152d",
+        "cohortId": "mkoktppx-fesrxm",
+        "stageId": "0d14f03f-2482-4adc-81da-42f5960b34f1",
+        "messages": [
+          {
+            "id": "b84fa1f5-fbc3-4411-965f-1172e385c99b",
+            "text": "Hey everyone! So, what are we all thinking for dinner tonight? You know I'm a strict vegetarian, so I'm hoping for some places with actual good options, not just sad salads.",
+            "timestamp": 1769033432,
+            "profile": {
+              "name": "Emma",
+              "avatar": "🐶",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_emma"
+          },
+          {
+            "id": "aa5b6e3b-bc94-4478-9c9d-633c2cf17dc6",
+            "text": "Hey everyone! Yeah, definitely want good vegetarian options. Just, please no really spicy food, my stomach can't handle it.",
+            "timestamp": 1769033436,
+            "profile": {
+              "name": "Jordan",
+              "avatar": "🦡",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_jordan"
+          },
+          {
+            "id": "540c6ed4-140b-4525-8140-81a4e53e724d",
+            "text": "Alright, but can we PLEASE try something new tonight? I'm tired of the same old places, let's find something a bit more adventurous that still works for everyone.",
+            "timestamp": 1769033438,
+            "profile": {
+              "name": "Alex",
+              "avatar": "🐱",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_alex"
+          },
+          {
+            "id": "8d27fc1b-9914-4cce-9fe5-dadf729d581f",
+            "text": "Hey everyone! Yeah, definitely want good options, but let's make sure whatever we pick isn't going to break the bank, alright? I'm hoping for something affordable.",
+            "timestamp": 1769033440,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "140163cb-56b3-4055-a078-eb9f92d18ef3",
+            "text": "Totally with Alex! Let's find something actually interesting tonight, please. No bland or boring chains, thank you very much.",
+            "timestamp": 1769033444,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "d68704b8-72b9-4576-9829-586e42f98154",
+            "text": "Yes, Sarah gets it! Let's shake things up tonight, seriously.",
+            "timestamp": 1769033476,
+            "profile": {
+              "name": "Alex",
+              "avatar": "🐱",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_alex"
+          },
+          {
+            "id": "1c3ac791-f0e6-4d64-a421-e977e528aeda",
+            "text": "Yeah, 'new and adventurous' sounds nice, but let's make sure it's not going to cost an arm and a leg. We really need to keep it affordable.",
+            "timestamp": 1769033490,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "41a97068-cdb2-4466-83cd-5e2272eea5f7",
+            "text": "New and adventurous sounds fun, but it needs to actually have solid vegetarian options. I'm not doing another night of just side salads.",
+            "timestamp": 1769033501,
+            "profile": {
+              "name": "Emma",
+              "avatar": "🐶",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_emma"
+          },
+          {
+            "id": "2d2453ab-21c8-4779-848a-088eeddcbd73",
+            "text": "Okay, so good vegetarian, not spicy, and affordable... but the main thing is it needs to be *actually* interesting and unique. No boring compromises!",
+            "timestamp": 1769033519,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "3551011b-4447-4499-b7f1-20f9a20190bd",
+            "text": "Okay, so who's got some actual *interesting* ideas that hit all those marks then? Let's hear some truly unique spots!",
+            "timestamp": 1769033528,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "84a7d58f-4175-4a63-b486-10ce45ef1db1",
+            "text": "Exactly! Whatever new ideas come up, they really need to have *actual* vegetarian dishes, not just sad salads. I've been burned too many times.",
+            "timestamp": 1769033535,
+            "profile": {
+              "name": "Emma",
+              "avatar": "🐶",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_emma"
+          },
+          {
+            "id": "d442f26f-8006-46e1-9ebf-0ea49ec2106e",
+            "text": "How about Ethiopian? It's definitely different, usually has great veggie platters, and can be pretty affordable.",
+            "timestamp": 1769033551,
+            "profile": {
+              "name": "Alex",
+              "avatar": "🐱",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_alex"
+          },
+          {
+            "id": "4a117346-6c47-4a51-aafe-2c0285f67c47",
+            "text": "Ethiopian, huh? Sounds interesting, but is it usually affordable? I'm really trying to keep costs down tonight.",
+            "timestamp": 1769033558,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "d93fa22d-a9e9-41ba-b932-75c66a8ab387",
+            "text": "Ethiopian sounds interesting! But is it typically very spicy? I really can't do a lot of heat.",
+            "timestamp": 1769033569,
+            "profile": {
+              "name": "Jordan",
+              "avatar": "🦡",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_jordan"
+          },
+          {
+            "id": "35be08f6-4285-44b8-80d7-107ebe29ac4c",
+            "text": "Yeah, Ethiopian places often have really good combo platters that are super affordable, and you can definitely get non-spicy options or milder dishes. It's a great choice for everyone!",
+            "timestamp": 1769033581,
+            "profile": {
+              "name": "Alex",
+              "avatar": "🐱",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_alex"
+          },
+          {
+            "id": "a5f349eb-62c8-44d2-a0e0-0788ab01fe84",
+            "text": "That's good there are non-spicy options! I'm just not usually a big fan of the texture of injera, the spongy bread, so I'm a bit hesitant.",
+            "timestamp": 1769033594,
+            "profile": {
+              "name": "Jordan",
+              "avatar": "🦡",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_jordan"
+          },
+          {
+            "id": "ef8f5649-041d-4576-a46d-45476124c334",
+            "text": "Okay, 'great veggie platters' sounds promising. But are they actually good, satisfying vegetarian meals, or just a small portion of lentils and greens?",
+            "timestamp": 1769033608,
+            "profile": {
+              "name": "Emma",
+              "avatar": "🐶",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_emma"
+          },
+          {
+            "id": "26794113-3b0b-4fe0-b833-21c7ca81862e",
+            "text": "Emma, the veggie platters are usually huge and super flavorful, a complete meal! And Jordan, you can usually ask for rice as an option instead of injera if you really don't like it.",
+            "timestamp": 1769033620,
+            "profile": {
+              "name": "Alex",
+              "avatar": "🐱",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_alex"
+          },
+          {
+            "id": "82fbc42d-4bd4-4961-bfff-8d30c3704866",
+            "text": "Oh, rice as an alternative sounds much better for me! That actually makes Ethiopian a real possibility.",
+            "timestamp": 1769033632,
+            "profile": {
+              "name": "Jordan",
+              "avatar": "🦡",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_jordan"
+          },
+          {
+            "id": "8abe8fd1-7340-4036-b7cb-46ee6a0ba951",
+            "text": "Okay, if it's actually super affordable and filling, that's definitely good to hear. I'm just always worried about the bill.",
+            "timestamp": 1769033641,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "3c316616-5430-47d7-9ff6-46e64e472c39",
+            "text": "See? Ethiopian really ticks all the boxes, and it's actually exciting! Does anyone have other interesting ideas, or should we just go with this?",
+            "timestamp": 1769033653,
+            "profile": {
+              "name": "Alex",
+              "avatar": "🐱",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_alex"
+          },
+          {
+            "id": "0bdd81e7-6c6f-4cd1-abd3-95ca0d5beb19",
+            "text": "Okay, Ethiopian is definitely better than something boring. Has anyone been to a really *amazing* Ethiopian spot here though? I want something truly fantastic.",
+            "timestamp": 1769033664,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "b32b3a54-00bb-497c-9b28-2b063bfc203a",
+            "text": "Yeah, definitely! We just need to find a good one. So, is everyone generally good with Ethiopian? If so, we can start looking up spots!",
+            "timestamp": 1769033676,
+            "profile": {
+              "name": "Alex",
+              "avatar": "🐱",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_alex"
+          },
+          {
+            "id": "66182b58-dc0c-48f6-96af-5812312eadd2",
+            "text": "Yeah, with the mild options and rice, Ethiopian sounds good to me now!",
+            "timestamp": 1769033689,
+            "profile": {
+              "name": "Jordan",
+              "avatar": "🦡",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_jordan"
+          },
+          {
+            "id": "82ac611c-17c0-4c76-a786-536cb179cc6c",
+            "text": "Awesome! So, Emma, Mike, Sarah, are you all good to go with Ethiopian then?",
+            "timestamp": 1769033700,
+            "profile": {
+              "name": "Alex",
+              "avatar": "🐱",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_alex"
+          },
+          {
+            "id": "401e8686-710c-418b-a329-dc1f295c271b",
+            "text": "Yeah, if we can find a place that's definitely affordable for everyone, then Ethiopian sounds good to me.",
+            "timestamp": 1769033710,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "a21362c0-68c8-4402-a5dc-abcb1ad17c57",
+            "text": "Awesome, glad to hear it Mike! Emma, Sarah, are you guys officially good with Ethiopian then?",
+            "timestamp": 1769033719,
+            "profile": {
+              "name": "Alex",
+              "avatar": "🐱",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_alex"
+          },
+          {
+            "id": "6696bf01-5d41-40f9-925a-758fe2ae8bb5",
+            "text": "Yeah, I'm good with Ethiopian as long as we find a really solid, highly-rated place! Not just any old spot.",
+            "timestamp": 1769033727,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "7c6b5451-9799-4814-ba63-930c4963e0b9",
+            "text": "Alright, so Emma, what about you? Are you good with Ethiopian too?",
+            "timestamp": 1769033737,
+            "profile": {
+              "name": "Alex",
+              "avatar": "🐱",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_alex"
+          },
+          {
+            "id": "f8629935-4ad1-4ff0-bd4b-a5a1d489d06c",
+            "text": "Okay, that sounds good as long as the veggie platters are truly substantial and a complete meal, like Alex said.",
+            "timestamp": 1769033752,
+            "profile": {
+              "name": "Emma",
+              "avatar": "🐶",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_emma"
+          },
+          {
+            "id": "8603448b-7de6-4fee-b23f-08c6014838e3",
+            "text": "Awesome! So glad we landed on something exciting and everyone's good with Ethiopian! Let's find a great spot then!",
+            "timestamp": 1769033761,
+            "profile": {
+              "name": "Alex",
+              "avatar": "🐱",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_alex"
+          },
+          {
+            "id": "a322dc21-edda-4b08-8528-3c03472899fb",
+            "text": "Alex has left the chat.",
+            "timestamp": 1769033761,
+            "profile": {
+              "name": "System",
+              "avatar": "⚙️",
+              "pronouns": null
+            },
+            "messageType": "system",
+            "agentId": ""
+          },
+          {
+            "id": "ab3894a5-3f9b-414a-bc84-9bff0abe06ed",
+            "text": "Sarah has left the chat.",
+            "timestamp": 1769033773,
+            "profile": {
+              "name": "System",
+              "avatar": "⚙️",
+              "pronouns": null
+            },
+            "messageType": "system",
+            "agentId": ""
+          },
+          {
+            "id": "5dd7e981-2e0c-4316-b5b5-84f57494b682",
+            "text": "Jordan has left the chat.",
+            "timestamp": 1769033778,
+            "profile": {
+              "name": "System",
+              "avatar": "⚙️",
+              "pronouns": null
+            },
+            "messageType": "system",
+            "agentId": ""
+          },
+          {
+            "id": "940975ba-90fc-405f-ae7a-c612509f142f",
+            "text": "Emma has left the chat.",
+            "timestamp": 1769033782,
+            "profile": {
+              "name": "System",
+              "avatar": "⚙️",
+              "pronouns": null
+            },
+            "messageType": "system",
+            "agentId": ""
+          },
+          {
+            "id": "280530bf-c8f5-414d-846f-db7ef998234c",
+            "text": "Mike has left the chat.",
+            "timestamp": 1769033789,
+            "profile": {
+              "name": "System",
+              "avatar": "⚙️",
+              "pronouns": null
+            },
+            "messageType": "system",
+            "agentId": ""
+          },
+          {
+            "id": "29409771-a230-486f-976f-2dcb59cdb04f",
+            "text": "Gemini has left the chat.",
+            "timestamp": 1769033789,
+            "profile": {
+              "name": "System",
+              "avatar": "⚙️",
+              "pronouns": null
+            },
+            "messageType": "system",
+            "agentId": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "facilitatorBehavior": "short_responses",
+    "groupSize": 6,
+    "experimentId": "3f222bc8-620f-4d8f-8163-6537a6dc49a0",
+    "cohortId": "mkol63j7-0lmyfq",
+    "status": "success",
+    "conversations": [
+      {
+        "experimentId": "3f222bc8-620f-4d8f-8163-6537a6dc49a0",
+        "cohortId": "mkol63j7-0lmyfq",
+        "stageId": "c2c7a087-c49b-43fa-815d-4e4e2b156c06",
+        "messages": [
+          {
+            "id": "97fdfa0f-7843-4182-a66b-e5ed7c7064fc",
+            "text": "Alright, so where are we thinking? Let's try to find something actually interesting this time, not another boring chain.",
+            "timestamp": 1769034005,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "6ee1058b-14ed-4254-9cd9-0a85282127e9",
+            "text": "Okay, but how expensive are we talking? I don't want anything too pricey.",
+            "timestamp": 1769034007,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "125aeacf-861d-418d-b679-b50e331ad215",
+            "text": "Speaking of interesting, what about vegetarian options? I'm a strict vegetarian, so it needs to have more than just a token side salad.",
+            "timestamp": 1769034011,
+            "profile": {
+              "name": "Emma",
+              "avatar": "🐶",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_emma"
+          },
+          {
+            "id": "602a60a4-800a-4e77-bb73-8af830c54728",
+            "text": "Yeah, definitely no boring chains! Let's actually try something new this time, not just the same old.",
+            "timestamp": 1769034013,
+            "profile": {
+              "name": "Alex",
+              "avatar": "🐱",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_alex"
+          },
+          {
+            "id": "f6d68c59-e04f-457f-8b50-2167b9c933f8",
+            "text": "Okay, so no boring chains, and it absolutely needs good vegetarian options for Emma. Mike, how 'not too pricey' are we thinking?",
+            "timestamp": 1769034018,
+            "profile": {
+              "name": "Taylor",
+              "avatar": "🦦",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_taylor"
+          },
+          {
+            "id": "61c92b05-1ccc-4b3e-b7c3-03ff48d34ee4",
+            "text": "Honestly, I'd say under $15 for an entree. Anything more than that is just too much, maybe $20 if it's really good.",
+            "timestamp": 1769034020,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "4585b3e6-51b5-43a2-9206-73ea41f326e9",
+            "text": "Totally agree on no boring chains. And yeah, good veggie options for Emma and Mike's price range sounds good. Just, I'm pretty particular about the cuisine itself, so hopefully we find something everyone likes.",
+            "timestamp": 1769034025,
+            "profile": {
+              "name": "Jordan",
+              "avatar": "🦡",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_jordan"
+          },
+          {
+            "id": "3b6800ee-d895-46d4-a3dc-0e8cb1b38b92",
+            "text": "Okay, so something new and vegetarian-friendly, under $20. Perfect, let's look for something really out there then, not just another common cuisine!",
+            "timestamp": 1769034052,
+            "profile": {
+              "name": "Alex",
+              "avatar": "🐱",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_alex"
+          },
+          {
+            "id": "9d29bd1f-d9a8-48d8-87e4-1851118fb22f",
+            "text": "Exactly! So, no Italian places, no standard burgers, nothing we could've just made at home. Let's hear some truly unique ideas!",
+            "timestamp": 1769034057,
+            "profile": {
+              "name": "Alex",
+              "avatar": "🐱",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_alex"
+          },
+          {
+            "id": "a38ebb06-de4a-4184-bd6b-b94c23878a11",
+            "text": "Okay, that's cool, but as long as it's not super spicy, I can't really do spicy food. And actually, last time I had Thai, I didn't feel great, so maybe not that either.",
+            "timestamp": 1769034063,
+            "profile": {
+              "name": "Jordan",
+              "avatar": "🦡",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_jordan"
+          },
+          {
+            "id": "f3e14c39-d228-4c9b-89b0-fe9f9ce811e2",
+            "text": "Okay, got it, no spicy or Thai. But let's still think outside the box! What about Ethiopian, or maybe some really authentic Mediterranean?",
+            "timestamp": 1769034070,
+            "profile": {
+              "name": "Alex",
+              "avatar": "🐱",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_alex"
+          },
+          {
+            "id": "7b50b7f2-d7d7-4a94-acab-c1d9e17b5e7d",
+            "text": "Okay, but how much do those places usually cost? Are we talking over $20 per entree?",
+            "timestamp": 1769034076,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "ef144708-8d98-4399-8ee8-79e4877b21cd",
+            "text": "Ethiopian or Mediterranean sounds interesting, but do we know if they have really good vegetarian options? I'm worried about just getting a sad side dish.",
+            "timestamp": 1769034082,
+            "profile": {
+              "name": "Emma",
+              "avatar": "🐶",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_emma"
+          },
+          {
+            "id": "f362ff9d-65f2-4bf1-8412-543975cdc6c6",
+            "text": "Yeah, and truly, what do those places cost? I'm not looking to spend more than $20 a plate, even for something 'authentic.'",
+            "timestamp": 1769034089,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "7b73df6b-96c1-42db-b593-3a3774d2db47",
+            "text": "Oh, both Ethiopian and authentic Mediterranean places can definitely be affordable, often with great platters under $20. And they usually have amazing vegetarian options, not just boring salads!",
+            "timestamp": 1769034098,
+            "profile": {
+              "name": "Alex",
+              "avatar": "🐱",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_alex"
+          },
+          {
+            "id": "a4023c30-c282-4be0-8a2c-330a34ff47ec",
+            "text": "Yeah, Ethiopian or Mediterranean sounds way better than anything else we've done lately. I'm definitely into that.",
+            "timestamp": 1769034104,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "2f0a7621-bfcf-47cd-a125-a47a46f9367e",
+            "text": "Awesome, glad you're into it, Sarah! What do others think about Ethiopian or Mediterranean? We gotta commit to something new!",
+            "timestamp": 1769034109,
+            "profile": {
+              "name": "Alex",
+              "avatar": "🐱",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_alex"
+          },
+          {
+            "id": "a7bbfd2c-1e39-430b-8d6b-f4083c48752b",
+            "text": "Okay, so Alex and Sarah are both into Ethiopian or Mediterranean. Mike, Emma, are you both good with those options now that the cost and veggie questions are clarified? And Jordan, how about you?",
+            "timestamp": 1769034109,
+            "profile": {
+              "name": "Taylor",
+              "avatar": "🦦",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_taylor"
+          },
+          {
+            "id": "ab76f8ca-ca63-4dcb-9451-0f1df3d46888",
+            "text": "Yeah, exactly! Both Ethiopian and Mediterranean offer awesome flavors and plenty of great veggie options, often for well under $20. Let's do it!",
+            "timestamp": 1769034119,
+            "profile": {
+              "name": "Alex",
+              "avatar": "🐱",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_alex"
+          },
+          {
+            "id": "fffe69ff-56c4-4993-80ef-1acd4c28914b",
+            "text": "Okay, if it's really under $20 per plate, then yeah, Ethiopian or Mediterranean sounds fine to me.",
+            "timestamp": 1769034123,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "ec48fde5-b7d6-411a-ab71-d5b574f38bd8",
+            "text": "Awesome, Mike! Now we just need to hear from Emma and Jordan. Let's make this happen!",
+            "timestamp": 1769034128,
+            "profile": {
+              "name": "Alex",
+              "avatar": "🐱",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_alex"
+          },
+          {
+            "id": "866e0cd2-cf89-4c6f-8807-058b88341416",
+            "text": "Come on Emma and Jordan! Both Ethiopian and Mediterranean are super delicious and have great veggie options and good prices. What do you say?",
+            "timestamp": 1769034133,
+            "profile": {
+              "name": "Alex",
+              "avatar": "🐱",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_alex"
+          },
+          {
+            "id": "c90441c0-4a8c-49a2-ba85-2e3c6282788d",
+            "text": "Thanks Mike! So, Emma and Jordan, are you truly good with Ethiopian or Mediterranean, now that the details are clearer?",
+            "timestamp": 1769034139,
+            "profile": {
+              "name": "Taylor",
+              "avatar": "🦦",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_taylor"
+          },
+          {
+            "id": "dbd199e1-d961-4f86-8617-33a77161eb7e",
+            "text": "Come on Emma and Jordan! This is way better than another bland option. Let's do Ethiopian or Mediterranean!",
+            "timestamp": 1769034142,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "877f4cd2-bfcd-41e7-8f73-839ccde860a3",
+            "text": "Okay, if they really have substantial vegetarian dishes, not just plain sides, then yeah, Ethiopian or Mediterranean sounds fine to me.",
+            "timestamp": 1769034148,
+            "profile": {
+              "name": "Emma",
+              "avatar": "🐶",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_emma"
+          },
+          {
+            "id": "ccc2ec4c-5f0c-452d-9523-a9f4ad8add1d",
+            "text": "Great, so Emma is good too if the vegetarian options are substantial. Jordan, what about you? Are you on board with Ethiopian or Mediterranean?",
+            "timestamp": 1769034158,
+            "profile": {
+              "name": "Taylor",
+              "avatar": "🦦",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_taylor"
+          },
+          {
+            "id": "94e9d172-4dae-4e68-8f03-3a363e11cffd",
+            "text": "Come on Jordan! This is a great compromise, way better than anything else. What do you say?",
+            "timestamp": 1769034160,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "be96f5ed-220a-4c83-af5b-ff9882b490ff",
+            "text": "Come on Jordan, you know this is a way better idea than sticking to the same old boring stuff! You in?",
+            "timestamp": 1769034165,
+            "profile": {
+              "name": "Alex",
+              "avatar": "🐱",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_alex"
+          },
+          {
+            "id": "d7b42920-7a6e-4e21-87ad-62f6141e8eb8",
+            "text": "Alright, so we've got Sarah, Alex, Mike, and Emma all good with Ethiopian or Mediterranean, pending certain aspects. Jordan, you're the last one, what are your thoughts?",
+            "timestamp": 1769034168,
+            "profile": {
+              "name": "Taylor",
+              "avatar": "🦦",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_taylor"
+          },
+          {
+            "id": "ab1cf0c7-c86f-4fad-a3c2-f025320bc560",
+            "text": "Seriously Jordan, this is a solid choice and we're all ready to go. What's the holdup?",
+            "timestamp": 1769034173,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "0fad6a0e-1e70-42e6-8bec-139c8896447c",
+            "text": "Seriously, Jordan, we've got a fantastic option here that everyone else is on board with. Just tell us what you think!",
+            "timestamp": 1769034178,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "309b4cee-e8d4-408f-a546-823f9eda84d6",
+            "text": "Yeah Jordan, we're all pretty much on board with this. What do you think?",
+            "timestamp": 1769034183,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "0bec75a7-c574-440a-a8e7-77907241e7a4",
+            "text": "Seriously Jordan, we're all waiting. What do you think, yes or no?",
+            "timestamp": 1769034186,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "8a23e780-70fe-48f4-b92a-f7ceefc9b1d1",
+            "text": "Seriously Jordan, everyone else is ready to try something new and exciting! You in or not?",
+            "timestamp": 1769034193,
+            "profile": {
+              "name": "Alex",
+              "avatar": "🐱",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_alex"
+          },
+          {
+            "id": "d5292d62-8371-4093-9130-48d47744562e",
+            "text": "Seriously Jordan, what's your take? We're losing time here.",
+            "timestamp": 1769034203,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "27a2d4bd-b23c-4fd1-9653-d92a87cbf1de",
+            "text": "Jordan, you mentioned being particular about cuisine earlier, and no spicy/Thai. Do Ethiopian or Mediterranean fit your preferences, or do you have any specific concerns?",
+            "timestamp": 1769034207,
+            "profile": {
+              "name": "Taylor",
+              "avatar": "🦦",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_taylor"
+          },
+          {
+            "id": "f7fb95ee-8224-4d3a-b42c-b30819a8d692",
+            "text": "Yeah Jordan, we just need your answer so we can pick a place already.",
+            "timestamp": 1769034210,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "6d99217e-4acc-462d-931e-e3f8b24190f1",
+            "text": "Come on Jordan, let's just make a decision so we can actually pick a spot.",
+            "timestamp": 1769034213,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "ba954087-86ce-4d1f-bd78-5e5e1c8eaf6d",
+            "text": "Seriously Jordan, everyone else is ready to try something new and exciting! You in or not?",
+            "timestamp": 1769034221,
+            "profile": {
+              "name": "Alex",
+              "avatar": "🐱",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_alex"
+          },
+          {
+            "id": "6df8df36-b09a-4a99-8b7f-4ea27970337d",
+            "text": "Come on Jordan! Ethiopian and Mediterranean are perfect, tasty, and not spicy! Let's go with one of them!",
+            "timestamp": 1769034227,
+            "profile": {
+              "name": "Alex",
+              "avatar": "🐱",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_alex"
+          },
+          {
+            "id": "cc2ad04e-c174-4a93-ba7e-6fd7938607fd",
+            "text": "Jordan, for real, what's happening? We basically have a decision here, just say yes or no!",
+            "timestamp": 1769034236,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "c73e6ec9-9036-4212-8b15-bd397dedad68",
+            "text": "Seriously Jordan, don't let us revert to something boring now! What's it going to be?",
+            "timestamp": 1769034241,
+            "profile": {
+              "name": "Alex",
+              "avatar": "🐱",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_alex"
+          },
+          {
+            "id": "3cedbd3e-9752-42ac-9541-3ccd73414aa4",
+            "text": "Seriously Jordan, let's just pick one of these so we can actually eat! Why are we stalling?",
+            "timestamp": 1769034248,
+            "profile": {
+              "name": "Alex",
+              "avatar": "🐱",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_alex"
+          },
+          {
+            "id": "96562cd7-dc5d-4ff9-a047-f145880212e9",
+            "text": "Seriously Jordan, this is ridiculous. Just say yes or no so we can eat!",
+            "timestamp": 1769034252,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "89f08bda-3b82-45a8-9914-b4bd05ce4b6e",
+            "text": "Seriously Jordan, just tell us so we can finally pick a place and move on.",
+            "timestamp": 1769034256,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "f9b64c6c-7fcf-4b1d-bc4c-9fd74f97f9d3",
+            "text": "Seriously Jordan, this is getting ridiculous. We need an answer so we can actually pick a place and move on!",
+            "timestamp": 1769034265,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "2a0ccc76-e425-4138-9306-84847b7950b7",
+            "text": "Jordan, this is getting beyond ridiculous. We seriously need to pick something, just tell us your thoughts so we can finalize it!",
+            "timestamp": 1769034271,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "c0514f4d-249f-401d-b990-eb9bdd4132ed",
+            "text": "Seriously Jordan, what's holding you up? We just need to pick a place already.",
+            "timestamp": 1769034275,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "8391a1f5-61c5-476e-8fad-d9099eff3026",
+            "text": "Jordan, this is getting so irritating! We're all waiting, just tell us what you think so we can finally pick a place!",
+            "timestamp": 1769034283,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "9688f25e-8d35-4408-9e5e-9c64b9a7e492",
+            "text": "Seriously, Jordan, we need to finalize this! What's your hold up? Just say something!",
+            "timestamp": 1769034287,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "9f685073-6ee1-4bb2-aeda-3eedc69dcdac",
+            "text": "Seriously Jordan, we need to pick a place already. Just give us an answer.",
+            "timestamp": 1769034292,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "53f6d459-34b7-4999-8ed5-30aafa41fd73",
+            "text": "Seriously Jordan, this is getting beyond a joke! Just say yes or no already, we're all starving!",
+            "timestamp": 1769034300,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "f9ecc0fe-928b-4d0e-801c-1de767d1f045",
+            "text": "Jordan, seriously, this is really dragging now! Just give us your thoughts so we can move on!",
+            "timestamp": 1769034306,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "54a62fb6-9d94-4987-ba85-10ef717dca42",
+            "text": "Seriously Jordan, we're all ready to pick something. What are your thoughts?",
+            "timestamp": 1769034313,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "ce426eb8-dc53-4435-b696-371b02d40bc3",
+            "text": "Jordan has left the chat.",
+            "timestamp": 1769034316,
+            "profile": {
+              "name": "System",
+              "avatar": "⚙️",
+              "pronouns": null
+            },
+            "messageType": "system",
+            "agentId": ""
+          },
+          {
+            "id": "1039d166-c41b-4212-81d1-8a48282cacc3",
+            "text": "Oh wow, Jordan just left. So, I guess it's between Ethiopian or Mediterranean then? Let's just pick one so we can actually eat!",
+            "timestamp": 1769034323,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "5a547364-78a9-406f-a508-2c59ff02edd3",
+            "text": "Yeah, Jordan left. So, are we thinking Ethiopian or Mediterranean? Let's just pick one and find somewhere to go.",
+            "timestamp": 1769034326,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "b97e0956-a016-4fb6-b0aa-e8a8f6019a77",
+            "text": "So, since Jordan's gone, between Ethiopian and Mediterranean, which one are we thinking? Let's just decide so we can actually book something.",
+            "timestamp": 1769034330,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "567fac0e-328e-4c0d-98fb-444f09849e89",
+            "text": "Okay, wow, Jordan left. So since everyone else is on board with Ethiopian or Mediterranean, let's just pick one and go! How about Ethiopian?",
+            "timestamp": 1769034336,
+            "profile": {
+              "name": "Alex",
+              "avatar": "🐱",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_alex"
+          },
+          {
+            "id": "21052158-6b0b-4ece-bf66-c6d91bbad09e",
+            "text": "Okay, wow, Jordan just left. Alex suggested Ethiopian, but are we all definitely good with Ethiopian, or would anyone prefer Mediterranean?",
+            "timestamp": 1769034343,
+            "profile": {
+              "name": "Taylor",
+              "avatar": "🦦",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_taylor"
+          },
+          {
+            "id": "aa99de06-2f49-4f6c-bb08-787a4b3e26c3",
+            "text": "Honestly, either is fine as long as the prices are still good. Let's just pick one already so we can eat!",
+            "timestamp": 1769034347,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "1ab4b1df-5fac-4cba-b647-2de1808fdf0e",
+            "text": "Yeah, let's just pick one. Ethiopian sounds good, or Mediterranean, whatever is easier to find a place for.",
+            "timestamp": 1769034353,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "aecfc104-2c7d-4783-a6e1-2d74b130cde0",
+            "text": "Okay, so with Jordan gone, are we leaning more towards Ethiopian or Mediterranean?",
+            "timestamp": 1769034358,
+            "profile": {
+              "name": "Gemini",
+              "avatar": "🐻",
+              "pronouns": ""
+            },
+            "messageType": "participant",
+            "agentId": "gemini_short"
+          },
+          {
+            "id": "cf5b5a5d-76e5-41ed-bc64-378208ce60a9",
+            "text": "Alright, let's just go with Ethiopian then! That sounds really unique and delicious.",
+            "timestamp": 1769034363,
+            "profile": {
+              "name": "Alex",
+              "avatar": "🐱",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_alex"
+          },
+          {
+            "id": "2e7b6c71-ba44-4982-bcd0-834a64f4c8c1",
+            "text": "Yes, Ethiopian sounds great! Let's definitely go with that, it's way more interesting than anything else.",
+            "timestamp": 1769034367,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "c8fea5f5-46cb-45ad-93aa-819c40621c56",
+            "text": "Okay, so Ethiopian it is! Are we all good on that then? I'm starving!",
+            "timestamp": 1769034371,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "28207640-e59b-434a-923a-106fcb8c9848",
+            "text": "Sarah has left the chat.",
+            "timestamp": 1769034371,
+            "profile": {
+              "name": "System",
+              "avatar": "⚙️",
+              "pronouns": null
+            },
+            "messageType": "system",
+            "agentId": ""
+          },
+          {
+            "id": "be40d178-5c6e-4ea0-8417-90961ffbcc42",
+            "text": "Alex has left the chat.",
+            "timestamp": 1769034371,
+            "profile": {
+              "name": "System",
+              "avatar": "⚙️",
+              "pronouns": null
+            },
+            "messageType": "system",
+            "agentId": ""
+          },
+          {
+            "id": "cebe2665-4d37-4949-967a-f9656cd40d0f",
+            "text": "Okay, so Ethiopian then? Is everyone left good with that, and are we still keeping it under $20 per entree?",
+            "timestamp": 1769034389,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "db5cbf38-4305-41df-93b5-db33b47dad88",
+            "text": "Yeah, Ethiopian sounds good, and sticking to that under $20 entree limit is key.",
+            "timestamp": 1769034398,
+            "profile": {
+              "name": "Gemini",
+              "avatar": "🐻",
+              "pronouns": ""
+            },
+            "messageType": "participant",
+            "agentId": "gemini_short"
+          },
+          {
+            "id": "49f94232-492c-4fd2-8711-a8884a315bc1",
+            "text": "Sounds good to me on Ethiopian, and yep, that $20 limit is still important.",
+            "timestamp": 1769034403,
+            "profile": {
+              "name": "Gemini",
+              "avatar": "🐻",
+              "pronouns": ""
+            },
+            "messageType": "participant",
+            "agentId": "gemini_short"
+          },
+          {
+            "id": "62dd3792-eb1c-45bf-98d5-334e2026eccd",
+            "text": "Okay, so Ethiopian then. I'm good with that, as long as the vegetarian dishes are truly substantial and not just small sides.",
+            "timestamp": 1769034407,
+            "profile": {
+              "name": "Emma",
+              "avatar": "🐶",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_emma"
+          },
+          {
+            "id": "4b9737bc-a7b8-4d53-bf50-126c9c0bd6a7",
+            "text": "Okay, so Ethiopian it is! Taylor, are you good with that too? And we're all still good with the under $20 entree limit?",
+            "timestamp": 1769034411,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "a0940129-ddc3-4ce7-9f19-2dc23d0f2778",
+            "text": "Taylor, are you good with Ethiopian too, and that under $20 limit per entree?",
+            "timestamp": 1769034420,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "f2ac90de-9e28-48a4-99e8-fd70ac9a8071",
+            "text": "Yes, Ethiopian sounds good to me, and the under $20 limit. And Emma, we're all still making sure the vegetarian options are substantial, right?",
+            "timestamp": 1769034428,
+            "profile": {
+              "name": "Taylor",
+              "avatar": "🦦",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_taylor"
+          },
+          {
+            "id": "f2d944ee-06ab-4ecb-9383-f4c720a5ec3a",
+            "text": "Yes, I'm good with Ethiopian! As long as we find a place with really substantial vegetarian main dishes, I'm in.",
+            "timestamp": 1769034432,
+            "profile": {
+              "name": "Emma",
+              "avatar": "🐶",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_emma"
+          },
+          {
+            "id": "d14b12ba-0f31-4491-bd8c-44aac21da07d",
+            "text": "Alright, so Ethiopian it is then, with the under $20 limit and good veggie options! Sounds good. Are we all set then? I'm gonna head out.",
+            "timestamp": 1769034436,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "bf128c93-445d-4be1-a82c-3eb26c79bcc6",
+            "text": "Mike has left the chat.",
+            "timestamp": 1769034436,
+            "profile": {
+              "name": "System",
+              "avatar": "⚙️",
+              "pronouns": null
+            },
+            "messageType": "system",
+            "agentId": ""
+          },
+          {
+            "id": "775348d6-fedf-4aa4-91ad-c33ab7c280b7",
+            "text": "Emma has left the chat.",
+            "timestamp": 1769034443,
+            "profile": {
+              "name": "System",
+              "avatar": "⚙️",
+              "pronouns": null
+            },
+            "messageType": "system",
+            "agentId": ""
+          },
+          {
+            "id": "3e883acc-d5e1-4122-9c74-917dde871604",
+            "text": "Taylor has left the chat.",
+            "timestamp": 1769034445,
+            "profile": {
+              "name": "System",
+              "avatar": "⚙️",
+              "pronouns": null
+            },
+            "messageType": "system",
+            "agentId": ""
+          },
+          {
+            "id": "c4f218e8-af84-481a-8e82-a57c876c004d",
+            "text": "Gemini has left the chat.",
+            "timestamp": 1769034446,
+            "profile": {
+              "name": "System",
+              "avatar": "⚙️",
+              "pronouns": null
+            },
+            "messageType": "system",
+            "agentId": ""
+          }
+        ]
+      }
+    ]
+  }
+]

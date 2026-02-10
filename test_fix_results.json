@@ -1,0 +1,114 @@
+[
+  {
+    "facilitatorBehavior": "silent",
+    "groupSize": 1,
+    "experimentId": "6a899180-a6c5-4813-bc6b-cea576da7255",
+    "cohortId": "mkhalsp8-9dx32l",
+    "status": "success",
+    "conversations": [
+      {
+        "experimentId": "6a899180-a6c5-4813-bc6b-cea576da7255",
+        "cohortId": "mkhalsp8-9dx32l",
+        "stageId": "f872fb13-f492-4107-b196-fec44db9ce84",
+        "messages": [
+          {
+            "id": "6b4418c6-1199-4599-8f12-acc508f51a8c",
+            "text": "Hey Gemini, I need some help planning a surprise anniversary dinner for my partner. I'm looking for a romantic, quiet spot downtown with vegetarian and gluten-free options, ideally within a $100-$150 per person budget.",
+            "timestamp": 1768593001,
+            "profile": {
+              "name": "Liam",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_liam"
+          },
+          {
+            "id": "82b26b63-520f-48bb-98eb-c7e8281bf927",
+            "text": "Of course. Let me look into some options that fit those criteria for you.",
+            "timestamp": 1768593005,
+            "profile": {
+              "name": "Gemini",
+              "avatar": "🐻",
+              "pronouns": ""
+            },
+            "messageType": "participant",
+            "agentId": "gemini_silent"
+          },
+          {
+            "id": "f1172645-dc0b-44b7-9788-14b18ee600db",
+            "text": "I've found a place called The Gilded Lily. It's a French-American restaurant downtown known for its romantic atmosphere and has a dedicated vegetarian and gluten-free menu. How does that sound?",
+            "timestamp": 1768593021,
+            "profile": {
+              "name": "Gemini",
+              "avatar": "🐻",
+              "pronouns": ""
+            },
+            "messageType": "participant",
+            "agentId": "gemini_silent"
+          },
+          {
+            "id": "5aa99e8b-f1af-423b-a3b8-bcfa70c1f412",
+            "text": "That sounds promising! What's the general price range, and do they have any special features like a nice view or unique desserts to make the evening memorable?",
+            "timestamp": 1768593024,
+            "profile": {
+              "name": "Liam",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_liam"
+          },
+          {
+            "id": "0cad0864-6691-4439-8dcb-24ebb6236a7a",
+            "text": "The price is within your budget, around $120 per person. They're known for their chocolate lava cake and have a lovely view of the city skyline.",
+            "timestamp": 1768593030,
+            "profile": {
+              "name": "Gemini",
+              "avatar": "🐻",
+              "pronouns": ""
+            },
+            "messageType": "participant",
+            "agentId": "gemini_silent"
+          },
+          {
+            "id": "1a491cea-18df-4804-a333-7b79e87cf40e",
+            "text": "Okay, that sounds like a great option, exactly what I was looking for! The Gilded Lily it is.",
+            "timestamp": 1768593034,
+            "profile": {
+              "name": "Liam",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_liam"
+          },
+          {
+            "id": "cdf383b4-2c72-4968-8d6b-7da47dd219e3",
+            "text": "Liam has left the chat.",
+            "timestamp": 1768593034,
+            "profile": {
+              "name": "System",
+              "avatar": "⚙️",
+              "pronouns": null
+            },
+            "messageType": "system",
+            "agentId": ""
+          },
+          {
+            "id": "1b0cb3e1-1ce5-4cbc-9363-53c1c02ad29f",
+            "text": "Gemini has left the chat.",
+            "timestamp": 1768593038,
+            "profile": {
+              "name": "System",
+              "avatar": "⚙️",
+              "pronouns": null
+            },
+            "messageType": "system",
+            "agentId": ""
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,294 @@
+[
+  {
+    "facilitatorBehavior": "silent",
+    "groupSize": 1,
+    "experimentId": "f9409d75-691b-4707-9771-d37d2e11ef7e",
+    "cohortId": "mkpkc210-oih6wr",
+    "status": "success",
+    "conversations": [
+      {
+        "experimentId": "f9409d75-691b-4707-9771-d37d2e11ef7e",
+        "cohortId": "mkpkc210-oih6wr",
+        "stageId": "545f9dc6-d28a-48bc-ac82-af8c4046939e",
+        "messages": [
+          {
+            "id": "de6173d6-c64d-409e-a8b3-179aef268271",
+            "text": "Planning an anniversary dinner. Needs to be romantic, downtown, with veggie/GF options.",
+            "timestamp": 1769093080,
+            "profile": {
+              "name": "Liam",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_liam"
+          },
+          {
+            "id": "d4388ac2-8001-40ba-9f9c-1f74a20fe635",
+            "text": "Budget is $100-$150 per person. A quiet atmosphere is also important.",
+            "timestamp": 1769093091,
+            "profile": {
+              "name": "Liam",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_liam"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "facilitatorBehavior": "silent",
+    "groupSize": 1,
+    "experimentId": "d919b366-8cb5-4cac-b328-6e5a93939325",
+    "cohortId": "mkpkc23v-muojir",
+    "status": "success",
+    "conversations": [
+      {
+        "experimentId": "d919b366-8cb5-4cac-b328-6e5a93939325",
+        "cohortId": "mkpkc23v-muojir",
+        "stageId": "ac2a7579-99e2-4e7c-b6bb-7adcfac78e3b",
+        "messages": [
+          {
+            "id": "905fa0c7-4428-4f7c-b515-7b562b0512c0",
+            "text": "Hello everyone. So, we need to find a restaurant for 12, this Friday.",
+            "timestamp": 1769093074,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "12fcc6f5-43dc-4739-92bd-cbba523a8b65",
+            "text": "Budget is $50-75. Please consider vegan, nut, shellfish allergies.",
+            "timestamp": 1769093086,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "facilitatorBehavior": "silent",
+    "groupSize": 1,
+    "experimentId": "e6ab56bd-9e04-49e0-b984-ce3f96737728",
+    "cohortId": "mkpkea6u-d0tbae",
+    "status": "success",
+    "conversations": [
+      {
+        "experimentId": "e6ab56bd-9e04-49e0-b984-ce3f96737728",
+        "cohortId": "mkpkea6u-d0tbae",
+        "stageId": "468cf208-093a-48ef-92af-71867320eb25",
+        "messages": [
+          {
+            "id": "e4a64363-8688-44d5-bf51-780b92923deb",
+            "text": "Hey everyone! I'm David, and it's my first time in Austin. I'm hoping to find a great local spot for dinner, something budget-friendly and walkable from my South Congress hotel. Any ideas for authentic Austin food?",
+            "timestamp": 1769093176,
+            "profile": {
+              "name": "David",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_david"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "facilitatorBehavior": "silent",
+    "groupSize": 2,
+    "experimentId": "0e896cdb-2fdf-4de9-8344-a249a0909b94",
+    "cohortId": "mkpkea8b-ey4c7b",
+    "status": "success",
+    "conversations": [
+      {
+        "experimentId": "0e896cdb-2fdf-4de9-8344-a249a0909b94",
+        "cohortId": "mkpkea8b-ey4c7b",
+        "stageId": "abe7197e-d6f9-4ead-b13f-47bf0d097314",
+        "messages": [
+          {
+            "id": "faea78b4-b560-4f01-8d51-cafb01dc33df",
+            "text": "Hey guys, tough week. I really just want something simple, affordable, with good reviews tonight.",
+            "timestamp": 1769093179,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "e4a12c36-7040-476a-babe-69b4f1a8aab9",
+            "text": "Hey Sarah, I'm totally craving pizza tonight! It's usually simple and affordable, plus we can definitely find a spot with awesome reviews.",
+            "timestamp": 1769093183,
+            "profile": {
+              "name": "Mark",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mark"
+          },
+          {
+            "id": "c35a67c8-64ba-4095-b57c-9397d1a2fd19",
+            "text": "Yeah, pizza could work, I guess. Any other ideas on cuisine though? I'm so tired.",
+            "timestamp": 1769093196,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "43b0d4ee-9458-43c8-bea2-a7f92544ef22",
+            "text": "Totally get wanting other options! Pizza is easy, but a relaxed burger spot or tacos could be fun too.",
+            "timestamp": 1769093200,
+            "profile": {
+              "name": "Mark",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mark"
+          },
+          {
+            "id": "9e5da902-40f8-495e-936b-3d4132523295",
+            "text": "Oh, tacos or burgers both sound pretty easy. Are tacos typically cheaper, you think?",
+            "timestamp": 1769093205,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "279e739b-544d-492f-a324-76defab4ede0",
+            "text": "Yeah, tacos are often cheaper than burgers. We could find a fun, laid-back taco place!",
+            "timestamp": 1769093211,
+            "profile": {
+              "name": "Mark",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mark"
+          },
+          {
+            "id": "c534a5fc-b119-4421-bcb6-b1e7dac1875e",
+            "text": "Okay, good to know that works. Are there any particular taco places with great reviews?",
+            "timestamp": 1769093220,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "234fd30f-ba50-464e-a6a1-39a479646be8",
+            "text": "Oh, 'Taco Heaven' is a casual spot with awesome reviews that comes to mind!",
+            "timestamp": 1769093222,
+            "profile": {
+              "name": "Mark",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mark"
+          },
+          {
+            "id": "e01565fb-50f2-457a-8930-198495920f55",
+            "text": "Oh, Taco Heaven! I've heard of that. Is it pretty quick and affordable?",
+            "timestamp": 1769093228,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "d63f8d38-f7ac-4a1d-b57e-f55db918297d",
+            "text": "Totally! Taco Heaven is fast, really affordable, and has a super relaxed vibe. Perfect for a chill night!",
+            "timestamp": 1769093233,
+            "profile": {
+              "name": "Mark",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mark"
+          },
+          {
+            "id": "aa2741b2-ce18-4df4-8026-b31025ca2cf6",
+            "text": "Okay, that works! Taco Heaven sounds pretty ideal for tonight, actually. It's easy.",
+            "timestamp": 1769093237,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "a81a1441-10d6-4a71-82b6-16f844b960f6",
+            "text": "Gemini has left the chat.",
+            "timestamp": 1769093239,
+            "profile": {
+              "name": "System",
+              "avatar": "⚙️",
+              "pronouns": null
+            },
+            "messageType": "system",
+            "agentId": ""
+          },
+          {
+            "id": "d6d036a7-0df0-4feb-8239-4c2866627392",
+            "text": "Mark has left the chat.",
+            "timestamp": 1769093240,
+            "profile": {
+              "name": "System",
+              "avatar": "⚙️",
+              "pronouns": null
+            },
+            "messageType": "system",
+            "agentId": ""
+          },
+          {
+            "id": "cf99d72c-568f-4f30-be01-0423125e6438",
+            "text": "Sarah has left the chat.",
+            "timestamp": 1769093247,
+            "profile": {
+              "name": "System",
+              "avatar": "⚙️",
+              "pronouns": null
+            },
+            "messageType": "system",
+            "agentId": ""
+          }
+        ]
+      }
+    ]
+  }
+]

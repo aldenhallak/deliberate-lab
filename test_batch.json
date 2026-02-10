@@ -1,0 +1,212 @@
+[
+  {
+    "facilitatorBehavior": "silent",
+    "groupSize": 1,
+    "experimentId": "23d68fa1-9c33-4f68-96a8-8fb04b63411a",
+    "cohortId": "mkhfm3vt-uiwz1t",
+    "status": "success",
+    "conversations": [
+      {
+        "experimentId": "23d68fa1-9c33-4f68-96a8-8fb04b63411a",
+        "cohortId": "mkhfm3vt-uiwz1t",
+        "stageId": "2264f71c-b69c-4892-90f2-3ec4a3227cbc",
+        "messages": []
+      }
+    ]
+  },
+  {
+    "facilitatorBehavior": "silent",
+    "groupSize": 1,
+    "experimentId": "e719255d-eaa2-4a84-a41e-096858399c83",
+    "cohortId": "mkhfm44y-41ftan",
+    "status": "success",
+    "conversations": [
+      {
+        "experimentId": "e719255d-eaa2-4a84-a41e-096858399c83",
+        "cohortId": "mkhfm44y-41ftan",
+        "stageId": "d13e20ed-51a2-461a-8daa-cf541255d36b",
+        "messages": []
+      }
+    ]
+  },
+  {
+    "facilitatorBehavior": "silent",
+    "groupSize": 1,
+    "experimentId": "0343e1cc-3fb4-454b-92d3-dd2257cf9f57",
+    "cohortId": "mkhfm4g4-0u1mv0",
+    "status": "success",
+    "conversations": [
+      {
+        "experimentId": "0343e1cc-3fb4-454b-92d3-dd2257cf9f57",
+        "cohortId": "mkhfm4g4-0u1mv0",
+        "stageId": "e49e7d84-9482-4c11-87b8-69fbd376c6d7",
+        "messages": []
+      }
+    ]
+  },
+  {
+    "facilitatorBehavior": "silent",
+    "groupSize": 2,
+    "experimentId": "4d67f69c-b9f9-4e1a-9926-7c1a83075f36",
+    "cohortId": "mkhfm4gl-dj3ewx",
+    "status": "success",
+    "conversations": [
+      {
+        "experimentId": "4d67f69c-b9f9-4e1a-9926-7c1a83075f36",
+        "cohortId": "mkhfm4gl-dj3ewx",
+        "stageId": "4bc953b2-202e-4522-93e2-f5163d707ba9",
+        "messages": []
+      }
+    ]
+  },
+  {
+    "facilitatorBehavior": "silent",
+    "groupSize": 2,
+    "experimentId": "970694a9-c951-4d48-8841-2d7c280ff167",
+    "cohortId": "mkhfm4ui-bcfjx1",
+    "status": "success",
+    "conversations": [
+      {
+        "experimentId": "970694a9-c951-4d48-8841-2d7c280ff167",
+        "cohortId": "mkhfm4ui-bcfjx1",
+        "stageId": "cc807d8d-30fe-4658-9fbb-83b7cc00338e",
+        "messages": []
+      }
+    ]
+  },
+  {
+    "facilitatorBehavior": "silent",
+    "groupSize": 2,
+    "experimentId": "ce345e36-2e33-4fc6-94d7-aeb6a7c530b2",
+    "cohortId": "mkhfm4ux-3ci71b",
+    "status": "success",
+    "conversations": [
+      {
+        "experimentId": "ce345e36-2e33-4fc6-94d7-aeb6a7c530b2",
+        "cohortId": "mkhfm4ux-3ci71b",
+        "stageId": "c8e486fd-8f9c-45e7-b1fb-a77816beef1b",
+        "messages": []
+      }
+    ]
+  },
+  {
+    "facilitatorBehavior": "silent",
+    "groupSize": 3,
+    "experimentId": "99a73286-ab48-4e7d-bf56-e01795b2a997",
+    "cohortId": "mkhfm58t-s68dk0",
+    "status": "success",
+    "conversations": [
+      {
+        "experimentId": "99a73286-ab48-4e7d-bf56-e01795b2a997",
+        "cohortId": "mkhfm58t-s68dk0",
+        "stageId": "49056532-4f00-45d2-9749-70f1631b7b3e",
+        "messages": []
+      }
+    ]
+  },
+  {
+    "facilitatorBehavior": "silent",
+    "groupSize": 3,
+    "experimentId": "62f20b7b-2a8f-4dbe-a733-c731d9626ee4",
+    "cohortId": "mkhfm59c-8y2mdp",
+    "status": "success",
+    "conversations": [
+      {
+        "experimentId": "62f20b7b-2a8f-4dbe-a733-c731d9626ee4",
+        "cohortId": "mkhfm59c-8y2mdp",
+        "stageId": "1bb890de-28d4-480c-86f4-a3a7f87ab30f",
+        "messages": []
+      }
+    ]
+  },
+  {
+    "facilitatorBehavior": "silent",
+    "groupSize": 3,
+    "experimentId": "8640b8c5-649a-47c7-9e88-e90f0929c18a",
+    "cohortId": "mkhfm5oi-upp41i",
+    "status": "success",
+    "conversations": [
+      {
+        "experimentId": "8640b8c5-649a-47c7-9e88-e90f0929c18a",
+        "cohortId": "mkhfm5oi-upp41i",
+        "stageId": "28a06dd2-fd62-4fc2-8da7-39454b969b79",
+        "messages": []
+      }
+    ]
+  },
+  {
+    "facilitatorBehavior": "silent",
+    "groupSize": 4,
+    "experimentId": "335b9d81-b44d-4fa1-8fe2-5c28b10852ce",
+    "cohortId": "mkhfm5oq-5gskl0",
+    "status": "success",
+    "conversations": [
+      {
+        "experimentId": "335b9d81-b44d-4fa1-8fe2-5c28b10852ce",
+        "cohortId": "mkhfm5oq-5gskl0",
+        "stageId": "a51659b5-ae56-4ea7-bc0b-23161ebb5503",
+        "messages": []
+      }
+    ]
+  },
+  {
+    "facilitatorBehavior": "silent",
+    "groupSize": 4,
+    "experimentId": "34c8f514-c123-47ea-8452-b61aa6c6e9d9",
+    "cohortId": "mkhfm661-z4c9lz",
+    "status": "success",
+    "conversations": [
+      {
+        "experimentId": "34c8f514-c123-47ea-8452-b61aa6c6e9d9",
+        "cohortId": "mkhfm661-z4c9lz",
+        "stageId": "67c736b0-f1be-431f-8458-63992d1ce143",
+        "messages": []
+      }
+    ]
+  },
+  {
+    "facilitatorBehavior": "silent",
+    "groupSize": 4,
+    "experimentId": "f4bdc72d-b0bc-4ff2-b7b0-60ecbb7e4113",
+    "cohortId": "mkhfm66c-179cy2",
+    "status": "success",
+    "conversations": [
+      {
+        "experimentId": "f4bdc72d-b0bc-4ff2-b7b0-60ecbb7e4113",
+        "cohortId": "mkhfm66c-179cy2",
+        "stageId": "f7f4dccc-7865-4d89-b78c-cc722dab43ce",
+        "messages": []
+      }
+    ]
+  },
+  {
+    "facilitatorBehavior": "silent",
+    "groupSize": 5,
+    "experimentId": "b6cd74f2-b75a-4625-82c1-93a568b5b7be",
+    "cohortId": "mkhfm6nn-y0re76",
+    "status": "success",
+    "conversations": [
+      {
+        "experimentId": "b6cd74f2-b75a-4625-82c1-93a568b5b7be",
+        "cohortId": "mkhfm6nn-y0re76",
+        "stageId": "25d51120-2ae2-4e00-9c1d-5b758daaa5d1",
+        "messages": []
+      }
+    ]
+  },
+  {
+    "facilitatorBehavior": "silent",
+    "groupSize": 5,
+    "experimentId": "51f5fc9f-a7eb-4844-8c1a-df541d28aae4",
+    "cohortId": "mkhfm6nu-m70zpf",
+    "status": "success",
+    "conversations": [
+      {
+        "experimentId": "51f5fc9f-a7eb-4844-8c1a-df541d28aae4",
+        "cohortId": "mkhfm6nu-m70zpf",
+        "stageId": "e5fa4b98-6388-4805-9486-543e490897dd",
+        "messages": []
+      }
+    ]
+  }
+]

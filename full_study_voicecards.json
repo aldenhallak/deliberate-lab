@@ -1,0 +1,2086 @@
+[
+  {
+    "facilitatorBehavior": "silent",
+    "groupSize": 1,
+    "experimentId": "bd30171d-e88a-4a6b-9beb-2a02310ecf22",
+    "cohortId": "mkhck7bz-4n0bfp",
+    "status": "success",
+    "conversations": [
+      {
+        "experimentId": "bd30171d-e88a-4a6b-9beb-2a02310ecf22",
+        "cohortId": "mkhck7bz-4n0bfp",
+        "stageId": "7d3802a9-baa2-447d-bf33-4c03052bba3d",
+        "messages": [
+          {
+            "id": "16e0947c-ec90-4278-9bb6-bb5aafc0f61c",
+            "text": "Hey, so I'm planning my partner's anniversary dinner. I need some help with that.",
+            "timestamp": 1768596300,
+            "profile": {
+              "name": "Liam",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_liam"
+          },
+          {
+            "id": "2619e05d-36f1-4b74-91a1-fee54cefb727",
+            "text": "Okay, it's gotta be romantic, quiet, downtown. Vegetarian and gluten-free. Like 100-150.",
+            "timestamp": 1768596311,
+            "profile": {
+              "name": "Liam",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_liam"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "facilitatorBehavior": "silent",
+    "groupSize": 1,
+    "experimentId": "e6a058db-2d79-409b-981d-55fa0658c050",
+    "cohortId": "mkhck7bl-ch6y8p",
+    "status": "success",
+    "conversations": [
+      {
+        "experimentId": "e6a058db-2d79-409b-981d-55fa0658c050",
+        "cohortId": "mkhck7bl-ch6y8p",
+        "stageId": "d54d3fab-c556-4590-8faa-78320c4d5065",
+        "messages": [
+          {
+            "id": "5f843912-18dc-436b-86ad-74fa39c2f168",
+            "text": "So, I'm sort of feeling nervous about this team dinner, honestly.",
+            "timestamp": 1768596295,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "facilitatorBehavior": "silent",
+    "groupSize": 1,
+    "experimentId": "6e8bdab9-dcd5-4db6-b91a-6e80d81f1fa4",
+    "cohortId": "mkhcmm0e-lzqfui",
+    "status": "success",
+    "conversations": [
+      {
+        "experimentId": "6e8bdab9-dcd5-4db6-b91a-6e80d81f1fa4",
+        "cohortId": "mkhcmm0e-lzqfui",
+        "stageId": "24883d18-26fd-47f1-841f-86c98352d6ce",
+        "messages": [
+          {
+            "id": "cb87f97b-5225-4a89-a824-969b52539b96",
+            "text": "So, hey everyone! I'm David. I'm looking for a low-key local dinner spot near South Congress, maybe a 15-minute walk. Any ideas?",
+            "timestamp": 1768596406,
+            "profile": {
+              "name": "David",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_david"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "facilitatorBehavior": "silent",
+    "groupSize": 2,
+    "experimentId": "4f7e5129-26b9-4309-9bb2-d9a140f0c0b2",
+    "cohortId": "mkhcmm0w-yruavn",
+    "status": "success",
+    "conversations": [
+      {
+        "experimentId": "4f7e5129-26b9-4309-9bb2-d9a140f0c0b2",
+        "cohortId": "mkhcmm0w-yruavn",
+        "stageId": "0a29d31a-2075-4894-bd7e-633e6c6dbeea",
+        "messages": [
+          {
+            "id": "6997f3d9-3959-47c7-8ac0-4869d7de593a",
+            "text": "Hey! The thing is, I'm really excited for pizza tonight. You know what I mean? What are you feeling, Sarah?",
+            "timestamp": 1768596412,
+            "profile": {
+              "name": "Mark",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mark"
+          },
+          {
+            "id": "c8579894-b528-4db1-81fe-618bd682205c",
+            "text": "Pizza, sure, I guess. I'm just saying, I'm tired. Like, something easy, you know?",
+            "timestamp": 1768596418,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "55d7a1bc-df62-4bdf-9897-67e4c96fe9a9",
+            "text": "So, I guess, like, an iconic pizza place would be great. Maybe not too expensive, though?",
+            "timestamp": 1768596434,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "e13d8ccd-a59b-4306-8d91-7bf62762885f",
+            "text": "So, like, Mark, are there any places that have, I guess, consistently good reviews for pizza?",
+            "timestamp": 1768596443,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "317d3ccd-d59a-49bf-a751-d5489e25205c",
+            "text": "Look, clearly, Joe's Pizza has great reviews. Not too expensive either, you know. What about that place?",
+            "timestamp": 1768596452,
+            "profile": {
+              "name": "Mark",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mark"
+          },
+          {
+            "id": "d2c15f3d-4f90-4d36-b005-b2cb3cea37c1",
+            "text": "Mm-hmm. Joe's Pizza, right? I guess, like, that sounds pretty good. Is it quick, you know?",
+            "timestamp": 1768596458,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "d8f3f8fb-1932-4618-aaf8-fa6b2e8c6baa",
+            "text": "Yeah, uh-huh, it clearly is super quick. You know, what do you think? I'm just saying, it's a solid choice.",
+            "timestamp": 1768596464,
+            "profile": {
+              "name": "Mark",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mark"
+          },
+          {
+            "id": "9d6d2dbf-b5fb-4720-8147-284ebe159961",
+            "text": "Mm-hmm. If it's quick and good, I guess Joe's Pizza is probably fine. I'm just saying.",
+            "timestamp": 1768596477,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "2f2aeef1-4779-48f7-aecd-0cf900887c78",
+            "text": "Sarah has left the chat.",
+            "timestamp": 1768596477,
+            "profile": {
+              "name": "System",
+              "avatar": "⚙️",
+              "pronouns": null
+            },
+            "messageType": "system",
+            "agentId": ""
+          },
+          {
+            "id": "51615e51-e325-4a7b-8e22-98534ba67f17",
+            "text": "Mark has left the chat.",
+            "timestamp": 1768596482,
+            "profile": {
+              "name": "System",
+              "avatar": "⚙️",
+              "pronouns": null
+            },
+            "messageType": "system",
+            "agentId": ""
+          },
+          {
+            "id": "3109dfdf-c4b9-4ad5-89cb-669268eff4fd",
+            "text": "Gemini has left the chat.",
+            "timestamp": 1768596489,
+            "profile": {
+              "name": "System",
+              "avatar": "⚙️",
+              "pronouns": null
+            },
+            "messageType": "system",
+            "agentId": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "facilitatorBehavior": "silent",
+    "groupSize": 2,
+    "experimentId": "1694634c-34b7-4671-8158-14a2000b6bdb",
+    "cohortId": "mkhcqfwu-nf6euq",
+    "status": "success",
+    "conversations": [
+      {
+        "experimentId": "1694634c-34b7-4671-8158-14a2000b6bdb",
+        "cohortId": "mkhcqfwu-nf6euq",
+        "stageId": "203e1c3a-7c66-40d3-aa58-9e65b4a716dc",
+        "messages": [
+          {
+            "id": "1b6d4d02-f520-48e6-9937-c24ca06bd022",
+            "text": "Okay so, I guess we're talking team dinner now. I'm a bit nervous, but I'm thinking a place with a good wine list.",
+            "timestamp": 1768596586,
+            "profile": {
+              "name": "Ben",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_ben"
+          },
+          {
+            "id": "37558599-201a-4dde-bb2d-886b88cee624",
+            "text": "Oh for sure, Ben, a good wine list is great! High-key, I think we'll need to consider gluten-free and vegetarian needs. Does that make sense?",
+            "timestamp": 1768596594,
+            "profile": {
+              "name": "Elena",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_elena"
+          },
+          {
+            "id": "55e474cd-602d-4142-bd43-3bde4d789cd5",
+            "text": "Uh-huh, right. Yeah, that makes sense. I guess we'll need to consider those dietary needs. Low-key, I'm just hoping for quality food.",
+            "timestamp": 1768596627,
+            "profile": {
+              "name": "Ben",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_ben"
+          },
+          {
+            "id": "30d99fe5-81cf-4100-9666-426a6dc66f94",
+            "text": "Yes, yes, yes, quality food is high-key important for sure. See, I think we also need to consider the vibe, like a celebratory but probably not too stuffy atmosphere, right? What do you think?",
+            "timestamp": 1768596653,
+            "profile": {
+              "name": "Elena",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_elena"
+          },
+          {
+            "id": "217430ac-9f32-42a3-8d6b-7b03bb44a502",
+            "text": "Uh-huh, right. Yeah, a celebratory atmosphere sounds good, not too stuffy. Low-key, I guess I'd prefer not experimental cuisine either.",
+            "timestamp": 1768596675,
+            "profile": {
+              "name": "Ben",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_ben"
+          },
+          {
+            "id": "2cc79e7c-4faa-4068-8551-dbd668a1ed95",
+            "text": "Oh for sure, Ben! Not experimental is probably a good idea for the team. I mean, we also need to consider the company budget, right? Like, do you think that's a big factor?",
+            "timestamp": 1768596697,
+            "profile": {
+              "name": "Elena",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_elena"
+          },
+          {
+            "id": "896b2244-fb5b-4c06-8691-8a41227d430e",
+            "text": "Right, yeah, the budget seems like a big factor, I guess. I just low-key worry about balancing quality with that constraint.",
+            "timestamp": 1768596714,
+            "profile": {
+              "name": "Ben",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_ben"
+          },
+          {
+            "id": "667a90a6-6d15-4d0f-b75a-2d205e104a4d",
+            "text": "Oh for sure, Ben, balancing budget with quality is a big one. I think we probably have a good list of our key points now. See, is there anything else we should consider high-key?",
+            "timestamp": 1768596733,
+            "profile": {
+              "name": "Elena",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_elena"
+          },
+          {
+            "id": "fa3071a5-f329-4308-b437-5c53781bec31",
+            "text": "Uh-huh, right. Okay so, I guess we've got a good list of points. Low-key, I just worry about balancing it all, especially with the budget.",
+            "timestamp": 1768596759,
+            "profile": {
+              "name": "Ben",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_ben"
+          },
+          {
+            "id": "0724b504-9280-474d-be9d-e1d189b47d89",
+            "text": "It sounds like you have a good list of criteria. Should we start thinking of some places that might fit?",
+            "timestamp": 1768596783,
+            "profile": {
+              "name": "Gemini",
+              "avatar": "🐻",
+              "pronouns": ""
+            },
+            "messageType": "participant",
+            "agentId": "gemini_silent"
+          },
+          {
+            "id": "a4cdd4eb-7536-4b63-8619-299ca6de39ac",
+            "text": "Uh-huh, right. Okay so, I guess we could start exploring options now. Low-key, I'm just a bit nervous about balancing all the requirements.",
+            "timestamp": 1768596803,
+            "profile": {
+              "name": "Ben",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_ben"
+          },
+          {
+            "id": "587aa7b7-3b14-4adb-8624-9c91f4e2d31e",
+            "text": "Uh-huh, right. Okay so, I guess we could start suggesting places. Low-key, I'm just a bit nervous about balancing all these needs.",
+            "timestamp": 1768596830,
+            "profile": {
+              "name": "Ben",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_ben"
+          },
+          {
+            "id": "6ef1213d-9fa0-4ad0-aeff-245b84337c42",
+            "text": "Yes, yes, yes! See, I think Gemini has a high-key point. We probably could start suggesting places now, maybe focusing on one aspect first? What do you think, Ben?",
+            "timestamp": 1768596842,
+            "profile": {
+              "name": "Elena",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_elena"
+          },
+          {
+            "id": "727a9ea8-92dc-4775-af09-5d2e301e89cd",
+            "text": "Uh-huh, right. Okay so, I guess focusing on one aspect first could help. Low-key, I'm just nervous about balancing it all, but maybe quality food first?",
+            "timestamp": 1768596864,
+            "profile": {
+              "name": "Ben",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_ben"
+          },
+          {
+            "id": "3b2371e3-0181-47c9-a9c8-53000ed1e59f",
+            "text": "Oh for sure, Ben, quality food is super important! Though, I think maybe we should probably start with dietary restrictions first? Like, that seems high-key important for everyone, right?",
+            "timestamp": 1768596878,
+            "profile": {
+              "name": "Elena",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_elena"
+          },
+          {
+            "id": "0d00424e-f818-4e4b-9e09-5fabd4dabdcb",
+            "text": "Yes, yes, yes, Ben, quality food is high-key key. But I think maybe starting with dietary needs first might make it easier to narrow down options, don't you think?",
+            "timestamp": 1768596890,
+            "profile": {
+              "name": "Elena",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_elena"
+          },
+          {
+            "id": "e37bd03a-100c-4e7b-b078-a8be1ee0545e",
+            "text": "Uh-huh, right. Yeah, I guess starting with dietary needs could work. Low-key, I just hope we still find good food and a wine list.",
+            "timestamp": 1768596902,
+            "profile": {
+              "name": "Ben",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_ben"
+          },
+          {
+            "id": "494bd204-71ac-4354-be8f-3da54abcec3d",
+            "text": "Uh-huh, right. Okay so, I guess we can start with dietary needs. I'm just nervous, low-key, that we won't find a place with a good wine list.",
+            "timestamp": 1768596918,
+            "profile": {
+              "name": "Ben",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_ben"
+          },
+          {
+            "id": "5c79ee1e-e901-4354-8d0c-36db701eb91c",
+            "text": "Uh-huh, right. Okay so, I guess we can start with dietary needs. Low-key, I'm just nervous about finding a good wine list.",
+            "timestamp": 1768596931,
+            "profile": {
+              "name": "Ben",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_ben"
+          },
+          {
+            "id": "b1063450-1d8f-43d3-a89b-491b19d5ac8e",
+            "text": "Oh for sure, Ben, I think we'll definitely keep the wine list in mind! See, what about looking at places known for, like, modern American cuisine? They often have both, no?",
+            "timestamp": 1768596949,
+            "profile": {
+              "name": "Elena",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_elena"
+          },
+          {
+            "id": "50316adf-3514-4bea-adc9-5cc0f45ff2ca",
+            "text": "Uh-huh, right. Okay so, yeah, modern American cuisine seems like a good idea. I guess that sort of cuisine could balance the dietary needs with a good wine list.",
+            "timestamp": 1768596969,
+            "profile": {
+              "name": "Ben",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_ben"
+          },
+          {
+            "id": "eb78df72-6f10-408e-8399-df03db576f17",
+            "text": "Yes, yes, yes, Ben! Modern American sounds high-key perfect, I think. See, maybe we could look for places known for that, that also fit our budget like, right? What do you think?",
+            "timestamp": 1768596980,
+            "profile": {
+              "name": "Elena",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_elena"
+          },
+          {
+            "id": "2333afd8-d721-4938-a259-59ca2c82850b",
+            "text": "Uh-huh, right. Okay so, yeah, looking for places like that with the budget seems like a good plan. Low-key, I worry about balancing it all.",
+            "timestamp": 1768596999,
+            "profile": {
+              "name": "Ben",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_ben"
+          },
+          {
+            "id": "4f0232aa-037f-4414-8cd8-4b8c3d5f371b",
+            "text": "Oh for sure, Ben, I totally get that worry! But I think we've got a really good plan for this. See, do you have any specific modern American places in mind, maybe?",
+            "timestamp": 1768597010,
+            "profile": {
+              "name": "Elena",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_elena"
+          },
+          {
+            "id": "d490f851-ad6e-4402-8618-f6447560b82c",
+            "text": "Uh-huh, right. Okay so, I guess there's 'The Copper & Oak.' It seems like a good option for quality food and a decent wine list, low-key.",
+            "timestamp": 1768597024,
+            "profile": {
+              "name": "Ben",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_ben"
+          },
+          {
+            "id": "886290d0-62fe-4604-abf4-e276262dfcc3",
+            "text": "Oh for sure, Ben, 'The Copper & Oak' sounds like it could be good for the quality food. I think we probably need to check if they have good vegetarian and gluten-free options and if it fits our budget, right? What do you think?",
+            "timestamp": 1768597034,
+            "profile": {
+              "name": "Elena",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_elena"
+          },
+          {
+            "id": "6513e427-9236-49a7-8b58-d6cd3811b8ea",
+            "text": "Oh for sure, Ben! See, I think we could probably quickly check their menu and prices online, right? What do you think about that?",
+            "timestamp": 1768597054,
+            "profile": {
+              "name": "Elena",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_elena"
+          },
+          {
+            "id": "15d6d714-6984-41d1-8a41-72d8c8562825",
+            "text": "Uh-huh, right. Okay so, yeah, checking online for those would be good. Low-key, I just worry if it'll fit the budget and the dietary needs, too.",
+            "timestamp": 1768597070,
+            "profile": {
+              "name": "Ben",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_ben"
+          },
+          {
+            "id": "9b9e674f-5f53-4dfe-9764-2c26954d709d",
+            "text": "Yes, yes, yes, Ben, high-key I think checking that menu and prices online will probably help us know for sure. That way we'll know if it's a good fit, right?",
+            "timestamp": 1768597084,
+            "profile": {
+              "name": "Elena",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_elena"
+          },
+          {
+            "id": "4e56bb3e-0738-4831-9dbd-c47622d0f961",
+            "text": "Uh-huh, right. Okay so, yeah, checking for those details seems like the next step. Low-key, I just hope it'll really meet all our needs, you know?",
+            "timestamp": 1768597099,
+            "profile": {
+              "name": "Ben",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_ben"
+          },
+          {
+            "id": "c06a66e9-1c44-46a1-915b-b327416b7333",
+            "text": "Uh-huh, right. Okay so, I guess checking the menu and prices online is definitely the next step. I'm just low-key nervous about balancing it all for sure.",
+            "timestamp": 1768597117,
+            "profile": {
+              "name": "Ben",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_ben"
+          },
+          {
+            "id": "315464e9-c98e-4952-ab9c-e3df3c425768",
+            "text": "Uh-huh, right. Okay so, yeah, I guess checking that online will confirm it. Low-key, I just worry if it really balances all the needs.",
+            "timestamp": 1768597132,
+            "profile": {
+              "name": "Ben",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_ben"
+          },
+          {
+            "id": "c2737e63-1df2-4079-b62c-ea5fbf117410",
+            "text": "Oh for sure, Ben. See, I think checking that menu and prices online will probably help us confirm everything. How about we look at it right now?",
+            "timestamp": 1768597148,
+            "profile": {
+              "name": "Elena",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_elena"
+          },
+          {
+            "id": "0927db10-44f0-41ba-8443-fbcdffd52214",
+            "text": "Oh for sure, Ben, I totally get that worry! See, I think checking that menu online probably helps confirm all needs, high-key. Are you ready to look at it now?",
+            "timestamp": 1768597174,
+            "profile": {
+              "name": "Elena",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_elena"
+          },
+          {
+            "id": "8e9286e0-f511-4e3d-a673-064d8b8c62aa",
+            "text": "Uh-huh, right. Okay so, yeah, I guess looking at it now makes sense. Low-key, I just hope it really meets all our criteria, you know?",
+            "timestamp": 1768597191,
+            "profile": {
+              "name": "Ben",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_ben"
+          },
+          {
+            "id": "dbf306f6-5258-446c-bf2d-4d257090b252",
+            "text": "Oh for sure, Ben! See, I think looking at that menu and prices online will probably help us confirm everything, high-key. Does that sound good to you?",
+            "timestamp": 1768597204,
+            "profile": {
+              "name": "Elena",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_elena"
+          },
+          {
+            "id": "1fb6a884-d31b-4ae0-b281-cb630d2477b8",
+            "text": "Uh-huh, right. Okay so, yeah, I guess that sounds good. Low-key, I'm just nervous it'll be a good balance for everything, you know?",
+            "timestamp": 1768597216,
+            "profile": {
+              "name": "Ben",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_ben"
+          },
+          {
+            "id": "23b0d1bf-5c4d-45f3-9ab6-2bdf9c8f6afe",
+            "text": "Oh for sure, Ben, I totally hear that worry! See, I think checking that menu online will probably help us confirm the balance. Maybe we could do that now?",
+            "timestamp": 1768597239,
+            "profile": {
+              "name": "Elena",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_elena"
+          },
+          {
+            "id": "04a6c136-e8a6-4052-a6ad-81c75e7ef4e7",
+            "text": "Oh for sure, Ben, I totally hear that worry! See, I think checking that menu and prices online probably helps confirm the balance for all needs, high-key. So, maybe we could look at it right now?",
+            "timestamp": 1768597257,
+            "profile": {
+              "name": "Elena",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_elena"
+          },
+          {
+            "id": "ce7de667-564a-4f97-806d-bb3dcb0f195b",
+            "text": "Uh-huh, right. Okay so, yeah, I guess looking it up now seems like a good plan. Low-key, I just worry if it'll truly balance everything.",
+            "timestamp": 1768597277,
+            "profile": {
+              "name": "Ben",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_ben"
+          },
+          {
+            "id": "2787e346-6c52-4a9f-801a-54b2e00a23f2",
+            "text": "Oh for sure, Ben, I totally hear your worry! See, checking their menu and prices online will probably help us confirm everything, high-key. Should we do that now?",
+            "timestamp": 1768597294,
+            "profile": {
+              "name": "Elena",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_elena"
+          },
+          {
+            "id": "6941fe65-ae8a-4958-96c3-e28203e48929",
+            "text": "Uh-huh, right. Okay so, yeah, I guess we should check it out. Low-key, I just worry if it'll truly balance all the needs.",
+            "timestamp": 1768597315,
+            "profile": {
+              "name": "Ben",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_ben"
+          },
+          {
+            "id": "6bd525a1-c6e5-432c-be25-f56d1c3a92c2",
+            "text": "Uh-huh, right. Okay so, yeah, I guess checking the menu now seems like the plan. Low-key, I just worry if it truly balances all the requirements.",
+            "timestamp": 1768597335,
+            "profile": {
+              "name": "Ben",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_ben"
+          },
+          {
+            "id": "6a8d2e9e-9601-4afb-9659-7712ab30e770",
+            "text": "Uh-huh, right. Okay so, yeah, I guess we should check it now. Low-key, I just worry if it'll truly balance all those requirements.",
+            "timestamp": 1768597355,
+            "profile": {
+              "name": "Ben",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_ben"
+          },
+          {
+            "id": "8df414e9-4545-462a-8aa6-82fc0dd7fb4f",
+            "text": "Since I can't check it myself, does one of you want to look up the menu for The Copper & Oak?",
+            "timestamp": 1768597377,
+            "profile": {
+              "name": "Gemini",
+              "avatar": "🐻",
+              "pronouns": ""
+            },
+            "messageType": "participant",
+            "agentId": "gemini_silent"
+          },
+          {
+            "id": "53434c61-d5cf-404b-92df-a5dc7d83108d",
+            "text": "Uh-huh, right. Okay so, yeah, I guess I can look up the menu for 'The Copper & Oak.' Low-key, I just worry if it'll truly balance all the requirements.",
+            "timestamp": 1768597391,
+            "profile": {
+              "name": "Ben",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_ben"
+          },
+          {
+            "id": "1606397f-87dd-41f1-a933-4d00a2e913db",
+            "text": "Oh for sure, Ben! That's awesome you'll look it up. See, I think we really need to check for those gluten-free and vegetarian options, and probably budget, too, right?",
+            "timestamp": 1768597405,
+            "profile": {
+              "name": "Elena",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_elena"
+          },
+          {
+            "id": "166da690-62eb-4b04-964a-cca9013badae",
+            "text": "Uh-huh, right. Okay so, yeah, I guess I'll check for the budget and dietary needs. Low-key, I just worry if it'll all balance.",
+            "timestamp": 1768597421,
+            "profile": {
+              "name": "Ben",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_ben"
+          },
+          {
+            "id": "f453c145-f5a6-47c3-8d91-13e1dc629294",
+            "text": "Uh-huh, right. Okay so, yeah, I guess I'll get to checking that menu. Low-key, I just worry it'll all balance out for sure.",
+            "timestamp": 1768597436,
+            "profile": {
+              "name": "Ben",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_ben"
+          },
+          {
+            "id": "3767fb13-be23-4a31-816f-294a99d291ab",
+            "text": "Uh-huh, right. Okay so, yeah, I guess I'll check for those details now. Low-key, I just worry if it'll truly balance all the requirements.",
+            "timestamp": 1768597451,
+            "profile": {
+              "name": "Ben",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_ben"
+          },
+          {
+            "id": "202de3a5-c982-4dd5-8bf2-d7c6f42f8fbc",
+            "text": "Oh for sure, Ben! High-key, I think checking those details will probably help us know if it works. See, I'm super excited to hear what you find, yeah?",
+            "timestamp": 1768597462,
+            "profile": {
+              "name": "Elena",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_elena"
+          },
+          {
+            "id": "ef4768b7-3d26-4497-af86-e5be59dfec3f",
+            "text": "Oh for sure, Ben! Thanks for doing that. See, I think checking those details will probably really help us high-key. So, what do you think you'll look for first, maybe?",
+            "timestamp": 1768597472,
+            "profile": {
+              "name": "Elena",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_elena"
+          },
+          {
+            "id": "96667450-bef6-496a-b457-cdcaf98db3ac",
+            "text": "Uh-huh, right. Okay so, I guess I'll check the dietary options and the budget. Low-key, I'm just nervous about the wine list.",
+            "timestamp": 1768597488,
+            "profile": {
+              "name": "Ben",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_ben"
+          },
+          {
+            "id": "a9844e3c-f3b3-4e57-8fb5-2e18683c34c6",
+            "text": "Oh for sure, Ben! I think we'll probably find a great wine list, too. See, high-key, I appreciate you checking those dietary options and budget. Yeah?",
+            "timestamp": 1768597503,
+            "profile": {
+              "name": "Elena",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_elena"
+          },
+          {
+            "id": "f88274ce-5327-4373-a4d5-5224e15b87e8",
+            "text": "Uh-huh, right. Okay so, yeah, I guess I'll check those for sure. Low-key, I just worry about balancing all the requirements, especially the wine list.",
+            "timestamp": 1768597524,
+            "profile": {
+              "name": "Ben",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_ben"
+          },
+          {
+            "id": "73615247-6a01-4577-bea1-e30f4581b749",
+            "text": "Uh-huh, right. Yeah, I guess I'll check those details now. Low-key, I'm just nervous about balancing all the requirements, especially the wine list.",
+            "timestamp": 1768597540,
+            "profile": {
+              "name": "Ben",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_ben"
+          },
+          {
+            "id": "9ecadad7-1d41-476d-8496-cf13ffa661cd",
+            "text": "Oh for sure, Ben, I really appreciate you checking on those! See, I think we'll probably find a great wine list that fits too, high-key. Does that sound good to you?",
+            "timestamp": 1768597551,
+            "profile": {
+              "name": "Elena",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_elena"
+          },
+          {
+            "id": "1fac2fb4-9c97-4672-aed2-99e5ac868485",
+            "text": "Uh-huh, right. Okay so, yeah, I guess I'll check the menu now. Low-key, I'm just a bit nervous about finding that perfect wine list balance.",
+            "timestamp": 1768597567,
+            "profile": {
+              "name": "Ben",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_ben"
+          },
+          {
+            "id": "f60491ca-92cb-4aea-b9cf-d84922abcfd8",
+            "text": "Oh for sure, Ben! See, checking those vegetarian and gluten-free options and the budget on the menu is probably high-key important, yeah?",
+            "timestamp": 1768597586,
+            "profile": {
+              "name": "Elena",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_elena"
+          },
+          {
+            "id": "62ee9926-6dff-42ea-9dfd-c0f921492ed2",
+            "text": "Oh for sure, Ben, I hear that! See, checking the menu for all our points, probably including the wine list, will make it clearer, high-key. What do you think?",
+            "timestamp": 1768597606,
+            "profile": {
+              "name": "Elena",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_elena"
+          },
+          {
+            "id": "24ffb689-733a-4c9c-a84e-5945cdff432d",
+            "text": "Uh-huh, right. Okay so, yeah, I guess I'll check the menu, including the wine list. Low-key, I just worry if it'll really balance all those requirements for sure.",
+            "timestamp": 1768597619,
+            "profile": {
+              "name": "Ben",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_ben"
+          },
+          {
+            "id": "92481967-1817-4860-bb4c-c66ec5c859a3",
+            "text": "Oh for sure, Ben! I think checking for all those points, like the dietary options and budget, probably helps a lot. See, I'm high-key happy you're looking into it, yeah?",
+            "timestamp": 1768597635,
+            "profile": {
+              "name": "Elena",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_elena"
+          },
+          {
+            "id": "c6d01e86-9fc5-469d-b6aa-7a8590261a3b",
+            "text": "Oh for sure, Ben, I totally hear that worry! See, I think checking that menu will probably help us see the balance of everything, high-key. Are you ready to dive in?",
+            "timestamp": 1768597654,
+            "profile": {
+              "name": "Elena",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_elena"
+          },
+          {
+            "id": "103f5077-0cca-4b0d-b401-bc646d5bab8f",
+            "text": "Uh-huh, right. Okay so, yeah, I guess I'm ready. Low-key, I just worry if it'll truly balance all those requirements.",
+            "timestamp": 1768597667,
+            "profile": {
+              "name": "Ben",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_ben"
+          },
+          {
+            "id": "8d3deb67-6545-40bf-857a-20a19a1fe25b",
+            "text": "Uh-huh, right. Okay so, yeah, I guess I'll start checking the menu now. Low-key, I just worry if it'll truly balance all those requirements.",
+            "timestamp": 1768597683,
+            "profile": {
+              "name": "Ben",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_ben"
+          },
+          {
+            "id": "c69b1aed-479d-4854-bfed-be5d7ffe4f37",
+            "text": "Uh-huh, right. Okay so, yeah, I guess I'm starting to check the menu now. Low-key, I just hope it balances all the requirements.",
+            "timestamp": 1768597697,
+            "profile": {
+              "name": "Ben",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_ben"
+          },
+          {
+            "id": "fd0c5835-4ca4-45dc-9ef8-a818a8689694",
+            "text": "Uh-huh, right. Okay so, yeah, I guess I'm starting to check the menu now. Low-key, I just hope it really balances all the requirements.",
+            "timestamp": 1768597710,
+            "profile": {
+              "name": "Ben",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_ben"
+          },
+          {
+            "id": "b0aefa96-e5ec-48f8-8eaf-d74efb77b689",
+            "text": "Oh for sure, Ben, that's great you're looking at that menu now. See, I think we'll probably see if it covers all our needs, high-key. What are you finding, like?",
+            "timestamp": 1768597726,
+            "profile": {
+              "name": "Elena",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_elena"
+          },
+          {
+            "id": "a828f50a-1757-4b3a-94a1-a6a2807c33ba",
+            "text": "Oh for sure, Ben! See, I think checking those dietary options and the budget is high-key super important, probably. So, what are you finding, like?",
+            "timestamp": 1768597741,
+            "profile": {
+              "name": "Elena",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_elena"
+          },
+          {
+            "id": "8fc42e9e-d1ce-475c-abbe-a7af67b282ee",
+            "text": "Oh for sure, Ben, I totally get that worry! See, I think checking dietary options and budget is high-key important, probably. Are you seeing anything there, like?",
+            "timestamp": 1768597758,
+            "profile": {
+              "name": "Elena",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_elena"
+          },
+          {
+            "id": "3b0cd2cf-5b33-4a3e-bbdc-d2ae19f06d09",
+            "text": "Uh-huh, right. Okay so, I guess I'm seeing some options now. Low-key, I'm just nervous about if it'll truly balance the wine list.",
+            "timestamp": 1768597772,
+            "profile": {
+              "name": "Ben",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_ben"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "facilitatorBehavior": "silent",
+    "groupSize": 2,
+    "experimentId": "957344ab-8b29-4b5b-9a5b-6e7f677b8ea6",
+    "cohortId": "mkhcqfy0-thld7y",
+    "status": "success",
+    "conversations": [
+      {
+        "experimentId": "957344ab-8b29-4b5b-9a5b-6e7f677b8ea6",
+        "cohortId": "mkhcqfy0-thld7y",
+        "stageId": "9a4ff816-534b-421f-87d9-6e91018053a6",
+        "messages": [
+          {
+            "id": "37b75146-cac1-4ccf-859a-8d9437cce7e4",
+            "text": "I'm so excited about our anniversary dinner, David! Essentially, we should find a place with wonderfully delicious food and a comfortable, pleasant atmosphere.",
+            "timestamp": 1768596603,
+            "profile": {
+              "name": "Lisa",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_lisa"
+          },
+          {
+            "id": "7bb6b112-bced-4ebf-8efc-2a87ab31a08d",
+            "text": "Yeah, I hear you, Lisa! Delicious food is key, absolutely. I'm just also thinking about a really special, perhaps memorable sort of ambiance, you know?",
+            "timestamp": 1768596607,
+            "profile": {
+              "name": "David",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_david"
+          },
+          {
+            "id": "25e3469c-4ce2-4da2-8168-64e41936fa08",
+            "text": "Mm-hmm, I hear you, David. A memorable ambiance is lovely! Still, clearly delicious food is paramount, and I mean, we should consider Italian or seafood for a truly enjoyable meal, you know?",
+            "timestamp": 1768596648,
+            "profile": {
+              "name": "Lisa",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_lisa"
+          },
+          {
+            "id": "38f23e7d-34a8-4c33-8374-3de994522e7f",
+            "text": "Right, I hear you about ambiance. Still, clearly, we should select a place that offers genuinely delicious food and aligns with our financial goals.",
+            "timestamp": 1768596664,
+            "profile": {
+              "name": "Lisa",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_lisa"
+          },
+          {
+            "id": "df2d7bf4-5e00-46a0-b2c1-01fc5b7f800e",
+            "text": "Mm-hmm, I hear you about ambiance. Clearly Italian or seafood offers delicious food and aligns with our financial goals, you know?",
+            "timestamp": 1768596686,
+            "profile": {
+              "name": "Lisa",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_lisa"
+          },
+          {
+            "id": "bb24f0c8-cc9c-4924-8057-3d4eed81b0cf",
+            "text": "Right, I hear you about a memorable ambiance. Clearly, a truly memorable experience comes from both a pleasant setting and, you know, exceptionally delicious food that fits our budget.",
+            "timestamp": 1768596708,
+            "profile": {
+              "name": "Lisa",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_lisa"
+          },
+          {
+            "id": "edf2b257-7adf-49f5-8885-b3f6e2f9a6c9",
+            "text": "Mm-hmm. I hear you. Real talk, we should find a place that masterfully combines a pleasant ambiance with, you know, truly delicious Italian or seafood, all within our budget.",
+            "timestamp": 1768596725,
+            "profile": {
+              "name": "Lisa",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_lisa"
+          },
+          {
+            "id": "fffc8ef1-109c-4ea2-a983-189b2d33f808",
+            "text": "Right, real talk. We should focus on a truly enjoyable Italian or seafood experience that feels special, you know, but still fits our anniversary budget.",
+            "timestamp": 1768596741,
+            "profile": {
+              "name": "Lisa",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_lisa"
+          },
+          {
+            "id": "ac826cbc-7275-4f20-ac61-4e4e4079861f",
+            "text": "Mm-hmm. I hear you. Real talk, we should combine delicious Italian or seafood with a pleasant ambiance, ensuring it fits our budget, you know?",
+            "timestamp": 1768596770,
+            "profile": {
+              "name": "Lisa",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_lisa"
+          },
+          {
+            "id": "d6cbcb42-2edd-41f6-a3f8-4e6990230214",
+            "text": "Essentially, combining a memorable ambiance with delicious Italian or seafood within our budget, clearly, that's the answer for our anniversary, you know?",
+            "timestamp": 1768596795,
+            "profile": {
+              "name": "Lisa",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_lisa"
+          },
+          {
+            "id": "77c4fa8c-563e-43c5-8ffa-71da616766b3",
+            "text": "Yeah, I hear you. Italian or seafood sounds promising. I'm just sort of looking for that high-key romantic ambiance, you know.",
+            "timestamp": 1768596815,
+            "profile": {
+              "name": "David",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_david"
+          },
+          {
+            "id": "68c0fd9d-c01a-4081-8936-332ca44a38cf",
+            "text": "Mm-hmm, I hear you. Clearly, a romantic ambiance with truly delicious Italian or seafood, staying within our budget, is the memorable anniversary solution, you know?",
+            "timestamp": 1768596837,
+            "profile": {
+              "name": "Lisa",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_lisa"
+          },
+          {
+            "id": "17493391-2d9d-4325-9143-9640f8091281",
+            "text": "Yeah, I hear you. Basically, balancing that high-key romantic feel with Italian or seafood, and budget, is sort of a priority.",
+            "timestamp": 1768596852,
+            "profile": {
+              "name": "David",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_david"
+          },
+          {
+            "id": "2c917685-0aa0-4e0d-af69-2727ed09f9b6",
+            "text": "Right, I hear you. Real talk, balancing that romantic feel with delicious Italian or seafood, and within budget, is clearly the perfect anniversary solution, you know?",
+            "timestamp": 1768596870,
+            "profile": {
+              "name": "Lisa",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_lisa"
+          },
+          {
+            "id": "6e9c38be-db82-42b1-a32e-cdb10e1ba385",
+            "text": "Mm-hmm, I hear you. Essentially, combining a high-key romantic feel with delicious Italian or seafood, and staying within budget, is clearly the way forward.",
+            "timestamp": 1768596884,
+            "profile": {
+              "name": "Lisa",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_lisa"
+          },
+          {
+            "id": "3e5d01e8-d66b-47d0-8be1-9dcf040e0098",
+            "text": "Yeah, I hear you. I'm just sort of stressing about finding that high-key romantic feel, you know, while keeping the budget in mind too.",
+            "timestamp": 1768596897,
+            "profile": {
+              "name": "David",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_david"
+          },
+          {
+            "id": "bbfa9afe-c1f2-49d3-b217-9b7caa8c9d86",
+            "text": "Mm-hmm, I hear you. Real talk, a high-key romantic feel clearly comes from delicious Italian or seafood, within our budget, for an unforgettable anniversary, you know?",
+            "timestamp": 1768596909,
+            "profile": {
+              "name": "Lisa",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_lisa"
+          },
+          {
+            "id": "570b66da-f6c0-44d2-9c96-02392e595fde",
+            "text": "Yeah, I hear you. It's just, you know, sort of finding that balance for a truly high-key romantic place, that's important, you know?",
+            "timestamp": 1768596924,
+            "profile": {
+              "name": "David",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_david"
+          },
+          {
+            "id": "10b8beb1-bc08-4ea0-96de-5b31190228fc",
+            "text": "Mm-hmm, I hear you. Real talk, the answer is to combine that romantic feel with delicious Italian or seafood, within our budget, you know?",
+            "timestamp": 1768596943,
+            "profile": {
+              "name": "Lisa",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_lisa"
+          },
+          {
+            "id": "1512db62-2ff4-4247-a5d3-30aecac87713",
+            "text": "Mm-hmm, I hear you. Real talk, the answer is to combine that romantic feel with delicious Italian or seafood, keeping our budget in mind, you know?",
+            "timestamp": 1768596960,
+            "profile": {
+              "name": "Lisa",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_lisa"
+          },
+          {
+            "id": "86998c78-11b6-4c84-924f-37f18e45b6f1",
+            "text": "Yeah, I hear you. It's just, basically, I'm sort of anxious to nail that high-key enchanting, truly romantic ambiance, you know?",
+            "timestamp": 1768596975,
+            "profile": {
+              "name": "David",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_david"
+          },
+          {
+            "id": "000ddada-5cc5-4014-a901-1efc7bb8f2a7",
+            "text": "Mm-hmm, I hear you. Real talk, clearly we can combine that enchanting romantic ambiance with delicious Italian or seafood, all within our budget, you know?",
+            "timestamp": 1768596992,
+            "profile": {
+              "name": "Lisa",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_lisa"
+          },
+          {
+            "id": "a7bfb1d7-638e-45be-956a-e8f9f356b240",
+            "text": "Yeah, I hear you. It's just, finding that high-key romantic place within budget, you know? That's sort of a worry.",
+            "timestamp": 1768597004,
+            "profile": {
+              "name": "David",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_david"
+          },
+          {
+            "id": "ff284e28-9257-464b-a951-d2e949fb7d04",
+            "text": "Mm-hmm, I hear you. Real talk, the answer is to combine that romantic ambiance, with truly delicious Italian or seafood, all within our set budget, you know?",
+            "timestamp": 1768597015,
+            "profile": {
+              "name": "Lisa",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_lisa"
+          },
+          {
+            "id": "c7d7622f-f63b-4191-863e-3391a962644f",
+            "text": "Yeah, I hear you. I'm just sort of stressing about where to find that high-key romantic Italian or seafood spot, you know?",
+            "timestamp": 1768597029,
+            "profile": {
+              "name": "David",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_david"
+          },
+          {
+            "id": "35c4986c-001e-4ba1-822c-449ffe674de7",
+            "text": "Do either of you have a specific place in mind that fits those descriptions?",
+            "timestamp": 1768597047,
+            "profile": {
+              "name": "Gemini",
+              "avatar": "🐻",
+              "pronouns": ""
+            },
+            "messageType": "participant",
+            "agentId": "gemini_silent"
+          },
+          {
+            "id": "73301d09-c34f-4c43-bc37-b80ca3872e1a",
+            "text": "Yeah, I hear you. Basically, I've been sort of looking at places with a really strong reputation, you know, for that high-key romantic Italian vibe.",
+            "timestamp": 1768597062,
+            "profile": {
+              "name": "David",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_david"
+          },
+          {
+            "id": "6c3bdce6-321f-447a-b2bb-fc5c02182504",
+            "text": "Mm-hmm, I hear you. Real talk, focusing on Italian places with a strong romantic reputation is clearly the wise choice, you know? We should explore those options.",
+            "timestamp": 1768597081,
+            "profile": {
+              "name": "Lisa",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_lisa"
+          },
+          {
+            "id": "8fbf29ae-884d-4eb8-908f-2675a451c231",
+            "text": "Mm-hmm, I hear you. Real talk, exploring those reputable Italian spots, we should clearly ensure they offer delicious food and, you know, fit our budget.",
+            "timestamp": 1768597092,
+            "profile": {
+              "name": "Lisa",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_lisa"
+          },
+          {
+            "id": "2f33dd0a-fd19-4557-9187-4533c23093d9",
+            "text": "Mm-hmm, I hear you. The answer is we should clearly combine that high-key romantic Italian spot with truly delicious food, ensuring it stays within our budget, you know?",
+            "timestamp": 1768597111,
+            "profile": {
+              "name": "Lisa",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_lisa"
+          },
+          {
+            "id": "448763c2-0e9b-46b2-bc6d-865a3362ca2a",
+            "text": "Mm-hmm, I hear you. Clearly, we should explore those reputable Italian spots, ensuring truly delicious food and, you know, staying within our anniversary budget.",
+            "timestamp": 1768597122,
+            "profile": {
+              "name": "Lisa",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_lisa"
+          },
+          {
+            "id": "9ec67968-e858-4445-a8bf-cd79451d68e5",
+            "text": "Yeah, I hear you. Basically, I'm sort of thinking about a few specific places, you know? Like, perhaps 'The Venetian' or 'Aria'?",
+            "timestamp": 1768597141,
+            "profile": {
+              "name": "David",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_david"
+          },
+          {
+            "id": "cb5f1e21-6c94-445e-b28b-ee1bfc9743a7",
+            "text": "Mm-hmm, I hear you. The Venetian and Aria are great suggestions! Clearly, we should examine those Italian spots, ensuring delicious food and staying within budget.",
+            "timestamp": 1768597164,
+            "profile": {
+              "name": "Lisa",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_lisa"
+          },
+          {
+            "id": "0b9429cd-b3d2-4e41-a5db-a1b8715429e8",
+            "text": "Yeah, I hear you. Basically, 'The Venetian' sort of offers that high-key romantic feel. We can check the budget, I guess?",
+            "timestamp": 1768597182,
+            "profile": {
+              "name": "David",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_david"
+          },
+          {
+            "id": "0092d50c-492a-4fb9-8007-7bcf0fb01bf5",
+            "text": "Mm-hmm, I hear you. The Venetian sounds like a wonderful romantic choice! Clearly, we should check their Italian menu and ensure it fits our budget, you know?",
+            "timestamp": 1768597198,
+            "profile": {
+              "name": "Lisa",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_lisa"
+          },
+          {
+            "id": "8bbe27d3-9085-438f-905e-c190bcac3d64",
+            "text": "Mm-hmm, I hear you. Clearly, we should look into The Venetian's menu and pricing to confirm it offers delicious Italian food and, you know, fits our budget.",
+            "timestamp": 1768597211,
+            "profile": {
+              "name": "Lisa",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_lisa"
+          },
+          {
+            "id": "555211cb-9839-4c16-a96a-c723559079a9",
+            "text": "Mm-hmm, I hear you. Clearly, we should review The Venetian's menu and pricing to confirm delicious Italian food and, you know, that it fits our budget.",
+            "timestamp": 1768597231,
+            "profile": {
+              "name": "Lisa",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_lisa"
+          },
+          {
+            "id": "221b528b-33f4-471d-9fd6-b79f2361903b",
+            "text": "Yeah, I hear you. Basically, confirming the menu and price for that high-key romantic Italian vibe is, like, sort of crucial, you know?",
+            "timestamp": 1768597250,
+            "profile": {
+              "name": "David",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_david"
+          },
+          {
+            "id": "65811e2a-652a-40c1-af41-cc8e5e044d32",
+            "text": "Mm-hmm, I hear you. Clearly, we should review The Venetian's menu and pricing to confirm delicious Italian food and, you know, that it fits our budget.",
+            "timestamp": 1768597267,
+            "profile": {
+              "name": "Lisa",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_lisa"
+          },
+          {
+            "id": "a95b3e7a-3a94-4af0-92d4-eaf6b698da42",
+            "text": "Mm-hmm, I hear you. Clearly, we should prioritize checking The Venetian's menu and pricing to guarantee delicious Italian food and, you know, our budget is met.",
+            "timestamp": 1768597286,
+            "profile": {
+              "name": "Lisa",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_lisa"
+          },
+          {
+            "id": "a54a5c00-227f-47e0-a989-1484035da753",
+            "text": "Mm-hmm, I hear you. Clearly, reviewing The Venetian's menu and pricing is critical to confirm delicious Italian food and, you know, our budget is met.",
+            "timestamp": 1768597304,
+            "profile": {
+              "name": "Lisa",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_lisa"
+          },
+          {
+            "id": "f09d497c-60b7-44d5-b32e-7007c7025b3f",
+            "text": "Is one of you able to look up their menu?",
+            "timestamp": 1768597329,
+            "profile": {
+              "name": "Gemini",
+              "avatar": "🐻",
+              "pronouns": ""
+            },
+            "messageType": "participant",
+            "agentId": "gemini_silent"
+          },
+          {
+            "id": "5432ba51-3f09-447d-a310-3c441a709c02",
+            "text": "Yeah, I hear you, Gemini. I can probably check 'The Venetian's' menu now, you know, to see the options and review their pricing.",
+            "timestamp": 1768597347,
+            "profile": {
+              "name": "David",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_david"
+          },
+          {
+            "id": "367c1530-f41a-4e3d-b468-ef926288e3ef",
+            "text": "Mm-hmm, I hear you, David. That sounds wonderful! Clearly, checking The Venetian's menu and pricing for delicious Italian and our budget is the perfect next step, you know?",
+            "timestamp": 1768597372,
+            "profile": {
+              "name": "Lisa",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_lisa"
+          },
+          {
+            "id": "dfcb4917-730e-4b90-bea8-4abbd585f396",
+            "text": "Mm-hmm, I hear you, David. That's good! Clearly, reviewing 'The Venetian's' Italian menu and pricing ensures delicious food and, you know, fits our budget.",
+            "timestamp": 1768597388,
+            "profile": {
+              "name": "Lisa",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_lisa"
+          },
+          {
+            "id": "7ce13c87-d64a-4c21-98e6-2deeea6af58d",
+            "text": "Mm-hmm, I hear you. That’s excellent, David! Clearly, confirming 'The Venetian' offers delicious Italian food and fits our budget is the answer, you know?",
+            "timestamp": 1768597399,
+            "profile": {
+              "name": "Lisa",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_lisa"
+          },
+          {
+            "id": "61a05926-8376-439a-9b16-e1a741dfcca6",
+            "text": "Mm-hmm, I hear you, David. Clearly, checking those details is crucial for our anniversary, you know, to ensure delicious Italian and budget alignment.",
+            "timestamp": 1768597412,
+            "profile": {
+              "name": "Lisa",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_lisa"
+          },
+          {
+            "id": "13615376-e509-4826-98a3-61c427e12a7a",
+            "text": "Mm-hmm, I hear you, David. That's wonderfully proactive! Clearly, ensuring delicious Italian food and, you know, confirming it fits our budget is key for The Venetian.",
+            "timestamp": 1768597430,
+            "profile": {
+              "name": "Lisa",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_lisa"
+          },
+          {
+            "id": "bf3cd473-12f2-48e0-a32d-e38705d18b09",
+            "text": "Yeah, I hear you. I'm sort of checking 'The Venetian' menu now. Confirming that high-key romantic vibe and the pricing.",
+            "timestamp": 1768597447,
+            "profile": {
+              "name": "David",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_david"
+          },
+          {
+            "id": "71a8a1e6-689c-4765-aa00-002491380ff9",
+            "text": "Mm-hmm, I hear you, David. That’s wonderfully productive! Clearly, ensuring delicious Italian food and, you know, confirming it fits our budget is key for The Venetian.",
+            "timestamp": 1768597456,
+            "profile": {
+              "name": "Lisa",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_lisa"
+          },
+          {
+            "id": "a7e37bef-0870-418d-a69e-6090a857c36b",
+            "text": "Yeah, I hear you. Basically, 'The Venetian' does have that high-key romantic vibe. The menu, you know, it's sort of more on the upscale side, I guess?",
+            "timestamp": 1768597468,
+            "profile": {
+              "name": "David",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_david"
+          },
+          {
+            "id": "d3531dfc-4738-4d9d-8231-9f1c39e69028",
+            "text": "Mm-hmm, I hear you. Real talk, an upscale menu means we should clearly ensure it perfectly fits our anniversary budget, for truly delicious Italian, you know?",
+            "timestamp": 1768597479,
+            "profile": {
+              "name": "Lisa",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_lisa"
+          },
+          {
+            "id": "516eef58-31ef-4600-866c-15b50a10e501",
+            "text": "Yeah, I hear you. Basically, balancing that high-key romantic feel with the budget for an upscale Italian place is sort of a challenge, you know?",
+            "timestamp": 1768597495,
+            "profile": {
+              "name": "David",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_david"
+          },
+          {
+            "id": "9f8a03e9-03b9-4471-a519-475229b85f6f",
+            "text": "Mm-hmm, I hear you. Real talk, balancing that romantic feel with the upscale Italian menu requires us to clearly ensure it fits our budget, you know? That's the answer.",
+            "timestamp": 1768597509,
+            "profile": {
+              "name": "Lisa",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_lisa"
+          },
+          {
+            "id": "55584eef-f634-47f2-99da-81088f974f9b",
+            "text": "How does 'upscale' compare with the budget you two have in mind?",
+            "timestamp": 1768597532,
+            "profile": {
+              "name": "Gemini",
+              "avatar": "🐻",
+              "pronouns": ""
+            },
+            "messageType": "participant",
+            "agentId": "gemini_silent"
+          },
+          {
+            "id": "1d6739b0-8621-4cf7-a8a3-736ebb0c0390",
+            "text": "Mm-hmm, I hear you. Real talk, an upscale menu means we should clearly align it with our anniversary budget, you know, for truly delicious Italian.",
+            "timestamp": 1768597545,
+            "profile": {
+              "name": "Lisa",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_lisa"
+          },
+          {
+            "id": "5302ac49-dbdf-4a76-9a6f-56a0332588ae",
+            "text": "Yeah, I hear you, Gemini. Basically, that upscale feel, you know, sort of makes it a bit trickier to nail down within our budget, I guess.",
+            "timestamp": 1768597559,
+            "profile": {
+              "name": "David",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_david"
+          },
+          {
+            "id": "ccca42e7-f932-4965-8b92-8ecf1e56da1b",
+            "text": "Mm-hmm, I hear you. Real talk, balancing that romantic, upscale Italian feel with our budget is clearly paramount, you know? We should ensure both are met.",
+            "timestamp": 1768597573,
+            "profile": {
+              "name": "Lisa",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_lisa"
+          },
+          {
+            "id": "7bb6fd14-13e0-4c23-ac94-1a10092ac296",
+            "text": "Mm-hmm, I hear you, David. Real talk, making sure that romantic, upscale Italian spot fits our budget is clearly the key, you know?",
+            "timestamp": 1768597593,
+            "profile": {
+              "name": "Lisa",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_lisa"
+          },
+          {
+            "id": "fe96a296-4e9a-42e3-84ae-c6a8ab3da850",
+            "text": "Yeah, I hear you, Gemini. Basically, that upscale feel, you know, sort of makes it a bit trickier to nail down within our budget, I guess.",
+            "timestamp": 1768597613,
+            "profile": {
+              "name": "David",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_david"
+          },
+          {
+            "id": "0fa7253d-ccfd-40bc-b63b-eda865129ba6",
+            "text": "Yeah, I hear you. It's just, like, finding that high-key romantic Italian spot, you know, that surprisingly fits the budget is sort of tough, I guess.",
+            "timestamp": 1768597629,
+            "profile": {
+              "name": "David",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_david"
+          },
+          {
+            "id": "4a09415b-0aec-4a6e-a6e9-e155971062df",
+            "text": "Mm-hmm, I hear you, David. Real talk, the answer is to combine that high-key romantic Italian feel with delicious food, ensuring it works for our budget, you know?",
+            "timestamp": 1768597645,
+            "profile": {
+              "name": "Lisa",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_lisa"
+          },
+          {
+            "id": "440ccfda-c4a2-4b37-8424-776bca1804b3",
+            "text": "What about Aria? Was that the other place you mentioned, David?",
+            "timestamp": 1768597663,
+            "profile": {
+              "name": "Gemini",
+              "avatar": "🐻",
+              "pronouns": ""
+            },
+            "messageType": "participant",
+            "agentId": "gemini_silent"
+          },
+          {
+            "id": "df30a3cc-9aca-4530-957d-e700b49fa722",
+            "text": "Yeah, I hear you, Gemini. Aria was the other place, you know? I'm sort of anxious to check that for a high-key romantic vibe and pricing.",
+            "timestamp": 1768597677,
+            "profile": {
+              "name": "David",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_david"
+          },
+          {
+            "id": "d9cfe1ee-9dc0-4648-a9b0-2988e3adb884",
+            "text": "Mm-hmm, I hear you, David. Clearly, checking Aria for that romantic Italian feel, delicious food, and our budget is the answer, you know?",
+            "timestamp": 1768597688,
+            "profile": {
+              "name": "Lisa",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_lisa"
+          },
+          {
+            "id": "7ae83dfa-4ca2-4301-a97c-832c5cddb2d4",
+            "text": "Yeah, I hear you. I'm sort of anxious to check 'Aria's' menu, you know, to confirm that romantic vibe and pricing.",
+            "timestamp": 1768597707,
+            "profile": {
+              "name": "David",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_david"
+          },
+          {
+            "id": "6de3e5a2-91c7-4ce5-a4d2-abddac696e9c",
+            "text": "Mm-hmm, I hear you, David. Clearly, checking Aria's menu for that romantic Italian feel, deliciousness, and our budget is the answer, you know?",
+            "timestamp": 1768597721,
+            "profile": {
+              "name": "Lisa",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_lisa"
+          },
+          {
+            "id": "ee1cb2f9-06a7-42d0-b483-336d89f195f5",
+            "text": "Mm-hmm, I hear you, David. Clearly, reviewing Aria's menu for truly delicious Italian food, that romantic feel, and our budget is the answer, you know?",
+            "timestamp": 1768597734,
+            "profile": {
+              "name": "Lisa",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_lisa"
+          },
+          {
+            "id": "43c2c14c-32e9-4364-8ad6-c7105cf05647",
+            "text": "Mm-hmm, I hear you, David. Clearly, confirming Aria's delicious Italian food and, you know, ensuring it perfectly fits our budget is the answer.",
+            "timestamp": 1768597746,
+            "profile": {
+              "name": "Lisa",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_lisa"
+          },
+          {
+            "id": "f2b6dc76-8442-4e4e-b683-771d82fd54bd",
+            "text": "Mm-hmm, I hear you, David. Real talk, clearly checking Aria's menu for that romantic feel, truly delicious Italian food, and our budget, is the answer, you know?",
+            "timestamp": 1768597764,
+            "profile": {
+              "name": "Lisa",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_lisa"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "facilitatorBehavior": "silent",
+    "groupSize": 3,
+    "experimentId": "ed4a8303-9b99-40bb-bc2c-b473b9af7dc6",
+    "cohortId": "mkhdg9in-zg5lkn",
+    "status": "success",
+    "conversations": [
+      {
+        "experimentId": "ed4a8303-9b99-40bb-bc2c-b473b9af7dc6",
+        "cohortId": "mkhdg9in-zg5lkn",
+        "stageId": "e6fd4901-1933-403b-ba1c-18261a90c16f",
+        "messages": [
+          {
+            "id": "7f759681-40c9-4f46-8da8-cc51026bd1ea",
+            "text": "Ugh, I'm so hungry, and these decisions are tough! I'm craving sushi or good ramen. I'm pescatarian, so maybe that helps? What do you guys think?",
+            "timestamp": 1768597833,
+            "profile": {
+              "name": "Maya",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_maya"
+          },
+          {
+            "id": "15be1709-a91f-4106-ae23-4edcc80bfbf2",
+            "text": "Mm-hmm, I know, I'm feeling so torn! Sushi or ramen are sort of classic, I guess. But what if we did sharing plates instead, you know?",
+            "timestamp": 1768597843,
+            "profile": {
+              "name": "Chloe",
+              "avatar": "🐶",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_chloe"
+          },
+          {
+            "id": "06a0e7ae-3627-47c1-a616-d80000c5d0aa",
+            "text": "Yeah! Sharing plates, I'm into it! A new spot could be fun, you know? We'd probably just need good gluten-free and dairy-free options. Any cuisine ideas?",
+            "timestamp": 1768597855,
+            "profile": {
+              "name": "Leo",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_leo"
+          },
+          {
+            "id": "0d17569d-51fd-4a35-b972-e26520ce5f1b",
+            "text": "Totally! Sharing plates are great, and I'm really ready for a new spot, you know? Maybe some kinda Thai or Mediterranean? What do you guys think for cuisine?",
+            "timestamp": 1768597938,
+            "profile": {
+              "name": "Leo",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_leo"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "facilitatorBehavior": "silent",
+    "groupSize": 3,
+    "experimentId": "cf97e9b3-0071-4087-a07b-aaa4b4975b1f",
+    "cohortId": "mkhdgb2k-gcr1sa",
+    "status": "success",
+    "conversations": [
+      {
+        "experimentId": "cf97e9b3-0071-4087-a07b-aaa4b4975b1f",
+        "cohortId": "mkhdgb2k-gcr1sa",
+        "stageId": "46e4473e-45f0-455e-b636-50d90bbc58a5",
+        "messages": [
+          {
+            "id": "64a3133f-4453-4c95-8d13-46c218225506",
+            "text": "Hey everyone, so for our celebration, I'm hoping for great food and a good wine list. A quiet spot would be perfect, right?",
+            "timestamp": 1768597873,
+            "profile": {
+              "name": "David",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_david"
+          },
+          {
+            "id": "83d90e27-ccaa-4e24-9373-1c2d80d047f3",
+            "text": "Yeah, I mean, a quiet spot? Clearly, my vibe check for a celebration is more fun and trendy! Low-key, creative vegan options are key, right?",
+            "timestamp": 1768597886,
+            "profile": {
+              "name": "Emily",
+              "avatar": "🐶",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_emily"
+          },
+          {
+            "id": "ff611d84-d4c3-4675-a6d8-7ca391dcc788",
+            "text": "I see, a quiet spot is key. Essentially, budget is important, and good vegetarian options are needed.",
+            "timestamp": 1768597887,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          }
+        ]
+      }
+    ]
+  }
+]

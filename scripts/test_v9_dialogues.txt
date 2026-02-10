@@ -1,0 +1,38 @@
+=== SILENT (1 participants) ===
+Experiment ID: f9409d75-691b-4707-9771-d37d2e11ef7e
+
+[09:44:40] Liam: Planning an anniversary dinner. Needs to be romantic, downtown, with veggie/GF options.
+[09:44:51] Liam: Budget is $100-$150 per person. A quiet atmosphere is also important.
+
+
+=== SILENT (1 participants) ===
+Experiment ID: d919b366-8cb5-4cac-b328-6e5a93939325
+
+[09:44:34] Sarah: Hello everyone. So, we need to find a restaurant for 12, this Friday.
+[09:44:46] Sarah: Budget is $50-75. Please consider vegan, nut, shellfish allergies.
+
+
+=== SILENT (1 participants) ===
+Experiment ID: e6ab56bd-9e04-49e0-b984-ce3f96737728
+
+[09:46:16] David: Hey everyone! I'm David, and it's my first time in Austin. I'm hoping to find a great local spot for dinner, something budget-friendly and walkable from my South Congress hotel. Any ideas for authentic Austin food?
+
+
+=== SILENT (2 participants) ===
+Experiment ID: 0e896cdb-2fdf-4de9-8344-a249a0909b94
+
+[09:46:19] Sarah: Hey guys, tough week. I really just want something simple, affordable, with good reviews tonight.
+[09:46:23] Mark: Hey Sarah, I'm totally craving pizza tonight! It's usually simple and affordable, plus we can definitely find a spot with awesome reviews.
+[09:46:36] Sarah: Yeah, pizza could work, I guess. Any other ideas on cuisine though? I'm so tired.
+[09:46:40] Mark: Totally get wanting other options! Pizza is easy, but a relaxed burger spot or tacos could be fun too.
+[09:46:45] Sarah: Oh, tacos or burgers both sound pretty easy. Are tacos typically cheaper, you think?
+[09:46:51] Mark: Yeah, tacos are often cheaper than burgers. We could find a fun, laid-back taco place!
+[09:47:00] Sarah: Okay, good to know that works. Are there any particular taco places with great reviews?
+[09:47:02] Mark: Oh, 'Taco Heaven' is a casual spot with awesome reviews that comes to mind!
+[09:47:08] Sarah: Oh, Taco Heaven! I've heard of that. Is it pretty quick and affordable?
+[09:47:13] Mark: Totally! Taco Heaven is fast, really affordable, and has a super relaxed vibe. Perfect for a chill night!
+[09:47:17] Sarah: Okay, that works! Taco Heaven sounds pretty ideal for tonight, actually. It's easy.
+[09:47:19] System: Gemini has left the chat.
+[09:47:20] System: Mark has left the chat.
+[09:47:27] System: Sarah has left the chat.
+

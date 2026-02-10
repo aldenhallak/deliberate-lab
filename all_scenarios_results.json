@@ -1,0 +1,494 @@
+[
+  {
+    "facilitatorBehavior": "silent",
+    "groupSize": 1,
+    "experimentId": "8550c2f6-e3a0-44a8-888c-9e0282a22aea",
+    "cohortId": "mkha2am6-tz3rbq",
+    "status": "success",
+    "conversations": [
+      {
+        "experimentId": "8550c2f6-e3a0-44a8-888c-9e0282a22aea",
+        "cohortId": "mkha2am6-tz3rbq",
+        "stageId": "50013a24-50b7-4cd8-a27b-bbf86f3c85a7",
+        "messages": [
+          {
+            "id": "415ac531-66fd-4395-9e0b-06244a4f8015",
+            "text": "Hey Gemini, I need some help planning a special anniversary dinner for my partner.",
+            "timestamp": 1768592096,
+            "profile": {
+              "name": "Liam",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_liam"
+          },
+          {
+            "id": "02439949-e6bd-4cbc-ae6e-39ea78cb684a",
+            "text": "Of course, I can help with that. What kind of cuisine or atmosphere are you thinking of?",
+            "timestamp": 1768592104,
+            "profile": {
+              "name": "Gemini",
+              "avatar": "🐻",
+              "pronouns": ""
+            },
+            "messageType": "participant",
+            "agentId": "gemini_silent"
+          },
+          {
+            "id": "ea70c158-e829-4f34-959f-d97537de1ab5",
+            "text": "I'm looking for something romantic and quiet, definitely downtown. Needs to be good for vegetarians and gluten-free options too, ideally around $100-$150 per person. A nice view or special dessert would be amazing!",
+            "timestamp": 1768592109,
+            "profile": {
+              "name": "Liam",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_liam"
+          },
+          {
+            "id": "a7c26e39-16df-4308-9091-d83b0097e3f7",
+            "text": "Okay, that's a great set of criteria. One moment while I look for some options that match.",
+            "timestamp": 1768592124,
+            "profile": {
+              "name": "Gemini",
+              "avatar": "🐻",
+              "pronouns": ""
+            },
+            "messageType": "participant",
+            "agentId": "gemini_silent"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "facilitatorBehavior": "silent",
+    "groupSize": 1,
+    "experimentId": "2a9fbd53-9590-4f50-9184-81b6e74dd859",
+    "cohortId": "mkha2am2-wc5h82",
+    "status": "success",
+    "conversations": [
+      {
+        "experimentId": "2a9fbd53-9590-4f50-9184-81b6e74dd859",
+        "cohortId": "mkha2am2-wc5h82",
+        "stageId": "672e01cb-978b-4e65-b3b8-71f3bc8c0383",
+        "messages": [
+          {
+            "id": "7e773219-0f98-498d-b101-6eee889c0f4f",
+            "text": "Hi Gemini! I need your help finding a restaurant for our team dinner this Friday. We're a group of 12 people, and I have quite a few specific needs to cover.",
+            "timestamp": 1768592094,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "d563d60d-282f-4036-b58c-d27ea98bb861",
+            "text": "Of course, Sarah. I'm here to help. What are the specific needs you have in mind?",
+            "timestamp": 1768592100,
+            "profile": {
+              "name": "Gemini",
+              "avatar": "🐻",
+              "pronouns": ""
+            },
+            "messageType": "participant",
+            "agentId": "gemini_silent"
+          },
+          {
+            "id": "f004ac55-d9e4-41a6-aca8-ff961cd1a054",
+            "text": "Okay, so we need a place that can handle vegan, nut, and shellfish allergies, and ideally offer a mix of Italian, Asian fusion, or American comfort food. Budget is $50-75 per person, for 12 people this coming Friday in the Financial District, and I'd like a quieter spot for team bonding.",
+            "timestamp": 1768592107,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "707c72b8-e3e3-4e44-ac16-6eea01ef72e2",
+            "text": "Got it. Let me look for some options that fit all those criteria. One moment.",
+            "timestamp": 1768592115,
+            "profile": {
+              "name": "Gemini",
+              "avatar": "🐻",
+              "pronouns": ""
+            },
+            "messageType": "participant",
+            "agentId": "gemini_silent"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "facilitatorBehavior": "silent",
+    "groupSize": 1,
+    "experimentId": "e3c93b05-0ff0-48fc-af05-a61b0c82ee87",
+    "cohortId": "mkha73az-5r13yl",
+    "status": "success",
+    "conversations": [
+      {
+        "experimentId": "e3c93b05-0ff0-48fc-af05-a61b0c82ee87",
+        "cohortId": "mkha73az-5r13yl",
+        "stageId": "a9e0b088-7c0a-4b22-a499-8f8e69a055d3",
+        "messages": [
+          {
+            "id": "395a1b07-8116-4260-930e-07b8b452c4c6",
+            "text": "Hey there! So I just got to Austin for the first time and I'm looking for a good local spot to eat. Something authentic, not too pricey, and hopefully within a 15-minute walk from my hotel near South Congress. What do you recommend?",
+            "timestamp": 1768592318,
+            "profile": {
+              "name": "David",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_david"
+          },
+          {
+            "id": "20a9e5fb-6c83-43c5-801a-2d28c84b6a7a",
+            "text": "Guero's Taco Bar is a classic spot on South Congress. It's casual, authentic Tex-Mex and should be close to you.",
+            "timestamp": 1768592330,
+            "profile": {
+              "name": "Gemini",
+              "avatar": "🐻",
+              "pronouns": ""
+            },
+            "messageType": "participant",
+            "agentId": "gemini_silent"
+          },
+          {
+            "id": "ec228ae4-719c-4c82-8bfe-93fb2bdb1513",
+            "text": "Okay, Guero's Taco Bar sounds like a good lead! Is it pretty budget-friendly, like under $30, and do they have good milder options since I'm trying to avoid anything too spicy? Also, any specific dishes I should try there, or cool spots nearby to visit?",
+            "timestamp": 1768592343,
+            "profile": {
+              "name": "David",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_david"
+          },
+          {
+            "id": "28e41521-d6b7-4ea3-9231-5cbca7a3e9fa",
+            "text": "Yes, it's definitely in your budget and has lots of mild options. The tacos al pastor are a favorite, and the whole street is great for walking around and shopping.",
+            "timestamp": 1768592353,
+            "profile": {
+              "name": "Gemini",
+              "avatar": "🐻",
+              "pronouns": ""
+            },
+            "messageType": "participant",
+            "agentId": "gemini_silent"
+          },
+          {
+            "id": "e364354b-b0bc-4af0-b836-9f8f85a42591",
+            "text": "Awesome, that sounds perfect! Guero's Taco Bar it is then, and I'll definitely check out the shops on South Congress. Thanks so much!",
+            "timestamp": 1768592362,
+            "profile": {
+              "name": "David",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_david"
+          },
+          {
+            "id": "e3258e98-2739-4998-82f8-364dbfd158c5",
+            "text": "David has left the chat.",
+            "timestamp": 1768592362,
+            "profile": {
+              "name": "System",
+              "avatar": "⚙️",
+              "pronouns": null
+            },
+            "messageType": "system",
+            "agentId": ""
+          },
+          {
+            "id": "7e096009-46a7-4bf8-94c6-e0fe52f537e3",
+            "text": "Gemini has left the chat.",
+            "timestamp": 1768592369,
+            "profile": {
+              "name": "System",
+              "avatar": "⚙️",
+              "pronouns": null
+            },
+            "messageType": "system",
+            "agentId": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "facilitatorBehavior": "silent",
+    "groupSize": 2,
+    "experimentId": "a66f2ef1-d164-4bb5-b9aa-04ca3ac95192",
+    "cohortId": "mkha73bf-345mm7",
+    "status": "success",
+    "conversations": [
+      {
+        "experimentId": "a66f2ef1-d164-4bb5-b9aa-04ca3ac95192",
+        "cohortId": "mkha73bf-345mm7",
+        "stageId": "442d2f44-f445-4f58-95ba-516f5598675d",
+        "messages": [
+          {
+            "id": "d07e059f-57a0-4118-88e3-152ecd6933a1",
+            "text": "Hey Sarah, I'm definitely craving some pizza tonight, but I'm open to other ideas if you've got something in mind! What are you feeling?",
+            "timestamp": 1768592320,
+            "profile": {
+              "name": "Mark",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mark"
+          },
+          {
+            "id": "7f3bde8d-c36a-453c-b0f7-1bcd809cb203",
+            "text": "Hey Mark! Pizza sounds good, but I'm pretty tired from the week, so I'm mainly looking for something easy, not too expensive, and with consistently good reviews. What other ideas were you thinking?",
+            "timestamp": 1768592322,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "5e8b6be1-d679-4055-82fe-b45de10944d8",
+            "text": "Oh, I was actually thinking pizza would fit those vibes perfectly - easy and not too expensive. We could definitely find a casual spot with good reviews if that works for you?",
+            "timestamp": 1768592339,
+            "profile": {
+              "name": "Mark",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mark"
+          },
+          {
+            "id": "b4e01672-3424-462a-8b28-f74eb4710e71",
+            "text": "Yeah, good point, pizza can definitely hit those notes. Do you have any specific casual spots with good reviews in mind?",
+            "timestamp": 1768592347,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "ee43622c-ac4d-4fc1-b19b-1753543c93be",
+            "text": "Hmm, for good reviews and not too pricey, maybe 'Pizza Palace' or 'Crust & Co.'? They're usually pretty solid and casual. What do you think of those?",
+            "timestamp": 1768592356,
+            "profile": {
+              "name": "Mark",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mark"
+          },
+          {
+            "id": "11d5d950-0465-4d7a-8434-1be7218810e5",
+            "text": "Hmm, I've heard of Pizza Palace, but I'm not super familiar with Crust & Co. Let me quickly check reviews for both.",
+            "timestamp": 1768592364,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "facilitatorBehavior": "silent",
+    "groupSize": 2,
+    "experimentId": "19c770e0-48cd-40fc-90f7-c59cafe6ca0f",
+    "cohortId": "mkhacbsi-hr8at0",
+    "status": "success",
+    "conversations": [
+      {
+        "experimentId": "19c770e0-48cd-40fc-90f7-c59cafe6ca0f",
+        "cohortId": "mkhacbsi-hr8at0",
+        "stageId": "b3c9a2fc-7d1e-4b38-a79a-8553f3896d35",
+        "messages": [
+          {
+            "id": "330280af-0608-4179-a7a7-d368d574140f",
+            "text": "Alright, so we're talking dinner! I've had a few places in mind that I think would work well. I'm excited to hear what everyone else is thinking too.",
+            "timestamp": 1768592567,
+            "profile": {
+              "name": "Ben",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_ben"
+          },
+          {
+            "id": "19d95551-7fb3-420b-818f-9e0978d46e9c",
+            "text": "Hey Ben, awesome that you've got some ideas! I'm really keen to hear them, but also want to make sure we keep a few things in mind, like dietary needs and budget, for everyone.",
+            "timestamp": 1768592569,
+            "profile": {
+              "name": "Elena",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_elena"
+          },
+          {
+            "id": "ea2cb50b-2e46-44f7-aba7-103974a7939b",
+            "text": "Oh yeah, absolutely! I've definitely considered those points when thinking of places. Happy to share my thoughts when you're ready, but let's hear what everyone else has in mind first too.",
+            "timestamp": 1768592584,
+            "profile": {
+              "name": "Ben",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_ben"
+          },
+          {
+            "id": "43b6259c-6082-4391-b1c0-62873d581204",
+            "text": "Thanks Ben. Okay, does anyone else have ideas they want to share first?",
+            "timestamp": 1768592597,
+            "profile": {
+              "name": "Elena",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_elena"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "facilitatorBehavior": "silent",
+    "groupSize": 2,
+    "experimentId": "f491624c-8f8a-498e-8459-8eb11273668d",
+    "cohortId": "mkhacbsn-c1wxz4",
+    "status": "success",
+    "conversations": [
+      {
+        "experimentId": "f491624c-8f8a-498e-8459-8eb11273668d",
+        "cohortId": "mkhacbsn-c1wxz4",
+        "stageId": "e9cc7416-6755-4e37-8fa8-60eb6ab6e7bc",
+        "messages": [
+          {
+            "id": "27588b16-9f68-4fe2-ad5d-ce87b38acd5f",
+            "text": "Hey David! So, anniversary dinner... I'm excited! I'm thinking something with really delicious food and a nice, comfortable vibe.",
+            "timestamp": 1768592561,
+            "profile": {
+              "name": "Lisa",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_lisa"
+          },
+          {
+            "id": "87fdb66f-15ee-4cc0-9016-f08652ba394d",
+            "text": "Hey Lisa! Yeah, I'm really looking forward to it. I was thinking we could go for something truly memorable and special this year, maybe a place with a great reputation?",
+            "timestamp": 1768592565,
+            "profile": {
+              "name": "David",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_david"
+          },
+          {
+            "id": "81981f46-8f7c-41e4-9742-13ab459dd681",
+            "text": "Definitely memorable! I'm all for special, as long as it's somewhere with genuinely amazing food and a really nice atmosphere. Maybe something Italian?",
+            "timestamp": 1768592577,
+            "profile": {
+              "name": "Lisa",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_lisa"
+          },
+          {
+            "id": "a988df06-ca99-4562-8139-c56d9f383138",
+            "text": "Absolutely, 'genuinely amazing food' is a must! And Italian could be fantastic, especially if we find a really upscale or romantic place. What do you think?",
+            "timestamp": 1768592590,
+            "profile": {
+              "name": "David",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_david"
+          },
+          {
+            "id": "911c85e0-db25-4ff7-868d-f95a215a029f",
+            "text": "Italian sounds great! I was thinking romantic, for sure, but also somewhere that feels really comfortable and has truly incredible food, not necessarily super upscale if it means compromising on the other things or being too pricey.",
+            "timestamp": 1768592601,
+            "profile": {
+              "name": "Lisa",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_lisa"
+          },
+          {
+            "id": "f1e8a38f-6631-4e41-8358-9d018d0bcaf5",
+            "text": "Totally agree, we definitely want incredible food and comfort above all else. Finding that sweet spot between romantic, special, and not over the top with the price for our anniversary sounds perfect to me for an Italian place.",
+            "timestamp": 1768592611,
+            "profile": {
+              "name": "David",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_david"
+          },
+          {
+            "id": "4268a5cb-be27-4058-bddc-c167af3428da",
+            "text": "Perfect! That sweet spot sounds exactly right to me. I'm excited to see what Italian places we can find!",
+            "timestamp": 1768592614,
+            "profile": {
+              "name": "Lisa",
+              "avatar": "🐃",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_lisa"
+          },
+          {
+            "id": "c92158a3-69fd-44de-bbbe-5f585be745cb",
+            "text": "Me too! I'm excited to see what amazing Italian places we can find.",
+            "timestamp": 1768592621,
+            "profile": {
+              "name": "David",
+              "avatar": "🪿",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_david"
+          }
+        ]
+      }
+    ]
+  }
+]

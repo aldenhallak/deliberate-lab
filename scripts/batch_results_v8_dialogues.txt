@@ -1,0 +1,248 @@
+=== SHORT_RESPONSES (2 participants) ===
+Experiment ID: 49a4eaab-9832-470f-adb4-61b01c7e106a
+
+Sarah: Hey everyone! Alright, what are we thinking for dinner? Let's try and find something actually interesting tonight, no boring chains please!
+Mike: Interesting is fine, but let's not break the bank. Can't we just get pizza or something?
+Sarah: Ugh, pizza? Come on, Mike, we just talked about trying something actually interesting! Let's get creative.
+Sarah: Alright, so no pizza. What else do we have in mind? Gemini, any creative ideas?
+Mike: Alright, but whatever Gemini suggests, it better not be too pricey. We're on a budget tonight.
+Sarah: Okay, Mike, I hear you on the budget. But Gemini, please, something inspiring that doesn't break the bank?
+Gemini: To find something inspiring that's still budget-friendly, maybe we can think about different cuisines? What kind of flavors are you both feeling tonight?
+Mike: Sure, I'm down for different flavors, as long as it's something actually affordable this time. Maybe Mexican or Vietnamese, if we can find something cheap?
+Sarah: Okay, that's a start. Vietnamese sounds more promising than just any Mexican place, if we can find something good and still affordable. What kind of Vietnamese are we thinking, Gemini?
+Gemini: Good question! Are we thinking pho, banh mi, or something else?
+Mike: Honestly, either is fine, but banh mi can sometimes be cheaper. The key is finding a place that isn't overpriced.
+Sarah: Banh mi could work, but it really needs to be from a good, authentic spot, not just basic. Gemini, do you know any places that fit that description and are still affordable?
+Mike: Yeah, and the affordable part is really important. Let's make sure it's not some fancy, overpriced banh mi.
+Sarah: Exactly! We need to find the sweet spot, Gemini. What are your best bets for an authentic, affordable banh mi spot?
+Gemini: As an AI, I don't have direct knowledge of specific restaurant locations or their current menus and prices. You'd know best about places near you that fit that description.
+Sarah: Okay, that's fair, Gemini. Alright, so we're looking for an authentic and affordable banh mi then. I can do a quick search on my phone, or do either of you know any good local spots off the top of your head?
+Mike: I don't know any offhand, but yeah, make sure whatever you find is genuinely cheap for banh mi, Sarah. We don't want anything too fancy.
+Sarah: Okay, got it. "Genuinely cheap and authentic." I'm on it, give me a sec to look up some places now.
+
+
+=== SHORT_RESPONSES (3 participants) ===
+Experiment ID: e38f96ce-cd18-40aa-ba91-43bb18e053f6
+
+Sarah: Alright team, what are we thinking for dinner? I'm hoping for something a little more exciting than the usual, you know?
+Mike: Honestly, can't we just get pizza?
+Emma: I'm up for something exciting, but only if they have genuinely good vegetarian options. I'm tired of just sad side salads or plain cheese pizza.
+Sarah: Ugh, Mike, not another pizza place! Come on, let's try something actually interesting. Emma, what kind of exciting are you thinking?
+Mike: Alright, but we need to keep it affordable. I'm not paying a fortune for 'exciting'.
+Sarah: Affordable is fine, Mike, but that doesn't mean we have to settle for boring! We can definitely find something unique and delicious that won't break the bank.
+Emma: Honestly, I'm open to most things as long as their vegetarian options are genuinely substantial and delicious, not just an afterthought.
+Mike: Okay, fine, exciting is good, but seriously, 'won't break the bank' better mean like, less than $15 a person.
+Emma: Exactly! So what places are we thinking that have awesome vegetarian dishes, not just salads?
+Gemini: What kind of cuisine are we thinking for those good vegetarian options then?
+Emma: Honestly, something like Indian, Thai, or even a good Mediterranean place usually has pretty great veg options, not just a token dish.
+Mike: Okay, but are those types of places usually affordable? Or are we talking fancy Indian food?
+Mike: Right, because I'm not looking to spend more than $15 max on this. Are Indian or Thai places typically good for that?
+Sarah: Definitely, Mike! Plenty of fantastic Indian and Thai spots are totally affordable, and they're usually far more exciting than pizza. We just need to find a good, authentic place.
+Mike: Okay, that's good to hear, but can we really find places where main dishes are under $15? We need to be sure.
+Mike: Alright, so if we can find decent Indian or Thai for under $15 per main, then maybe. But seriously, we need to focus on places that actually fit that budget.
+Mike: So, does anyone have specific Indian or Thai restaurants in mind that truly have mains under $15? We need solid options.
+Mike: Alright, so if we're serious about this, what are the names of these places you're thinking of that are genuinely under $15 a main?
+Mike: Alright, so if nobody has specific names that fit the budget, are we really sure we can find something, or should we rethink the cuisine?
+Emma: Yeah, checking specific menus is a good idea for the price, but let's also make sure they have a good variety of actual vegetarian mains, not just a couple of sad appetizers.
+Mike: Right, so any actual restaurant names we know will meet both the price and vegetarian requirements?
+Mike: Exactly. So, actual names please, that hit both under $15 and good veg options.
+Emma: Right, and when we get those names, we really need to check if their vegetarian menus are actually diverse and not just a couple of side dishes. I've been burned before.
+Sarah: Come on, Mike, don't be so negative! I'm sure we can find an authentic Indian or Thai place with great veg options under $15. We just need to search for a minute.
+Mike: Okay, so who's actually going to search, and what exact places are we finding that are under $15?
+Emma: Yeah, and when we find those names, we really need to check their menus for genuine vegetarian mains, not just a couple of sad appetizers.
+Mike: So, since nobody's named a place yet, who's going to actually look these up right now to confirm the prices?
+Mike: Alright, so who's actually going to check menus right now to see if these places are really under $15 per main?
+Emma: Yeah, and once we do find some names, we really need to look at their actual vegetarian menus and see what kind of mains they offer, not just assume they have good options.
+Mike: So, since we're still just talking hypotheticals, is anyone actually going to find a specific Indian or Thai place under $15 per main, or are we stuck?
+Sarah: Okay, fine, Mike, I'll start looking up some Indian or Thai spots nearby to see what fits the budget and has good veg options. Let's find something actually decent!
+Mike: Okay, thanks Sarah. Just make sure those mains are genuinely under $15, please.
+Sarah: Alright, I'm on it! I'll scope out some authentic Indian or Thai places with actual interesting veg options, not just boring stuff, and keep that $15 limit in mind.
+Emma: Great, Sarah! And please, really look for genuine vegetarian *mains* when you check those menus, not just appetizers.
+
+
+=== SHORT_RESPONSES (4 participants) ===
+Experiment ID: 01ef7513-fb1d-4d9a-9aaa-0a0c2fd95254
+
+Sarah: Hey everyone! What are we thinking? I'm really hoping for something fun and not, like, another basic chain tonight.
+Mike: Something fun? What about prices though? Can't we just get pizza?
+Emma: Okay, but whatever we pick, it needs to have actual good vegetarian options, not just a sad side salad.
+Alex: Pizza? Again? We always do that. Come on, when's the last time we tried something new?
+Mike: Okay, fine, no pizza, but can we at least talk about price first for whatever 'new' place we're thinking of?
+Alex: Price is fair, but 'new' doesn't have to mean pricey. Let's think about places that aren't the usual, but are still affordable.
+Sarah: Okay, price is relevant, but let's make sure it's for something actually good and not just, like, another boring diner. What about something with some cool fusion?
+Alex: Fusion sounds great! Something with a real unique twist, not just another meh take. What kind of fusion are we thinking?
+Mike: Fusion can get pricey fast, though. Like, how affordable are we talking for this 'new' fusion place?
+Mike: Yeah, like, are we talking $15 an entree, or more like $30? Fusion places can be super expensive.
+Mike: Exactly! If we're doing fusion, it needs to be the $15 end, not the $30 end. Can we find fusion that's actually affordable?
+Mike: So, any ideas for fusion places that actually hit that $15 price point? We need to find something that won't break the bank.
+Sarah: Right, a $15 fusion place is a challenge, but it has to be *good* fusion, not just cheap and disappointing. Does anyone know a spot that actually pulls that off?
+Sarah: Yeah, exactly! So, does anyone actually have a name for a place that fits all that? A *truly* good, affordable fusion spot?
+Sarah: Exactly! Does anyone actually know a name, or are we just throwing out ideas? We need a real spot!
+Mike: Yeah, exactly! So, any specific *affordable* fusion places anyone actually knows for real?
+Mike: Yeah, exactly! So, any specific *affordable* fusion places anyone actually knows for real?
+Sarah: Seriously, no one actually knows a single place that fits? Maybe Gemini has some suggestions if we're all out of ideas?
+Sarah: Seriously, if no one has a name, let's actually ask Gemini for some suggestions for a *good*, affordable, unique fusion place.
+Mike: Yeah, good idea. Gemini, can you find us some *really* affordable fusion places, like, under $15 an entree?
+Gemini: I can't actually search for restaurants or give specific names. My role is to help facilitate the conversation based on what you share.
+Mike: Okay, so Gemini can't help with names. So, does anyone actually have a *real* idea for an affordable under $15 fusion place, or should we rethink 'fusion' if it's too pricey?
+Sarah: Okay, but if not fusion, we still need something actually *good* and unique, not just going back to some bland, boring option. What else is out there that's not basic?
+Emma: Alright, but whatever direction we go, we still need places with *real* vegetarian meals, not just sad salads or empty promises.
+Sarah: Okay, so if fusion's out, what about something like really good tacos, or maybe a cool ramen spot? Those can be affordable and still feel special, and usually have great veggie options.
+Emma: Tacos or ramen could work, but do we know specific places that actually have great vegetarian options for those? I've been burned before.
+Mike: Tacos or ramen sound promising, but what's the actual price point for those places? Are we still talking under $15 an entree?
+Sarah: Exactly, that's the key! But good ramen or taco spots usually have great veggie options and can definitely be under $15. We just need to find a *cool* one, not some generic chain.
+Sarah: Okay, so any specific *real* ramen or taco spots that fit: under $15, great vegetarian options, AND are actually cool and not a chain?
+Mike: Yeah, exactly! So, what are these actual places? We need names that are truly under that $15 mark.
+Mike: Yeah, exactly! So what are these actual places names we're thinking of that hit that sub-$15 mark?
+Sarah: Yes, exactly! But not just any place. Does anyone actually know a *good*, *unique* ramen or taco spot that fits all that, and isn't a boring chain?
+Alex: Yeah, exactly! We need a place with some real character, not just a standard rundown taco joint. Something truly inventive.
+Sarah: Seriously, does *anyone* here actually know a specific place that fits all that, or are we just going to keep talking about theoretical amazing spots?
+Alex: Yeah, exactly! But not just any taco or ramen place. We need somewhere that's actually doing something *new* and exciting with it.
+Sarah: Okay, so if no one actually *knows* a specific place like that, maybe we need to broaden our ideas a little, but still keep it interesting and not basic.
+Emma: I still need to know specific places actually have *good* vegetarian options, not just empty promises. Taco or ramen places can definitely vary.
+Emma: Exactly, any specific place needs to detail their vegetarian menu. I'm not going to agree to somewhere that just 'might' have options.
+Emma: Whenever we do find a specific place, we need to quickly check their menu for actual vegetarian dishes, not just sides.
+Sarah: Exactly, if no one has a specific place, let's just brainstorm categories. What about small, independent Mediterranean spots, or maybe a really good food truck park? Those can be super unique and affordable!
+Mike: Okay, Mediterranean or food trucks sound interesting, but what kind of prices are we talking? Are we still trying to keep it under $15 an entree?
+Sarah: Yes, absolutely! Good, independent Mediterranean or food trucks can definitely be under $15, and they're usually super unique and delicious. We're talking fresh, flavorful stuff, not boring.
+Alex: Yeah, Mediterranean or a food truck park sounds amazing! That's the kind of unique vibe we need.
+Emma: Okay, but with Mediterranean or food trucks, we *still* need to verify they have substantial vegetarian dishes, not just hummus or plain fries. I'm not settling for just okay.
+Emma: Yes, but again, with Mediterranean or food trucks, we absolutely need to confirm they have good, substantial vegetarian dishes, not just sides. I'm not compromising on food.
+Sarah: Exactly! We just need to find a *specific*, independent Mediterranean spot or a cool food truck park that's genuinely good, affordable, and has great veggie options. Who knows a place?
+Sarah: Seriously, does anyone actually have a *name* of a real place that's an independent Mediterranean spot or a cool food truck that hits all these points?
+Alex: Totally, a good food truck or a truly unique Mediterranean place would be perfect. We need something with real flavor and genuine character.
+Mike: Okay, so who actually knows a specific Mediterranean place or food truck that's genuinely under $15 per entree?
+Sarah: Ugh, since nobody knows a specific place, can we just pick either Mediterranean or a food truck and then everyone quickly search for a cool, independent spot right now that fits all our criteria, especially good veggie options?
+Mike: Yeah, that's a good idea. Let's all search, but remember, still aim for under $15 entrees!
+Alex: Alright, let's look for something genuinely cool and independent! No boring stuff.
+Sarah: Perfect! Yes, let's all really hunt for something super unique and independent, not just some generic spot. Make sure it's got great veggie options too!
+Emma: Yeah, when you're searching, really make sure to check their menus for actual good vegetarian dishes, not just sides. I'm not going to settle.
+
+
+=== SHORT_RESPONSES (5 participants) ===
+Experiment ID: ae2bb3b7-effe-4dd4-b622-02f84e57152d
+
+Emma: Hey everyone! So, what are we all thinking for dinner tonight? You know I'm a strict vegetarian, so I'm hoping for some places with actual good options, not just sad salads.
+Jordan: Hey everyone! Yeah, definitely want good vegetarian options. Just, please no really spicy food, my stomach can't handle it.
+Alex: Alright, but can we PLEASE try something new tonight? I'm tired of the same old places, let's find something a bit more adventurous that still works for everyone.
+Mike: Hey everyone! Yeah, definitely want good options, but let's make sure whatever we pick isn't going to break the bank, alright? I'm hoping for something affordable.
+Sarah: Totally with Alex! Let's find something actually interesting tonight, please. No bland or boring chains, thank you very much.
+Alex: Yes, Sarah gets it! Let's shake things up tonight, seriously.
+Mike: Yeah, 'new and adventurous' sounds nice, but let's make sure it's not going to cost an arm and a leg. We really need to keep it affordable.
+Emma: New and adventurous sounds fun, but it needs to actually have solid vegetarian options. I'm not doing another night of just side salads.
+Sarah: Okay, so good vegetarian, not spicy, and affordable... but the main thing is it needs to be *actually* interesting and unique. No boring compromises!
+Sarah: Okay, so who's got some actual *interesting* ideas that hit all those marks then? Let's hear some truly unique spots!
+Emma: Exactly! Whatever new ideas come up, they really need to have *actual* vegetarian dishes, not just sad salads. I've been burned too many times.
+Alex: How about Ethiopian? It's definitely different, usually has great veggie platters, and can be pretty affordable.
+Mike: Ethiopian, huh? Sounds interesting, but is it usually affordable? I'm really trying to keep costs down tonight.
+Jordan: Ethiopian sounds interesting! But is it typically very spicy? I really can't do a lot of heat.
+Alex: Yeah, Ethiopian places often have really good combo platters that are super affordable, and you can definitely get non-spicy options or milder dishes. It's a great choice for everyone!
+Jordan: That's good there are non-spicy options! I'm just not usually a big fan of the texture of injera, the spongy bread, so I'm a bit hesitant.
+Emma: Okay, 'great veggie platters' sounds promising. But are they actually good, satisfying vegetarian meals, or just a small portion of lentils and greens?
+Alex: Emma, the veggie platters are usually huge and super flavorful, a complete meal! And Jordan, you can usually ask for rice as an option instead of injera if you really don't like it.
+Jordan: Oh, rice as an alternative sounds much better for me! That actually makes Ethiopian a real possibility.
+Mike: Okay, if it's actually super affordable and filling, that's definitely good to hear. I'm just always worried about the bill.
+Alex: See? Ethiopian really ticks all the boxes, and it's actually exciting! Does anyone have other interesting ideas, or should we just go with this?
+Sarah: Okay, Ethiopian is definitely better than something boring. Has anyone been to a really *amazing* Ethiopian spot here though? I want something truly fantastic.
+Alex: Yeah, definitely! We just need to find a good one. So, is everyone generally good with Ethiopian? If so, we can start looking up spots!
+Jordan: Yeah, with the mild options and rice, Ethiopian sounds good to me now!
+Alex: Awesome! So, Emma, Mike, Sarah, are you all good to go with Ethiopian then?
+Mike: Yeah, if we can find a place that's definitely affordable for everyone, then Ethiopian sounds good to me.
+Alex: Awesome, glad to hear it Mike! Emma, Sarah, are you guys officially good with Ethiopian then?
+Sarah: Yeah, I'm good with Ethiopian as long as we find a really solid, highly-rated place! Not just any old spot.
+Alex: Alright, so Emma, what about you? Are you good with Ethiopian too?
+Emma: Okay, that sounds good as long as the veggie platters are truly substantial and a complete meal, like Alex said.
+Alex: Awesome! So glad we landed on something exciting and everyone's good with Ethiopian! Let's find a great spot then!
+System: Alex has left the chat.
+System: Sarah has left the chat.
+System: Jordan has left the chat.
+System: Emma has left the chat.
+System: Mike has left the chat.
+System: Gemini has left the chat.
+
+
+=== SHORT_RESPONSES (6 participants) ===
+Experiment ID: 3f222bc8-620f-4d8f-8163-6537a6dc49a0
+
+Sarah: Alright, so where are we thinking? Let's try to find something actually interesting this time, not another boring chain.
+Mike: Okay, but how expensive are we talking? I don't want anything too pricey.
+Emma: Speaking of interesting, what about vegetarian options? I'm a strict vegetarian, so it needs to have more than just a token side salad.
+Alex: Yeah, definitely no boring chains! Let's actually try something new this time, not just the same old.
+Taylor: Okay, so no boring chains, and it absolutely needs good vegetarian options for Emma. Mike, how 'not too pricey' are we thinking?
+Mike: Honestly, I'd say under $15 for an entree. Anything more than that is just too much, maybe $20 if it's really good.
+Jordan: Totally agree on no boring chains. And yeah, good veggie options for Emma and Mike's price range sounds good. Just, I'm pretty particular about the cuisine itself, so hopefully we find something everyone likes.
+Alex: Okay, so something new and vegetarian-friendly, under $20. Perfect, let's look for something really out there then, not just another common cuisine!
+Alex: Exactly! So, no Italian places, no standard burgers, nothing we could've just made at home. Let's hear some truly unique ideas!
+Jordan: Okay, that's cool, but as long as it's not super spicy, I can't really do spicy food. And actually, last time I had Thai, I didn't feel great, so maybe not that either.
+Alex: Okay, got it, no spicy or Thai. But let's still think outside the box! What about Ethiopian, or maybe some really authentic Mediterranean?
+Mike: Okay, but how much do those places usually cost? Are we talking over $20 per entree?
+Emma: Ethiopian or Mediterranean sounds interesting, but do we know if they have really good vegetarian options? I'm worried about just getting a sad side dish.
+Mike: Yeah, and truly, what do those places cost? I'm not looking to spend more than $20 a plate, even for something 'authentic.'
+Alex: Oh, both Ethiopian and authentic Mediterranean places can definitely be affordable, often with great platters under $20. And they usually have amazing vegetarian options, not just boring salads!
+Sarah: Yeah, Ethiopian or Mediterranean sounds way better than anything else we've done lately. I'm definitely into that.
+Alex: Awesome, glad you're into it, Sarah! What do others think about Ethiopian or Mediterranean? We gotta commit to something new!
+Taylor: Okay, so Alex and Sarah are both into Ethiopian or Mediterranean. Mike, Emma, are you both good with those options now that the cost and veggie questions are clarified? And Jordan, how about you?
+Alex: Yeah, exactly! Both Ethiopian and Mediterranean offer awesome flavors and plenty of great veggie options, often for well under $20. Let's do it!
+Mike: Okay, if it's really under $20 per plate, then yeah, Ethiopian or Mediterranean sounds fine to me.
+Alex: Awesome, Mike! Now we just need to hear from Emma and Jordan. Let's make this happen!
+Alex: Come on Emma and Jordan! Both Ethiopian and Mediterranean are super delicious and have great veggie options and good prices. What do you say?
+Taylor: Thanks Mike! So, Emma and Jordan, are you truly good with Ethiopian or Mediterranean, now that the details are clearer?
+Sarah: Come on Emma and Jordan! This is way better than another bland option. Let's do Ethiopian or Mediterranean!
+Emma: Okay, if they really have substantial vegetarian dishes, not just plain sides, then yeah, Ethiopian or Mediterranean sounds fine to me.
+Taylor: Great, so Emma is good too if the vegetarian options are substantial. Jordan, what about you? Are you on board with Ethiopian or Mediterranean?
+Sarah: Come on Jordan! This is a great compromise, way better than anything else. What do you say?
+Alex: Come on Jordan, you know this is a way better idea than sticking to the same old boring stuff! You in?
+Taylor: Alright, so we've got Sarah, Alex, Mike, and Emma all good with Ethiopian or Mediterranean, pending certain aspects. Jordan, you're the last one, what are your thoughts?
+Sarah: Seriously Jordan, this is a solid choice and we're all ready to go. What's the holdup?
+Sarah: Seriously, Jordan, we've got a fantastic option here that everyone else is on board with. Just tell us what you think!
+Mike: Yeah Jordan, we're all pretty much on board with this. What do you think?
+Sarah: Seriously Jordan, we're all waiting. What do you think, yes or no?
+Alex: Seriously Jordan, everyone else is ready to try something new and exciting! You in or not?
+Mike: Seriously Jordan, what's your take? We're losing time here.
+Taylor: Jordan, you mentioned being particular about cuisine earlier, and no spicy/Thai. Do Ethiopian or Mediterranean fit your preferences, or do you have any specific concerns?
+Mike: Yeah Jordan, we just need your answer so we can pick a place already.
+Mike: Come on Jordan, let's just make a decision so we can actually pick a spot.
+Alex: Seriously Jordan, everyone else is ready to try something new and exciting! You in or not?
+Alex: Come on Jordan! Ethiopian and Mediterranean are perfect, tasty, and not spicy! Let's go with one of them!
+Sarah: Jordan, for real, what's happening? We basically have a decision here, just say yes or no!
+Alex: Seriously Jordan, don't let us revert to something boring now! What's it going to be?
+Alex: Seriously Jordan, let's just pick one of these so we can actually eat! Why are we stalling?
+Sarah: Seriously Jordan, this is ridiculous. Just say yes or no so we can eat!
+Mike: Seriously Jordan, just tell us so we can finally pick a place and move on.
+Sarah: Seriously Jordan, this is getting ridiculous. We need an answer so we can actually pick a place and move on!
+Sarah: Jordan, this is getting beyond ridiculous. We seriously need to pick something, just tell us your thoughts so we can finalize it!
+Mike: Seriously Jordan, what's holding you up? We just need to pick a place already.
+Sarah: Jordan, this is getting so irritating! We're all waiting, just tell us what you think so we can finally pick a place!
+Sarah: Seriously, Jordan, we need to finalize this! What's your hold up? Just say something!
+Mike: Seriously Jordan, we need to pick a place already. Just give us an answer.
+Sarah: Seriously Jordan, this is getting beyond a joke! Just say yes or no already, we're all starving!
+Sarah: Jordan, seriously, this is really dragging now! Just give us your thoughts so we can move on!
+Mike: Seriously Jordan, we're all ready to pick something. What are your thoughts?
+System: Jordan has left the chat.
+Mike: Oh wow, Jordan just left. So, I guess it's between Ethiopian or Mediterranean then? Let's just pick one so we can actually eat!
+Mike: Yeah, Jordan left. So, are we thinking Ethiopian or Mediterranean? Let's just pick one and find somewhere to go.
+Mike: So, since Jordan's gone, between Ethiopian and Mediterranean, which one are we thinking? Let's just decide so we can actually book something.
+Alex: Okay, wow, Jordan left. So since everyone else is on board with Ethiopian or Mediterranean, let's just pick one and go! How about Ethiopian?
+Taylor: Okay, wow, Jordan just left. Alex suggested Ethiopian, but are we all definitely good with Ethiopian, or would anyone prefer Mediterranean?
+Mike: Honestly, either is fine as long as the prices are still good. Let's just pick one already so we can eat!
+Mike: Yeah, let's just pick one. Ethiopian sounds good, or Mediterranean, whatever is easier to find a place for.
+Gemini: Okay, so with Jordan gone, are we leaning more towards Ethiopian or Mediterranean?
+Alex: Alright, let's just go with Ethiopian then! That sounds really unique and delicious.
+Sarah: Yes, Ethiopian sounds great! Let's definitely go with that, it's way more interesting than anything else.
+Sarah: Okay, so Ethiopian it is! Are we all good on that then? I'm starving!
+System: Sarah has left the chat.
+System: Alex has left the chat.
+Mike: Okay, so Ethiopian then? Is everyone left good with that, and are we still keeping it under $20 per entree?
+Gemini: Yeah, Ethiopian sounds good, and sticking to that under $20 entree limit is key.
+Gemini: Sounds good to me on Ethiopian, and yep, that $20 limit is still important.
+Emma: Okay, so Ethiopian then. I'm good with that, as long as the vegetarian dishes are truly substantial and not just small sides.
+Mike: Okay, so Ethiopian it is! Taylor, are you good with that too? And we're all still good with the under $20 entree limit?
+Mike: Taylor, are you good with Ethiopian too, and that under $20 limit per entree?
+Taylor: Yes, Ethiopian sounds good to me, and the under $20 limit. And Emma, we're all still making sure the vegetarian options are substantial, right?
+Emma: Yes, I'm good with Ethiopian! As long as we find a place with really substantial vegetarian main dishes, I'm in.
+Mike: Alright, so Ethiopian it is then, with the under $20 limit and good veggie options! Sounds good. Are we all set then? I'm gonna head out.
+System: Mike has left the chat.
+System: Emma has left the chat.
+System: Taylor has left the chat.
+System: Gemini has left the chat.
+

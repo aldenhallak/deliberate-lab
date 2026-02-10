@@ -6,8 +6,30 @@ node_modules/
 # Packed shared utils package
 *deliberation-lab-utils-*.tgz
 
+# Environment variables (API keys, secrets)
+.env
+.env.local
+.env*.local
+
 # Python scripts
 .venv
 *.pyc
 __pycache__
 *.egg-info/
+batch_results_dialogues.txt
+batch_results_local.json
+batch_results.json
+full_batch_results_dialogues.txt
+full_batch_results.json
+test_concurrent.json
+test_debug_dialogues.txt
+test_debug.json
+test_dialogue.json
+test_export_result.json
+test_short_responses_dialogues.txt
+test_short_responses.json
+test_short_v2_dialogues.txt
+test_short_v2.json
+test_simple_dialogues.txt
+test_simple.json
+test_single.json

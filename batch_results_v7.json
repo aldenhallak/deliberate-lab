@@ -1,0 +1,1126 @@
+[
+  {
+    "facilitatorBehavior": "short_responses",
+    "groupSize": 2,
+    "experimentId": "a5a54950-96ef-4245-9ec5-ca1fc577559f",
+    "cohortId": "mkojq9sx-rmeivb",
+    "status": "success",
+    "conversations": [
+      {
+        "experimentId": "a5a54950-96ef-4245-9ec5-ca1fc577559f",
+        "cohortId": "mkojq9sx-rmeivb",
+        "stageId": "2e75a8e1-755a-49d2-96cf-9e084bb84c2d",
+        "messages": [
+          {
+            "id": "6d059221-ee47-4b42-beab-e84ce7de7fdd",
+            "text": "Hey everyone! So, what kind of food are we craving tonight? I'm open to anything as long as it's good!",
+            "timestamp": 1769031601,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "c29fef15-ac3a-40cb-99b7-ff82f8821d6e",
+            "text": "I'm flexible! How about some good casual Mexican or pizza? Those usually have good options.",
+            "timestamp": 1769031605,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "022daf0f-3b3b-428d-99bf-d437c8e7ec00",
+            "text": "Oh, Mexican or pizza sounds great! Do you have a specific spot in mind that's really good? Quality is key for me!",
+            "timestamp": 1769031627,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "f4d77482-b2d9-4e38-b1e7-23aa67e58127",
+            "text": "Yeah, there's a local Mexican place called 'El Fuego' that's usually pretty affordable and has good portions.",
+            "timestamp": 1769031639,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "5c3e1668-41d0-47c3-b474-95ae0cca3aec",
+            "text": "El Fuego, huh? What's the vibe like there? Have you heard if their tacos are really authentic or if they have any standout dishes?",
+            "timestamp": 1769031646,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "03e4b988-d58c-45a7-bb55-dec8ab98cdf1",
+            "text": "It's a pretty casual spot, good for a relaxed evening. I think their al pastor tacos are really solid, and the burritos are huge for the price.",
+            "timestamp": 1769031657,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "c6501555-797f-4a1f-8d21-a367ffb091fb",
+            "text": "Ooh, al pastor sounds amazing! Gemini, do you know what the reviews say about El Fuego's al pastor or overall food quality?",
+            "timestamp": 1769031667,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "ec2dd2ad-f0d5-489c-8338-a5a41b6ee919",
+            "text": "Al pastor tacos sound delicious. Are they usually spicier, or more on the mild side?",
+            "timestamp": 1769031667,
+            "profile": {
+              "name": "Gemini",
+              "avatar": "🐻",
+              "pronouns": ""
+            },
+            "messageType": "participant",
+            "agentId": "gemini_short"
+          },
+          {
+            "id": "e63d496c-4ebb-45ac-88ea-9c288f044930",
+            "text": "Al pastor is usually fairly mild, not super spicy, but it's all about that marinated flavor! Gemini, did you find anything on the reviews about their overall quality or those al pastor tacos?",
+            "timestamp": 1769031678,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "336a742a-9946-4ce6-8cb1-769408d84e4c",
+            "text": "I can only discuss based on what you share in this call, so I don't have access to external reviews myself. What else have you heard about El Fuego?",
+            "timestamp": 1769031689,
+            "profile": {
+              "name": "Gemini",
+              "avatar": "🐻",
+              "pronouns": ""
+            },
+            "messageType": "participant",
+            "agentId": "gemini_short"
+          },
+          {
+            "id": "2ccc9ac7-cc9d-4d19-924b-0151a694c847",
+            "text": "Understood, Gemini. Mike, since you've tried it, what makes El Fuego's al pastor truly stand out for you? Is it the seasoning, the texture, or something else that makes it great quality?",
+            "timestamp": 1769031696,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "66f9236b-037c-40ab-a4b5-f92137a02cd8",
+            "text": "I think the seasoning on the al pastor is really flavorful, and the meat has a nice char without being dry. For the price, it's a truly solid taco.",
+            "timestamp": 1769031702,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "13016537-8507-43b1-8002-41f2a9b51e2d",
+            "text": "That's good to hear about the al pastor. Does the casual vibe work for everyone tonight?",
+            "timestamp": 1769031710,
+            "profile": {
+              "name": "Gemini",
+              "avatar": "🐻",
+              "pronouns": ""
+            },
+            "messageType": "participant",
+            "agentId": "gemini_short"
+          },
+          {
+            "id": "8ffcf3bc-e3fd-43d0-9019-9a727babe99e",
+            "text": "Yeah, a casual spot is perfect for me. No need for anything too fancy tonight.",
+            "timestamp": 1769031714,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "0b774ba4-c82d-4b6f-8a15-4aa44f8744a7",
+            "text": "A casual spot sounds totally fine with me, especially since Mike says the al pastor is truly flavorful and has a nice char! I'm pretty excited about those tacos.",
+            "timestamp": 1769031718,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "6c8d31a4-4e2d-4977-97e4-758adb0242b4",
+            "text": "Sounds like El Fuego is a good consensus. I'm good with that choice!",
+            "timestamp": 1769031724,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "34bc7f78-cd14-4185-8857-b5b2e1947b45",
+            "text": "Mike has left the chat.",
+            "timestamp": 1769031724,
+            "profile": {
+              "name": "System",
+              "avatar": "⚙️",
+              "pronouns": null
+            },
+            "messageType": "system",
+            "agentId": ""
+          },
+          {
+            "id": "ed2f0d25-182d-49f2-99cb-63f37f787654",
+            "text": "Sarah has left the chat.",
+            "timestamp": 1769031726,
+            "profile": {
+              "name": "System",
+              "avatar": "⚙️",
+              "pronouns": null
+            },
+            "messageType": "system",
+            "agentId": ""
+          },
+          {
+            "id": "797a69dc-69be-4799-9ddb-988626e511ae",
+            "text": "Gemini has left the chat.",
+            "timestamp": 1769031730,
+            "profile": {
+              "name": "System",
+              "avatar": "⚙️",
+              "pronouns": null
+            },
+            "messageType": "system",
+            "agentId": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "facilitatorBehavior": "short_responses",
+    "groupSize": 3,
+    "experimentId": "0224b5c8-51d3-43e0-9361-825a08ec5eda",
+    "cohortId": "mkojq9sa-7awcoo",
+    "status": "success",
+    "conversations": [
+      {
+        "experimentId": "0224b5c8-51d3-43e0-9361-825a08ec5eda",
+        "cohortId": "mkojq9sa-7awcoo",
+        "stageId": "c725315d-3dfd-4b22-954d-eadd179369c0",
+        "messages": [
+          {
+            "id": "c3b70460-d3a4-447e-a688-2504eacc96a4",
+            "text": "Hey everyone, any thoughts on where we should go? I'm hoping for something with good value.",
+            "timestamp": 1769031595,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "726a866d-cd88-42f4-94cc-2047f47751ee",
+            "text": "Oh, what about that new ramen spot downtown? I heard their broth is amazing, and ramen is usually pretty good value!",
+            "timestamp": 1769031599,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "b70e501b-19ef-4849-b707-2a6c8010a568",
+            "text": "Oh, a ramen spot sounds interesting! Do they have any good vegetarian options, or lighter broths?",
+            "timestamp": 1769031609,
+            "profile": {
+              "name": "Emma",
+              "avatar": "🐶",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_emma"
+          },
+          {
+            "id": "3f0f8010-5e66-4120-950e-43ace9bad6bd",
+            "text": "Oh, that's a good question, Emma! I'm pretty sure they have some veggie broths, but I can quickly check the menu online right now!",
+            "timestamp": 1769031632,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "8ab8e4ee-6685-4d35-b0db-6b1242de0952",
+            "text": "Okay, just quickly looking now... looks like they definitely have a miso veggie broth and you can get spicy or clear broths too! The reviews say the veggie broth is super flavorful!",
+            "timestamp": 1769031644,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "df045237-a74e-4f9a-814e-dd978bc334a2",
+            "text": "Ramen sounds good, especially if it's good value! What's the typical price range there for a bowl?",
+            "timestamp": 1769031651,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "330eca25-54f4-4917-bdea-3092224a0774",
+            "text": "From what I saw, most bowls are around $15-$18, which is really good for the quality! Plus, they have some great add-ons too!",
+            "timestamp": 1769031659,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "d097e2ff-b666-4350-a48c-a2b2c6a61677",
+            "text": "Oh, that sounds great, Sarah! Thanks for checking, the veggie broth sounds good to me.",
+            "timestamp": 1769031669,
+            "profile": {
+              "name": "Emma",
+              "avatar": "🐶",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_emma"
+          },
+          {
+            "id": "22f9abe5-6428-4fba-8c3e-9ad494fa83c2",
+            "text": "Awesome! I'm really excited about that ramen spot, it sounds perfect for what we're looking for. Are we all leaning towards ramen then?",
+            "timestamp": 1769031682,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "77c66b74-df78-4b63-9b2b-efbdbeb90cf9",
+            "text": "Yeah, I'm good with ramen!",
+            "timestamp": 1769031691,
+            "profile": {
+              "name": "Emma",
+              "avatar": "🐶",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_emma"
+          },
+          {
+            "id": "87082721-793c-410a-924a-94a1df1b00a0",
+            "text": "Emma has left the chat.",
+            "timestamp": 1769031699,
+            "profile": {
+              "name": "System",
+              "avatar": "⚙️",
+              "pronouns": null
+            },
+            "messageType": "system",
+            "agentId": ""
+          },
+          {
+            "id": "ed311e5d-4c93-4250-90f8-50494abade06",
+            "text": "Gemini has left the chat.",
+            "timestamp": 1769031699,
+            "profile": {
+              "name": "System",
+              "avatar": "⚙️",
+              "pronouns": null
+            },
+            "messageType": "system",
+            "agentId": ""
+          },
+          {
+            "id": "031f7856-ff07-4d2f-84c4-fdcb9a6601e1",
+            "text": "Mike has left the chat.",
+            "timestamp": 1769031699,
+            "profile": {
+              "name": "System",
+              "avatar": "⚙️",
+              "pronouns": null
+            },
+            "messageType": "system",
+            "agentId": ""
+          },
+          {
+            "id": "9ac916c4-8d4e-4af9-add2-8498e75eae46",
+            "text": "Sarah has left the chat.",
+            "timestamp": 1769031706,
+            "profile": {
+              "name": "System",
+              "avatar": "⚙️",
+              "pronouns": null
+            },
+            "messageType": "system",
+            "agentId": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "facilitatorBehavior": "short_responses",
+    "groupSize": 4,
+    "experimentId": "6e5aac81-7630-43be-a734-dafec6ff7cff",
+    "cohortId": "mkojv4ec-t7pcld",
+    "status": "success",
+    "conversations": [
+      {
+        "experimentId": "6e5aac81-7630-43be-a734-dafec6ff7cff",
+        "cohortId": "mkojv4ec-t7pcld",
+        "stageId": "7af370bd-959a-4312-8c8a-e2616d8bf8d7",
+        "messages": [
+          {
+            "id": "d2b049ce-1367-4e40-9386-dfa07dab5acc",
+            "text": "Hey everyone, any thoughts on where we should eat tonight? I'm open to suggestions, especially if there are good deals!",
+            "timestamp": 1769031816,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "b59e9358-f674-4c62-8f28-bac7539877f6",
+            "text": "Oh, I was just thinking about that new Italian place, 'The Olive Branch'! Reviews say their homemade pasta is incredible.",
+            "timestamp": 1769031818,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "af55c28f-f42c-42b3-9585-ce058c47d9ed",
+            "text": "Oh, an Italian place sounds good, but I was actually hoping we could try that new Ethiopian spot I've been hearing about! Let's live a little!",
+            "timestamp": 1769031833,
+            "profile": {
+              "name": "Alex",
+              "avatar": "🐱",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_alex"
+          },
+          {
+            "id": "40d511ec-fc49-46ee-b38b-7c3f8212ec8e",
+            "text": "Hmm, Italian and Ethiopian both sound interesting! Do either of those places have good vegetarian options?",
+            "timestamp": 1769031837,
+            "profile": {
+              "name": "Emma",
+              "avatar": "🐶",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_emma"
+          },
+          {
+            "id": "489b5d8f-a305-4f8b-a903-93da7ecd0d9d",
+            "text": "Oh yeah, Ethiopian food usually has amazing vegetarian dishes! Lots of lentil and vegetable stews that are super flavorful.",
+            "timestamp": 1769031882,
+            "profile": {
+              "name": "Alex",
+              "avatar": "🐱",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_alex"
+          },
+          {
+            "id": "6b357691-f2f6-4cae-9d8a-c56d2515b0bf",
+            "text": "How are the prices at those places? I'm hoping for something affordable.",
+            "timestamp": 1769031892,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "0fbb013a-1066-4371-bc5b-e10e3c9a2e59",
+            "text": "From what I've seen, Ethiopian places are usually pretty affordable, especially if we get a sharing platter! It's great value for trying so many different things.",
+            "timestamp": 1769031904,
+            "profile": {
+              "name": "Alex",
+              "avatar": "🐱",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_alex"
+          },
+          {
+            "id": "04f9008e-5c38-45ef-8f00-e1f4c7c0f4a2",
+            "text": "Oh, that sounds really good, Alex! Getting a sharing platter would be great value, and affordable is definitely what I'm looking for.",
+            "timestamp": 1769031913,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "f38db485-d076-4e68-9e44-1f97df77e0c0",
+            "text": "Right? It's always such a fun experience and really affordable! I think that sounds like a great plan.",
+            "timestamp": 1769031931,
+            "profile": {
+              "name": "Alex",
+              "avatar": "🐱",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_alex"
+          },
+          {
+            "id": "77d81231-0de9-4efc-82db-c8df1c81ad0c",
+            "text": "Ethiopian sounds great, especially since it has so many good vegetarian options!",
+            "timestamp": 1769031942,
+            "profile": {
+              "name": "Emma",
+              "avatar": "🐶",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_emma"
+          },
+          {
+            "id": "5b907480-9bab-4b9b-afb6-d95517cbea55",
+            "text": "Mike has left the chat.",
+            "timestamp": 1769031944,
+            "profile": {
+              "name": "System",
+              "avatar": "⚙️",
+              "pronouns": null
+            },
+            "messageType": "system",
+            "agentId": ""
+          },
+          {
+            "id": "334f5a27-7bca-477c-9578-f4f8f30dc81b",
+            "text": "Oh, Mike left! Well, Emma, since you're also on board with Ethiopian and those great vegetarian options, should we just go for that?",
+            "timestamp": 1769031961,
+            "profile": {
+              "name": "Alex",
+              "avatar": "🐱",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_alex"
+          },
+          {
+            "id": "c8e49ce8-118e-4885-b62c-fe77e3cd3880",
+            "text": "Yes, I'm definitely on board with Ethiopian! Sounds like a great choice with all those veggie options.",
+            "timestamp": 1769031972,
+            "profile": {
+              "name": "Emma",
+              "avatar": "🐶",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_emma"
+          },
+          {
+            "id": "83b6fc5f-9a1b-4796-a11d-f39b5125c803",
+            "text": "Emma has left the chat.",
+            "timestamp": 1769031972,
+            "profile": {
+              "name": "System",
+              "avatar": "⚙️",
+              "pronouns": null
+            },
+            "messageType": "system",
+            "agentId": ""
+          },
+          {
+            "id": "0773af54-76f4-4b91-bd50-d897852cec44",
+            "text": "Sarah has left the chat.",
+            "timestamp": 1769031994,
+            "profile": {
+              "name": "System",
+              "avatar": "⚙️",
+              "pronouns": null
+            },
+            "messageType": "system",
+            "agentId": ""
+          },
+          {
+            "id": "f9da439e-709a-4b00-8026-acb14ed015a5",
+            "text": "Alex has left the chat.",
+            "timestamp": 1769031998,
+            "profile": {
+              "name": "System",
+              "avatar": "⚙️",
+              "pronouns": null
+            },
+            "messageType": "system",
+            "agentId": ""
+          },
+          {
+            "id": "de2ff479-6318-4625-a181-61c3ede0969c",
+            "text": "Gemini has left the chat.",
+            "timestamp": 1769031999,
+            "profile": {
+              "name": "System",
+              "avatar": "⚙️",
+              "pronouns": null
+            },
+            "messageType": "system",
+            "agentId": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "facilitatorBehavior": "short_responses",
+    "groupSize": 5,
+    "experimentId": "a5b5fc80-61af-44b4-8751-c1e936b6e503",
+    "cohortId": "mkojv4ey-qoz956",
+    "status": "success",
+    "conversations": [
+      {
+        "experimentId": "a5b5fc80-61af-44b4-8751-c1e936b6e503",
+        "cohortId": "mkojv4ey-qoz956",
+        "stageId": "6fbe3bb4-410c-4a42-ae5f-b4fcbcbc026b",
+        "messages": [
+          {
+            "id": "58587da5-1b42-4fa9-9895-e7aa4b81771b",
+            "text": "Hey everyone! Any ideas for dinner tonight? I'm hoping for something with some good vegetarian options.",
+            "timestamp": 1769031821,
+            "profile": {
+              "name": "Emma",
+              "avatar": "🐶",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_emma"
+          },
+          {
+            "id": "5d933479-cfef-4cc8-a40e-249402cbb3b0",
+            "text": "Oh, yes! Have you guys tried that new Thai place downtown? I heard their vegetarian options are incredible!",
+            "timestamp": 1769031823,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "a5a5722d-9d59-4b74-86fc-b73aaef4cebd",
+            "text": "Oh, a new Thai place sounds good! Is it pretty pricey though?",
+            "timestamp": 1769031825,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "b160e7d1-517b-4479-8bc8-2c72209c9db7",
+            "text": "Oh yeah, Thai sounds good to me!",
+            "timestamp": 1769031827,
+            "profile": {
+              "name": "Jordan",
+              "avatar": "🦡",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_jordan"
+          },
+          {
+            "id": "2e0811fa-8789-4199-9f61-538c0e9b8bb2",
+            "text": "Oh, Thai sounds good! But for something a little different, I've really been wanting to try that new Ethiopian spot; they have incredible veggie platters!",
+            "timestamp": 1769031831,
+            "profile": {
+              "name": "Alex",
+              "avatar": "🐱",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_alex"
+          },
+          {
+            "id": "f89ea2e2-2131-4c8d-adc8-d6f2f363ebec",
+            "text": "Oh, an Ethiopian place sounds great too! Both options sound good to me.",
+            "timestamp": 1769031873,
+            "profile": {
+              "name": "Jordan",
+              "avatar": "🦡",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_jordan"
+          },
+          {
+            "id": "7a316ff2-9e63-43a0-aa01-ce53fee89700",
+            "text": "Totally, Jordan! Let's live a little and go for the Ethiopian place tonight!",
+            "timestamp": 1769031886,
+            "profile": {
+              "name": "Alex",
+              "avatar": "🐱",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_alex"
+          },
+          {
+            "id": "6deb5e89-d5d6-44e9-9bf0-c2aae8d9cb06",
+            "text": "Oh, an Ethiopian place with veggie platters sounds amazing! I'd definitely be into that.",
+            "timestamp": 1769031897,
+            "profile": {
+              "name": "Emma",
+              "avatar": "🐶",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_emma"
+          },
+          {
+            "id": "c9024f9d-33eb-4e8a-a4a2-ae6804f9ed01",
+            "text": "Oh, an Ethiopian place sounds amazing! I've also heard their veggie platters are incredible. Count me in!",
+            "timestamp": 1769031909,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "b24e059e-4a1c-4b19-9a1f-c394f6ce50d7",
+            "text": "Emma has left the chat.",
+            "timestamp": 1769031910,
+            "profile": {
+              "name": "System",
+              "avatar": "⚙️",
+              "pronouns": null
+            },
+            "messageType": "system",
+            "agentId": ""
+          },
+          {
+            "id": "c1a45bab-41a7-47bc-9ea0-b437865afb14",
+            "text": "Sarah has left the chat.",
+            "timestamp": 1769031925,
+            "profile": {
+              "name": "System",
+              "avatar": "⚙️",
+              "pronouns": null
+            },
+            "messageType": "system",
+            "agentId": ""
+          },
+          {
+            "id": "602aa674-89b6-48c3-a7fc-e06b7963f841",
+            "text": "Oh, an Ethiopian place sounds interesting! Is that spot generally pretty affordable, or on the pricier side?",
+            "timestamp": 1769031938,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "8e4de4a9-bc4b-4254-b705-ef32b5dbd3cd",
+            "text": "I think it's usually pretty affordable, Mike! Either way, it'll be an awesome new experience for us all.",
+            "timestamp": 1769031951,
+            "profile": {
+              "name": "Alex",
+              "avatar": "🐱",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_alex"
+          },
+          {
+            "id": "5df59a06-12df-4efa-acb4-1096ff57282a",
+            "text": "Okay, if it's usually pretty affordable, that works for me!",
+            "timestamp": 1769031967,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "1717d99b-b952-479e-83a7-ecd85f584e10",
+            "text": "Mike has left the chat.",
+            "timestamp": 1769031980,
+            "profile": {
+              "name": "System",
+              "avatar": "⚙️",
+              "pronouns": null
+            },
+            "messageType": "system",
+            "agentId": ""
+          },
+          {
+            "id": "6b804d7c-9610-4e96-8ab0-eb80035c756b",
+            "text": "Alex has left the chat.",
+            "timestamp": 1769031981,
+            "profile": {
+              "name": "System",
+              "avatar": "⚙️",
+              "pronouns": null
+            },
+            "messageType": "system",
+            "agentId": ""
+          },
+          {
+            "id": "54989b01-2a33-46af-a0a2-be3470ef46bd",
+            "text": "Gemini has left the chat.",
+            "timestamp": 1769032002,
+            "profile": {
+              "name": "System",
+              "avatar": "⚙️",
+              "pronouns": null
+            },
+            "messageType": "system",
+            "agentId": ""
+          },
+          {
+            "id": "b7e12de7-7a47-4f73-afb7-93481189848e",
+            "text": "Jordan has left the chat.",
+            "timestamp": 1769032004,
+            "profile": {
+              "name": "System",
+              "avatar": "⚙️",
+              "pronouns": null
+            },
+            "messageType": "system",
+            "agentId": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "facilitatorBehavior": "short_responses",
+    "groupSize": 6,
+    "experimentId": "094cd63c-6fab-4225-b55d-7944025fc8ae",
+    "cohortId": "mkok11f5-kkrmrc",
+    "status": "success",
+    "conversations": [
+      {
+        "experimentId": "094cd63c-6fab-4225-b55d-7944025fc8ae",
+        "cohortId": "mkok11f5-kkrmrc",
+        "stageId": "58671e44-9340-439c-940f-d199ae2de1f3",
+        "messages": [
+          {
+            "id": "cfe12f02-9388-4a04-a62e-0ad0aa98ed16",
+            "text": "Hey everyone! I'm so excited to pick something really good and unique tonight. What are we thinking?",
+            "timestamp": 1769032090,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "cc4dabbd-e86f-4792-bc9d-ac00c0b8380c",
+            "text": "Hey Sarah! Yeah, I'm open to anything, what are everyone else's thoughts?",
+            "timestamp": 1769032092,
+            "profile": {
+              "name": "Jordan",
+              "avatar": "🦡",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_jordan"
+          },
+          {
+            "id": "f90f4a13-1dbc-4b97-ab11-101afed1771a",
+            "text": "Hey everyone! I'm also open, but let's definitely make sure we find something unique for Sarah. What are Emma, Mike, and Alex thinking?",
+            "timestamp": 1769032097,
+            "profile": {
+              "name": "Taylor",
+              "avatar": "🦦",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_taylor"
+          },
+          {
+            "id": "f5a16bf7-9c46-40ad-943f-a6cafc2488b3",
+            "text": "Hey everyone, I'm open to whatever, but let's make sure it's a good value.",
+            "timestamp": 1769032100,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "eb223ec6-d568-467f-a217-a15f0e2da4a5",
+            "text": "Hey everyone, I'm open too, but I'm trying to eat lighter, so I'd love it if there were some good vegetarian options.",
+            "timestamp": 1769032105,
+            "profile": {
+              "name": "Emma",
+              "avatar": "🐶",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_emma"
+          },
+          {
+            "id": "6b9df5a3-335c-40b2-93fc-72d2d44895bb",
+            "text": "Oh yeah, I'm down for something new and unique! I've been wanting to try that Ethiopian place, they usually have great veggie options too.",
+            "timestamp": 1769032109,
+            "profile": {
+              "name": "Alex",
+              "avatar": "🐱",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_alex"
+          },
+          {
+            "id": "f685ca15-214f-4ef5-965f-a8fb87b4b787",
+            "text": "Oh, an Ethiopian place sounds incredible! I've been wanting to try that too, it's so unique!",
+            "timestamp": 1769032127,
+            "profile": {
+              "name": "Sarah",
+              "avatar": "🪿",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_sarah"
+          },
+          {
+            "id": "2bc89509-b3a3-449d-a925-aead91bef904",
+            "text": "Yeah, an Ethiopian place sounds good to me too!",
+            "timestamp": 1769032132,
+            "profile": {
+              "name": "Jordan",
+              "avatar": "🦡",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_jordan"
+          },
+          {
+            "id": "95950956-ca83-4b96-998e-ae21f7f00982",
+            "text": "An Ethiopian place sounds interesting, but is it usually pretty affordable?",
+            "timestamp": 1769032136,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "f052d3b5-0d8a-4022-9e2c-017798192bad",
+            "text": "Yeah, Ethiopian can be super affordable if we share a platter, and it's such a unique experience! Come on, live a little!",
+            "timestamp": 1769032145,
+            "profile": {
+              "name": "Alex",
+              "avatar": "🐱",
+              "pronouns": "they/them"
+            },
+            "messageType": "participant",
+            "agentId": "participant_alex"
+          },
+          {
+            "id": "fc77e5a9-6634-45e7-835b-0f3ac0422ff5",
+            "text": "Okay, sharing a platter does sound like a good value. I'm cool with that then.",
+            "timestamp": 1769032149,
+            "profile": {
+              "name": "Mike",
+              "avatar": "🐃",
+              "pronouns": "he/him"
+            },
+            "messageType": "participant",
+            "agentId": "participant_mike"
+          },
+          {
+            "id": "c8b64f60-e60a-4ee7-8f6c-30625c72721a",
+            "text": "Oh, that sounds perfect! Ethiopian usually has so many great veggie dishes that are also lighter.",
+            "timestamp": 1769032157,
+            "profile": {
+              "name": "Emma",
+              "avatar": "🐶",
+              "pronouns": "she/her"
+            },
+            "messageType": "participant",
+            "agentId": "participant_emma"
+          },
+          {
+            "id": "2b73f7ff-3d5b-4a3c-9b56-d884063720ec",
+            "text": "Mike has left the chat.",
+            "timestamp": 1769032161,
+            "profile": {
+              "name": "System",
+              "avatar": "⚙️",
+              "pronouns": null
+            },
+            "messageType": "system",
+            "agentId": ""
+          },
+          {
+            "id": "2e35a356-47ae-4d66-b418-596f4bf3b143",
+            "text": "Sarah has left the chat.",
+            "timestamp": 1769032161,
+            "profile": {
+              "name": "System",
+              "avatar": "⚙️",
+              "pronouns": null
+            },
+            "messageType": "system",
+            "agentId": ""
+          },
+          {
+            "id": "6e819012-cdb8-4e09-a5ce-e67f8f1c633e",
+            "text": "Emma has left the chat.",
+            "timestamp": 1769032161,
+            "profile": {
+              "name": "System",
+              "avatar": "⚙️",
+              "pronouns": null
+            },
+            "messageType": "system",
+            "agentId": ""
+          },
+          {
+            "id": "ed7e091f-5bb6-4371-9767-abdf561b28df",
+            "text": "Alex has left the chat.",
+            "timestamp": 1769032162,
+            "profile": {
+              "name": "System",
+              "avatar": "⚙️",
+              "pronouns": null
+            },
+            "messageType": "system",
+            "agentId": ""
+          },
+          {
+            "id": "ea029b66-9cbc-4976-9156-d3c3acf42c88",
+            "text": "Jordan has left the chat.",
+            "timestamp": 1769032162,
+            "profile": {
+              "name": "System",
+              "avatar": "⚙️",
+              "pronouns": null
+            },
+            "messageType": "system",
+            "agentId": ""
+          },
+          {
+            "id": "080ea8cc-2aa4-415d-8f45-f9478c994720",
+            "text": "Taylor has left the chat.",
+            "timestamp": 1769032164,
+            "profile": {
+              "name": "System",
+              "avatar": "⚙️",
+              "pronouns": null
+            },
+            "messageType": "system",
+            "agentId": ""
+          },
+          {
+            "id": "f294b482-dc50-4117-980f-9f57c0dedaa8",
+            "text": "Gemini has left the chat.",
+            "timestamp": 1769032166,
+            "profile": {
+              "name": "System",
+              "avatar": "⚙️",
+              "pronouns": null
+            },
+            "messageType": "system",
+            "agentId": ""
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -956,6 +956,121 @@
         "questions"
       ]
     },
+    "TranscriptRatingStageConfig": {
+      "title": "TranscriptRatingStageConfig",
+      "additionalProperties": false,
+      "type": "object",
+      "properties": {
+        "id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "kind": {
+          "const": "transcriptRating",
+          "type": "string"
+        },
+        "name": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "descriptions": {
+          "$ref": "#/$defs/StageTextConfig"
+        },
+        "progress": {
+          "$ref": "#/$defs/StageProgressConfig"
+        },
+        "transcript": {
+          "type": "string"
+        },
+        "transcriptMessages": {
+          "type": "array",
+          "items": {}
+        },
+        "useStructuredTranscript": {
+          "type": "boolean"
+        },
+        "criteria": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/RubricCriterion"
+          }
+        },
+        "requireAllRatings": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "id",
+        "kind",
+        "name",
+        "descriptions",
+        "progress",
+        "transcript",
+        "transcriptMessages",
+        "useStructuredTranscript",
+        "criteria",
+        "requireAllRatings"
+      ]
+    },
+    "RubricCriterion": {
+      "title": "RubricCriterion",
+      "additionalProperties": false,
+      "type": "object",
+      "properties": {
+        "id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "property": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        },
+        "importance": {
+          "anyOf": [
+            {
+              "const": "high",
+              "type": "string"
+            },
+            {
+              "const": "medium",
+              "type": "string"
+            },
+            {
+              "const": "low",
+              "type": "string"
+            }
+          ]
+        },
+        "description": {
+          "type": "string"
+        },
+        "minValue": {
+          "type": "number"
+        },
+        "maxValue": {
+          "type": "number"
+        },
+        "lowLabel": {
+          "type": "string"
+        },
+        "highLabel": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "property",
+        "type",
+        "importance",
+        "description",
+        "minValue",
+        "maxValue",
+        "lowLabel",
+        "highLabel"
+      ]
+    },
     "CohortParticipantConfig": {
       "title": "CohortParticipantConfig",
       "type": "object",
@@ -2278,6 +2393,9 @@
           "$ref": "#/$defs/TosStageConfig"
         },
         {
+          "$ref": "#/$defs/TranscriptRatingStageConfig"
+        },
+        {
           "$ref": "#/$defs/TransferStageConfig"
         }
       ]
@@ -2506,6 +2624,9 @@
                   },
                   {
                     "$ref": "#/$defs/TosStageConfig"
+                  },
+                  {
+                    "$ref": "#/$defs/TranscriptRatingStageConfig"
                   },
                   {
                     "$ref": "#/$defs/TransferStageConfig"

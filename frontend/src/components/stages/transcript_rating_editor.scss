@@ -1,0 +1,107 @@
+@use '../../sass/common';
+@use '../../sass/typescale';
+
+:host {
+  display: block;
+}
+
+.section {
+  margin-bottom: common.$spacing-xxl;
+}
+
+.section-header {
+  @include common.flex-row-align-center;
+  justify-content: space-between;
+  font-weight: 600;
+  margin-bottom: common.$spacing-large;
+  color: var(--md-sys-color-on-surface);
+}
+
+.section-header .count {
+  font-weight: normal;
+  @include typescale.label-small;
+  color: var(--md-sys-color-on-surface-variant);
+}
+
+.section-content {
+  padding: common.$spacing-xl;
+  background: var(--md-sys-color-surface-container-low);
+  border-radius: common.$spacing-medium;
+}
+
+.criteria-actions {
+  @include common.flex-row;
+  gap: common.$spacing-large;
+  margin-bottom: common.$spacing-xl;
+}
+
+.criteria-list {
+  @include common.flex-column;
+  gap: common.$spacing-large;
+}
+
+.criterion-item {
+  padding: common.$spacing-xl;
+  background: var(--md-sys-color-surface);
+  border-radius: common.$spacing-medium;
+  border: 1px solid var(--md-sys-color-outline-variant);
+}
+
+.criterion-header {
+  @include common.flex-row-align-center;
+  gap: common.$spacing-large;
+  margin-bottom: common.$spacing-large;
+}
+
+.criterion-name {
+  font-weight: 600;
+  flex: 1;
+}
+
+.criterion-type {
+  @include typescale.label-small;
+  color: var(--md-sys-color-on-surface-variant);
+  background: var(--md-sys-color-surface-container);
+  padding: 2px common.$spacing-medium;
+  border-radius: common.$spacing-small;
+}
+
+.criterion-details {
+  @include common.flex-column;
+  gap: common.$spacing-large;
+}
+
+.checkbox-row {
+  @include common.flex-row-align-center;
+  gap: common.$spacing-medium;
+  cursor: pointer;
+}
+
+.checkbox-row input {
+  width: 18px;
+  height: 18px;
+}
+
+.default-criteria-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: common.$spacing-medium;
+}
+
+.default-criterion {
+  @include common.flex-row-align-center;
+  justify-content: space-between;
+  padding: common.$spacing-medium common.$spacing-large;
+  background: var(--md-sys-color-surface);
+  border-radius: common.$spacing-small;
+  border: 1px solid var(--md-sys-color-outline-variant);
+}
+
+.default-criterion.added {
+  background: var(--md-sys-color-primary-container);
+  border-color: var(--md-sys-color-primary);
+}
+
+.default-criterion .criterion-name {
+  @include typescale.body-small;
+}

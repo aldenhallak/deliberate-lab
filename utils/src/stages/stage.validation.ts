@@ -27,6 +27,7 @@ import {
 } from './survey_stage.validation';
 import {TransferStageConfigData} from './transfer_stage.validation';
 import {TOSStageConfigData} from './tos_stage.validation';
+import {TranscriptRatingStageConfigData} from './transcript_rating_stage.validation';
 
 // Re-export the schemas for convenience
 export {StageTextConfigSchema, StageProgressConfigSchema};
@@ -62,6 +63,7 @@ export const CONFIG_DATA = {
   surveyPerParticipant: SurveyPerParticipantStageConfigData,
   survey: SurveyStageConfigData,
   tos: TOSStageConfigData,
+  transcriptRating: TranscriptRatingStageConfigData,
   transfer: TransferStageConfigData,
 };
 

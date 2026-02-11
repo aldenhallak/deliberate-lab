@@ -146,6 +146,10 @@ export * from './stages/transfer_stage';
 export * from './stages/transfer_stage.manager';
 export * from './stages/transfer_stage.validation';
 
+export * from './stages/transcript_rating_stage';
+export * from './stages/transcript_rating_stage.manager';
+export * from './stages/transcript_rating_stage.validation';
+
 // Utils
 export * from './utils/algebraic.utils';
 export * from './utils/cache.utils';

@@ -21,12 +21,14 @@ import {
   StockAllocation,
   StockInfoStageParticipantAnswer,
   SurveyAnswer,
+  TranscriptRatingStageParticipantAnswer,
   createAssetAllocationStageParticipantAnswer,
   createComprehensionStageParticipantAnswer,
   createRankingStageParticipantAnswer,
   createStockInfoStageParticipantAnswer,
   createSurveyPerParticipantStageParticipantAnswer,
   createSurveyStageParticipantAnswer,
+  createTranscriptRatingStageParticipantAnswer,
 } from '@deliberation-lab/utils';
 
 interface ServiceProvider {
@@ -231,6 +233,20 @@ export class ParticipantAnswerService extends Service {
     const answer: RankingStageParticipantAnswer =
       createRankingStageParticipantAnswer({id: stageId});
     answer.rankingList = rankingList;
+    this.answerMap[stageId] = answer;
+  }
+
+  updateTranscriptRatingAnswer(
+    stageId: string,
+    criterionId: string,
+    rating: number,
+  ) {
+    let answer = this.answerMap[stageId];
+    if (!answer || answer.kind !== StageKind.TRANSCRIPT_RATING) {
+      answer = createTranscriptRatingStageParticipantAnswer({id: stageId});
+    }
+    (answer as TranscriptRatingStageParticipantAnswer).ratingMap[criterionId] =
+      rating;
     this.answerMap[stageId] = answer;
   }
 

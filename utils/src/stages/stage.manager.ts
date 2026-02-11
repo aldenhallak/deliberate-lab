@@ -16,6 +16,7 @@ import {StageConfig, StageContextData, StageKind} from './stage';
 import {StockInfoStageHandler} from './stockinfo_stage.manager';
 import {TOSStageHandler} from './tos_stage.manager';
 import {FlipCardStageHandler} from './flipcard_stage.manager';
+import {TranscriptRatingStageHandler} from './transcript_rating_stage.manager';
 
 /** Manages stage handlers for different stage types. */
 export class StageManager {
@@ -45,6 +46,10 @@ export class StageManager {
     );
     this.handlerMap.set(StageKind.TOS, new TOSStageHandler());
     this.handlerMap.set(StageKind.FLIPCARD, new FlipCardStageHandler());
+    this.handlerMap.set(
+      StageKind.TRANSCRIPT_RATING,
+      new TranscriptRatingStageHandler(),
+    );
   }
 
   /** Returns an updated stage config that has template variables

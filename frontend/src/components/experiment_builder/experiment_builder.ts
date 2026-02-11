@@ -20,6 +20,7 @@ import '../stages/survey_editor';
 import '../stages/survey_per_participant_editor';
 import '../stages/tos_editor';
 import '../stages/transfer_editor';
+import '../stages/transcript_rating_editor';
 import './agent_chat_prompt_editor';
 import './agent_persona_editor';
 import './experiment_builder_nav';
@@ -697,6 +698,15 @@ export class ExperimentBuilder extends MobxLitElement {
           <base-stage-editor .stage=${stage}>
             <div slot="title">Transfer settings</div>
             <transfer-editor .stage=${stage}></transfer-editor>
+          </base-stage-editor>
+        `;
+      case StageKind.TRANSCRIPT_RATING:
+        return html`
+          <base-stage-editor .stage=${stage}>
+            <div slot="title">Transcript Rating settings</div>
+            <transcript-rating-editor
+              .stage=${stage}
+            ></transcript-rating-editor>
           </base-stage-editor>
         `;
       default:

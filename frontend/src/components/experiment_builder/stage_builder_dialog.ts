@@ -33,6 +33,7 @@ import {
   createSurveyStage,
   createTOSStage,
   createTransferStage,
+  createTranscriptRatingStage,
   createComprehensionStage,
 } from '@deliberation-lab/utils';
 import {
@@ -243,7 +244,7 @@ export class StageBuilderDialog extends MobxLitElement {
           ${this.renderSurveyPerParticipantCard()}
           ${this.renderComprehensionCard()} ${this.renderRankingCard()}
           ${this.renderRevealCard()} ${this.renderPayoutCard()}
-          ${this.renderRoleCard()}
+          ${this.renderRoleCard()} ${this.renderTranscriptRatingCard()}
         </div>
       </div>
 
@@ -610,6 +611,22 @@ export class StageBuilderDialog extends MobxLitElement {
         <div>
           Assign participants to different cohorts while they wait in this
           stage.
+        </div>
+      </div>
+    `;
+  }
+
+  private renderTranscriptRatingCard() {
+    const addStage = () => {
+      this.addStage(createTranscriptRatingStage());
+    };
+
+    return html`
+      <div class="card" @click=${addStage}>
+        <div class="title">📝 Transcript Rating</div>
+        <div>
+          Have participants read a transcript and rate it using a configurable
+          rubric.
         </div>
       </div>
     `;

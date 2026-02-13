@@ -26,6 +26,8 @@
     url: /developers/deploy
   - title: API Reference
     url: /developers/api
+  - title: "Codelab: Create Demo Experiment With API"
+    url: /developers/demo-experiment-codelab
 - title: Feature Docs
   pages:
   - title: Variables

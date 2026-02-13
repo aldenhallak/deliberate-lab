@@ -5,6 +5,8 @@ title: API Reference
 
 REST API for programmatic access to Deliberate Lab experiment management.
 
+> **New to the API?** Try the [Codelab: Create a Demo Experiment](./demo-experiment-codelab.md) for a hands-on tutorial.
+
 ## Authentication
 
 All API requests require an API key in the Authorization header:
